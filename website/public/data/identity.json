@@ -1,0 +1,209 @@
+{
+  "id": "identity",
+  "family": "practitioner",
+  "title": "Identity Viability",
+  "question": "What is my value in this arrangement?",
+  "whatsUnderThreat": "The sense of meaningful human contribution. When an agent writes the code and I steer, what am I uniquely bringing — and does it amount to a contribution I can stand behind, on my own terms, with pride?",
+  "headlineMeasurementId": "role-frame-public-bios",
+  "fieldLink": "research.html#identity",
+  "reading": {
+    "asOf": "2026-Q2",
+    "text": "Role-frame composition in public bios shifting from 'developer' toward 'builder' and 'orchestrator.' Self-attribution verbs trending from 'I built' toward 'I shipped' — same direction, different signal source. Annual identity essays not yet due."
+  },
+  "measurements": [
+    {
+      "id": "role-frame-public-bios",
+      "question": "When asked 'what do you do?', how am I describing my contribution across public bios, headlines, and bylines?",
+      "method": "Scrape public-facing identity: LinkedIn headline, X bio, blog bylines, email signatures, conference bios. Classify into role-frames.",
+      "label": { "source": "auto", "cadence": "monthly" },
+      "chart": "stacked-area",
+      "unit": "%",
+      "yDomain": [0, 100],
+      "status": "live",
+      "direction": "mixed",
+      "series": [
+        {
+          "key": "developer",
+          "label": "Developer",
+          "data": [
+            { "t": "2026-01-01", "v": 48 },
+            { "t": "2026-02-01", "v": 44 },
+            { "t": "2026-03-01", "v": 40 },
+            { "t": "2026-04-01", "v": 36 },
+            { "t": "2026-05-01", "v": 32 }
+          ]
+        },
+        {
+          "key": "builder",
+          "label": "Builder",
+          "data": [
+            { "t": "2026-01-01", "v": 28 },
+            { "t": "2026-02-01", "v": 31 },
+            { "t": "2026-03-01", "v": 33 },
+            { "t": "2026-04-01", "v": 36 },
+            { "t": "2026-05-01", "v": 38 }
+          ]
+        },
+        {
+          "key": "orchestrator",
+          "label": "Orchestrator",
+          "data": [
+            { "t": "2026-01-01", "v": 8 },
+            { "t": "2026-02-01", "v": 11 },
+            { "t": "2026-03-01", "v": 14 },
+            { "t": "2026-04-01", "v": 16 },
+            { "t": "2026-05-01", "v": 18 }
+          ]
+        },
+        {
+          "key": "advisor",
+          "label": "Advisor / Founder",
+          "data": [
+            { "t": "2026-01-01", "v": 16 },
+            { "t": "2026-02-01", "v": 14 },
+            { "t": "2026-03-01", "v": 13 },
+            { "t": "2026-04-01", "v": 12 },
+            { "t": "2026-05-01", "v": 12 }
+          ]
+        }
+      ],
+      "cohort": null
+    },
+    {
+      "id": "attribution-verbs",
+      "question": "How am I attributing ownership of my shipped work — 'I built,' 'I orchestrated,' 'I shipped'?",
+      "method": "Corpus scan of practitioner's writing — commit messages, PR descriptions, blog posts, LinkedIn posts. Count attribution verbs.",
+      "label": { "source": "auto", "cadence": "monthly" },
+      "chart": "stacked-area",
+      "unit": "%",
+      "yDomain": [0, 100],
+      "status": "live",
+      "direction": "neutral",
+      "series": [
+        {
+          "key": "built",
+          "label": "I built",
+          "data": [
+            { "t": "2026-01-01", "v": 52 },
+            { "t": "2026-02-01", "v": 48 },
+            { "t": "2026-03-01", "v": 44 },
+            { "t": "2026-04-01", "v": 40 },
+            { "t": "2026-05-01", "v": 37 }
+          ]
+        },
+        {
+          "key": "shipped",
+          "label": "I shipped",
+          "data": [
+            { "t": "2026-01-01", "v": 22 },
+            { "t": "2026-02-01", "v": 25 },
+            { "t": "2026-03-01", "v": 28 },
+            { "t": "2026-04-01", "v": 32 },
+            { "t": "2026-05-01", "v": 34 }
+          ]
+        },
+        {
+          "key": "orchestrated",
+          "label": "I orchestrated",
+          "data": [
+            { "t": "2026-01-01", "v": 10 },
+            { "t": "2026-02-01", "v": 13 },
+            { "t": "2026-03-01", "v": 16 },
+            { "t": "2026-04-01", "v": 18 },
+            { "t": "2026-05-01", "v": 20 }
+          ]
+        },
+        {
+          "key": "other",
+          "label": "Other",
+          "data": [
+            { "t": "2026-01-01", "v": 16 },
+            { "t": "2026-02-01", "v": 14 },
+            { "t": "2026-03-01", "v": 12 },
+            { "t": "2026-04-01", "v": 10 },
+            { "t": "2026-05-01", "v": 9 }
+          ]
+        }
+      ],
+      "cohort": null
+    },
+    {
+      "id": "role-frames-transcripts",
+      "question": "Which role-frames am I using in agent transcripts — 'as a developer,' 'as a product owner,' 'as a builder'?",
+      "method": "Corpus scan of self-framing phrases in transcript prompts.",
+      "label": { "source": "auto", "cadence": "monthly" },
+      "chart": "stacked-area",
+      "unit": "%",
+      "yDomain": [0, 100],
+      "status": "live",
+      "direction": "neutral",
+      "series": [
+        {
+          "key": "developer",
+          "label": "as a developer",
+          "data": [
+            { "t": "2026-01-01", "v": 42 },
+            { "t": "2026-02-01", "v": 39 },
+            { "t": "2026-03-01", "v": 36 },
+            { "t": "2026-04-01", "v": 33 },
+            { "t": "2026-05-01", "v": 30 }
+          ]
+        },
+        {
+          "key": "builder",
+          "label": "as a builder",
+          "data": [
+            { "t": "2026-01-01", "v": 30 },
+            { "t": "2026-02-01", "v": 33 },
+            { "t": "2026-03-01", "v": 35 },
+            { "t": "2026-04-01", "v": 37 },
+            { "t": "2026-05-01", "v": 39 }
+          ]
+        },
+        {
+          "key": "product-owner",
+          "label": "as a product owner",
+          "data": [
+            { "t": "2026-01-01", "v": 18 },
+            { "t": "2026-02-01", "v": 19 },
+            { "t": "2026-03-01", "v": 20 },
+            { "t": "2026-04-01", "v": 21 },
+            { "t": "2026-05-01", "v": 22 }
+          ]
+        },
+        {
+          "key": "other",
+          "label": "Other",
+          "data": [
+            { "t": "2026-01-01", "v": 10 },
+            { "t": "2026-02-01", "v": 9 },
+            { "t": "2026-03-01", "v": 9 },
+            { "t": "2026-04-01", "v": 9 },
+            { "t": "2026-05-01", "v": 9 }
+          ]
+        }
+      ],
+      "cohort": null
+    },
+    {
+      "id": "annual-identity-essay",
+      "question": "What am I writing, annually, about the value of human contribution in AI-assisted practice?",
+      "method": "Annual long-form essay. Coded for thematic shift markers on the timeline.",
+      "label": { "source": "asked", "cadence": "annual" },
+      "chart": "annotated-timeline",
+      "unit": "essay",
+      "yDomain": null,
+      "status": "pending",
+      "direction": null,
+      "series": [
+        {
+          "key": "essay",
+          "label": "Annual essay",
+          "data": []
+        }
+      ],
+      "cohort": null,
+      "note": "First essay due 2026-Q4."
+    }
+  ]
+}

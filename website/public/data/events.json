@@ -1,0 +1,50 @@
+{
+  "events": [
+    {
+      "id": "methodology-lock-2026-q1",
+      "t": "2026-01-15",
+      "kind": "methodology",
+      "label": "Initial methodology locked with PhD collaborator",
+      "affects": "all"
+    },
+    {
+      "id": "field-essay-protege-2026-03",
+      "t": "2026-03-15",
+      "kind": "field-signal",
+      "label": "The protégé who could explain his own system",
+      "url": "research.html#protege-system",
+      "affects": ["epistemic", "identity"]
+    },
+    {
+      "id": "field-essay-hours-2026-02",
+      "t": "2026-02-28",
+      "kind": "field-essay",
+      "label": "The hours I thought I'd recovered, and where they went instead",
+      "url": "research.html#temporal-hours",
+      "affects": ["temporal"]
+    },
+    {
+      "id": "field-essay-economics-2026-04",
+      "t": "2026-04-02",
+      "kind": "field-curation",
+      "label": "On the unit economics of AI-native work",
+      "url": "research.html#economic-cost",
+      "affects": ["economic"]
+    },
+    {
+      "id": "field-essay-differential-2026-04",
+      "t": "2026-04-28",
+      "kind": "field-essay",
+      "label": "What we sell, when the model can do it too",
+      "url": "research.html#differential",
+      "affects": ["differential", "judgment"]
+    },
+    {
+      "id": "frontier-model-2026-q2",
+      "t": "2026-04-10",
+      "kind": "model-release",
+      "label": "Frontier model release",
+      "affects": ["judgment"]
+    }
+  ]
+}

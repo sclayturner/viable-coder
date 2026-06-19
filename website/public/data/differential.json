@@ -1,0 +1,143 @@
+{
+  "id": "differential",
+  "family": "practice",
+  "title": "Differential Viability",
+  "question": "When everyone can do this, what is the value of me doing it?",
+  "whatsUnderThreat": "The portion of current compensation and demand that comes from rarity rather than from durable skill. The skill premium for early adoption is by definition temporary.",
+  "headlineMeasurementId": "inbound-composition",
+  "fieldLink": "research.html#differential",
+  "reading": {
+    "asOf": "2026-Q2",
+    "text": "Skill-rarity premium contracting faster than projected. Inbound mix has shifted toward capability-acquisition asks (47% in May, up from 29% in January). Pricing power holding indexed, but composition tells the cleaner story. Published with the same visibility a favorable trend would receive."
+  },
+  "measurements": [
+    {
+      "id": "engagement-pricing",
+      "question": "How is my engagement pricing changing over time, normalized to comparable scope?",
+      "method": "Invoice and contract records, normalized by an explicit scope index.",
+      "label": { "source": "auto", "cadence": "monthly" },
+      "chart": "line",
+      "unit": "index",
+      "yDomain": [0, null],
+      "status": "live",
+      "direction": "neutral",
+      "series": [
+        {
+          "key": "indexed-rate",
+          "label": "Indexed rate per scope unit",
+          "data": [
+            { "t": "2026-01-01", "v": 100 },
+            { "t": "2026-02-01", "v": 101 },
+            { "t": "2026-03-01", "v": 102 },
+            { "t": "2026-04-01", "v": 102 },
+            { "t": "2026-05-01", "v": 101 }
+          ]
+        }
+      ],
+      "cohort": null
+    },
+    {
+      "id": "inbound-composition",
+      "question": "What kind of questions are prospects bringing me — capability-acquisition asks, or next-order questions?",
+      "method": "AI classifier on inbound email subject lines, first-call notes, calendar-invite descriptions. Categories: capability acquisition / next-order strategic / referral introduction / other.",
+      "label": { "source": "auto", "cadence": "monthly" },
+      "chart": "stacked-area",
+      "unit": "%",
+      "yDomain": [0, 100],
+      "status": "live",
+      "direction": "unfavorable",
+      "series": [
+        {
+          "key": "capability-acquisition",
+          "label": "Capability acquisition",
+          "data": [
+            { "t": "2026-01-01", "v": 29 },
+            { "t": "2026-02-01", "v": 34 },
+            { "t": "2026-03-01", "v": 38 },
+            { "t": "2026-04-01", "v": 43 },
+            { "t": "2026-05-01", "v": 47 }
+          ]
+        },
+        {
+          "key": "next-order",
+          "label": "Next-order strategic",
+          "data": [
+            { "t": "2026-01-01", "v": 41 },
+            { "t": "2026-02-01", "v": 38 },
+            { "t": "2026-03-01", "v": 35 },
+            { "t": "2026-04-01", "v": 32 },
+            { "t": "2026-05-01", "v": 29 }
+          ]
+        },
+        {
+          "key": "referral",
+          "label": "Referral introduction",
+          "data": [
+            { "t": "2026-01-01", "v": 22 },
+            { "t": "2026-02-01", "v": 21 },
+            { "t": "2026-03-01", "v": 20 },
+            { "t": "2026-04-01", "v": 19 },
+            { "t": "2026-05-01", "v": 18 }
+          ]
+        },
+        {
+          "key": "other",
+          "label": "Other",
+          "data": [
+            { "t": "2026-01-01", "v": 8 },
+            { "t": "2026-02-01", "v": 7 },
+            { "t": "2026-03-01", "v": 7 },
+            { "t": "2026-04-01", "v": 6 },
+            { "t": "2026-05-01", "v": 6 }
+          ]
+        }
+      ],
+      "cohort": null
+    },
+    {
+      "id": "vocabulary-diffusion",
+      "question": "How widely is my practice's distinctive vocabulary diffusing through public discourse?",
+      "method": "Track curated list of phrases championed by the practice across X, LinkedIn, Mastodon, blog corpora, podcast transcripts.",
+      "label": { "source": "auto", "cadence": "monthly" },
+      "chart": "line",
+      "unit": "mentions",
+      "yDomain": [0, null],
+      "status": "live",
+      "direction": "favorable",
+      "series": [
+        {
+          "key": "mentions",
+          "label": "Monthly mentions of tracked phrases",
+          "data": [
+            { "t": "2026-01-01", "v": 18 },
+            { "t": "2026-02-01", "v": 24 },
+            { "t": "2026-03-01", "v": 31 },
+            { "t": "2026-04-01", "v": 38 },
+            { "t": "2026-05-01", "v": 46 }
+          ]
+        }
+      ],
+      "cohort": null
+    },
+    {
+      "id": "two-year-capability-reflection",
+      "question": "What can I do today that I couldn't two years ago — and what fraction is still rare?",
+      "method": "Annual reflection paired with an external scan of how widely the named capabilities have diffused into the field.",
+      "label": { "source": "asked", "cadence": "annual" },
+      "chart": "annotated-timeline",
+      "unit": "reflection",
+      "yDomain": null,
+      "status": "pending",
+      "direction": null,
+      "series": [
+        {
+          "key": "reflection",
+          "label": "Annual reflection",
+          "data": []
+        }
+      ],
+      "cohort": null,
+      "note": "First reflection scheduled 2026-Q4."
+    }
+  ]
+}

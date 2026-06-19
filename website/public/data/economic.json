@@ -1,0 +1,154 @@
+{
+  "id": "economic",
+  "family": "conditions",
+  "title": "Economic Viability",
+  "question": "Will the conditions that make this profitable today continue to make it profitable tomorrow?",
+  "whatsUnderThreat": "The unit economics of AI-native practice as currently subsidized by capital seeking market share. The convergence of true cost and price as that subsidy unwinds.",
+  "headlineMeasurementId": "token-cost-per-output",
+  "fieldLink": "research.html#economic",
+  "reading": {
+    "asOf": "2026-Q2",
+    "text": "Token cost per unit of output trending down 11% over the quarter — but provider list prices ticked up 6% in April, the first move that direction in the tracked window. Practice gross margin holding at 64%. The lag between provider list-price moves and effective cost is the leading signal to watch."
+  },
+  "measurements": [
+    {
+      "id": "token-cost-per-output",
+      "question": "How are my token costs per month moving when normalized against output?",
+      "method": "API billing data divided by the output index (shared with Temporal #3).",
+      "label": { "source": "auto", "cadence": "monthly" },
+      "chart": "line",
+      "unit": "$",
+      "yDomain": [0, null],
+      "status": "live",
+      "direction": "favorable",
+      "series": [
+        {
+          "key": "cost-per-unit",
+          "label": "Token cost per unit output",
+          "data": [
+            { "t": "2026-01-01", "v": 142 },
+            { "t": "2026-02-01", "v": 138 },
+            { "t": "2026-03-01", "v": 131 },
+            { "t": "2026-04-01", "v": 126 },
+            { "t": "2026-05-01", "v": 126 }
+          ]
+        }
+      ],
+      "cohort": [
+        {
+          "key": "cost-per-unit",
+          "label": "Cohort aggregate",
+          "data": [
+            { "t": "2026-01-01", "v": 158 },
+            { "t": "2026-02-01", "v": 154 },
+            { "t": "2026-03-01", "v": 148 },
+            { "t": "2026-04-01", "v": 144 },
+            { "t": "2026-05-01", "v": 145 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gross-margin",
+      "question": "What is my practice's gross margin, with AI tooling tracked as its own line item?",
+      "method": "Accounting export with AI tooling on its own line.",
+      "label": { "source": "auto", "cadence": "monthly" },
+      "chart": "line",
+      "unit": "%",
+      "yDomain": [0, 100],
+      "status": "live",
+      "direction": "neutral",
+      "series": [
+        {
+          "key": "margin",
+          "label": "Gross margin (incl. AI tooling)",
+          "data": [
+            { "t": "2026-01-01", "v": 67 },
+            { "t": "2026-02-01", "v": 66 },
+            { "t": "2026-03-01", "v": 65 },
+            { "t": "2026-04-01", "v": 64 },
+            { "t": "2026-05-01", "v": 64 }
+          ]
+        }
+      ],
+      "cohort": [
+        {
+          "key": "margin",
+          "label": "Cohort aggregate",
+          "data": [
+            { "t": "2026-01-01", "v": 60 },
+            { "t": "2026-02-01", "v": 59 },
+            { "t": "2026-03-01", "v": 58 },
+            { "t": "2026-04-01", "v": 57 },
+            { "t": "2026-05-01", "v": 57 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dependency-list-prices",
+      "question": "How are list prices on my dependencies changing month over month?",
+      "method": "Scheduled scraping of provider pricing pages.",
+      "label": { "source": "auto", "cadence": "monthly" },
+      "chart": "line",
+      "unit": "index",
+      "yDomain": [0, null],
+      "status": "live",
+      "direction": "unfavorable",
+      "series": [
+        {
+          "key": "list-price-index",
+          "label": "Indexed list price (tool stack)",
+          "data": [
+            { "t": "2026-01-01", "v": 100 },
+            { "t": "2026-02-01", "v": 100 },
+            { "t": "2026-03-01", "v": 100 },
+            { "t": "2026-04-01", "v": 106 },
+            { "t": "2026-05-01", "v": 106 }
+          ]
+        }
+      ],
+      "cohort": null,
+      "note": "First month-over-month uptick observed in April. Worth watching against subsidy-unwind hypothesis."
+    },
+    {
+      "id": "provider-signals",
+      "question": "What signals — rate limits, deprecations, enterprise-tier introductions — are providers sending?",
+      "method": "Automated monitoring of provider blogs, changelogs, status pages, with AI categorization of each event.",
+      "label": { "source": "auto", "cadence": "monthly" },
+      "chart": "scatter",
+      "unit": "events",
+      "yDomain": [0, null],
+      "status": "live",
+      "direction": "unfavorable",
+      "series": [
+        {
+          "key": "rate-limit",
+          "label": "Rate-limit change",
+          "data": [
+            { "t": "2026-01-15", "v": 1 },
+            { "t": "2026-02-22", "v": 1 },
+            { "t": "2026-04-08", "v": 2 }
+          ]
+        },
+        {
+          "key": "enterprise-tier",
+          "label": "Enterprise-tier introduction",
+          "data": [
+            { "t": "2026-03-04", "v": 1 },
+            { "t": "2026-04-18", "v": 1 }
+          ]
+        },
+        {
+          "key": "deprecation",
+          "label": "Deprecation",
+          "data": [
+            { "t": "2026-02-11", "v": 1 },
+            { "t": "2026-05-02", "v": 1 }
+          ]
+        }
+      ],
+      "cohort": null
+    }
+  ]
+}

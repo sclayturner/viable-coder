@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Playbook — Viable Coder</title>
+<meta name="description" content="The AI-native Enterprise: A Playbook for Long-term Viability. The North Star Clay brings to every mentee — written down, kept current, sold openly.">
+
+<meta property="og:title" content="The Playbook — Viable Coder">
+<meta property="og:description" content="The AI-native Enterprise: A Playbook for Long-term Viability. The North Star Clay brings to every mentee.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/clay-mentorship.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="main.css?v=20260601">
+</head>
+<body>
+
+<nav class="top">
+  <div class="wrap">
+    <div class="nav-row">
+      <a href="index.html" class="wordmark"><span class="bar"></span> VIABLE CODER</a>
+      <button class="nav-toggle" type="button" aria-controls="nav-links" aria-expanded="false" aria-label="Open menu">
+        <span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <div class="nav-col">
+          <a href="becoming-viable.html" class="nav-top-link">Becoming Viable</a>
+          <div class="nav-sub">
+            <a href="mentorship.html">Mentorship</a>
+            <a href="resources.html">Resources</a>
+          </div>
+        </div>
+        <div class="nav-col">
+          <a href="remaining-viable.html" class="nav-top-link">Remaining Viable</a>
+          <div class="nav-sub">
+            <a href="research.html">Research</a>
+            <a href="data.html">Data</a>
+          </div>
+        </div>
+        <div class="nav-col">
+          <a href="next-steps.html" class="nav-top-link is-active">Next Steps</a>
+          <div class="nav-sub">
+            <a href="https://calendly.com/sclayturner/advisory-session" target="_blank" rel="noopener">Schedule Discussion</a>
+            <a href="playbook.html" class="is-active">Get Playbook</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE BAND -->
+<header class="page-band">
+  <div class="wrap">
+    <div class="crumb reveal"><a href="next-steps.html" class="crumb-back" aria-label="back to Next Steps"><span class="chevron">‹</span>BACK</a><a href="index.html">viablecoder</a> · <a href="next-steps.html">next steps</a> · <span class="accent">playbook</span></div>
+    <div class="reveal delay-1"><span class="edition-banner"><span class="dot"></span>Edition 1 · In Development</span></div>
+    <!--
+      TITLE DECISION (left as-is to preserve brand + meta/OG tags).
+      The book's prose is intensely second-person — it speaks to one builder, not an "enterprise."
+      If you want the title to match that voice, consider one of these, and update <title>,
+      og:title, and the meta description to match:
+        • From Vibe Coding to Viable Coding: A Playbook for Long-term Viability
+        • One Stance, Two Clocks: A Playbook for Long-term Viability
+        • The Viable Coder Playbook: Becoming and Remaining Viable in the Age of AI
+    -->
+    <h1 class="reveal delay-1">The AI-native Enterprise: <strong>A Playbook for Long-term Viability.</strong></h1>
+    <p class="kicker reveal delay-2">The North Star I bring to every mentee on day one. Doctrine, video, working agents, exercises — kept current, sold openly. Edition 1 ships <strong>Q4 2026</strong>.</p>
+  </div>
+</header>
+
+<!-- §1 — WHAT THIS IS -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow reveal"><span class="num">01</span><span class="bar"></span> What This Is</div>
+    <h2 class="section-title reveal">My own guide — <strong>before it was anyone else's</strong>.</h2>
+    <p class="lead reveal">Every mentorship engagement starts the same way: with a single claim, and a set of working principles built on it. The claim is this — <strong>the AI does the work; you carry the risk</strong>. Everything else is that asymmetry worked out in practice: which questions get asked first, which trade-offs get named out loud, what "viable" actually means when conditions shift. Until now that doctrine has lived in my own notes, in conversation, and in the work itself.</p>
+    <p class="lead reveal delay-1" style="margin-top: 1rem;">The Playbook codifies it — and ships with what you need to put it into practice. The written doctrine carries the position. Recorded workshops walk through how the position becomes practice. The included agents — the same kind I run in my own day-to-day — let you execute the doctrine on your own product, immediately. The exercises ask you to produce real artifacts: a PRD, a pull request, a roadmap. Comprehensive enough to be used. Specific enough to be argued with.</p>
+    <p class="lead reveal delay-2" style="margin-top: 1rem;">It moves in four parts: <strong>knowing who does what</strong>, <strong>finding your situation</strong>, <strong>running the day-to-day</strong>, and <strong>playing the long game</strong>. The center of gravity is the third — running the day-to-day is the <strong>Agent Development Life Cycle, the ADLC</strong>: the old software lifecycle, re-staffed by a crew of agents, with you holding the two jobs that never transfer. You start the work, and you answer for it. The agents take everything in between.</p>
+    <p class="lead reveal delay-2" style="margin-top: 1rem;">It is grounded in industry best practices as they evolve, in my own day-to-day practice as technical co-founder of <a href="about.html" style="color: var(--steel); border-bottom: 1px solid var(--steel-light);">Soaring Titan and Maximum Automotive Intelligence</a>, and in the research stream you'll find on <a href="research.html" style="color: var(--steel); border-bottom: 1px solid var(--steel-light);">Remaining Viable</a>. It will be updated as the field moves — because the field is not done moving.</p>
+  </div>
+</section>
+
+<!-- §2 — WORKING TABLE OF CONTENTS -->
+<section class="alt-bg">
+  <div class="wrap">
+    <div class="eyebrow reveal"><span class="num">02</span><span class="bar"></span> Working Table of Contents</div>
+    <h2 class="section-title reveal">Four parts, <strong>one stance</strong>.</h2>
+    <p class="lead reveal">A working outline — subject to revision as drafting continues. The four sections build on each other: who carries the risk, where you specifically stand, how the day-to-day actually runs, and what to watch over a career. Each chapter pairs a position with a practice — a written argument, a recorded workshop, a working agent or two, and an exercise that asks you to produce a real artifact. Not just what to believe, but what to do on Monday morning.</p>
+
+    <!-- SECTION 1 -->
+    <div class="toc-section reveal" style="margin-top: 1.75rem;">
+      <div style="font-family:'Roboto Mono',monospace; font-size:0.72rem; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:var(--steel); margin-bottom:0.4rem;">Section 1</div>
+      <h3 style="font-size:1.4rem; font-weight:700; margin:0 0 0.5rem;">Knowing Who Does What</h3>
+      <p class="lead" style="margin:0 0 1.4rem;">The opportunity is real, and it's on you. Two kinds of intelligence at the table, and the two jobs that never transfer to the machine.</p>
+      <div class="toc-grid">
+        <article class="toc-item reveal">
+          <div class="toc-body">
+            <h4>The Wager</h4>
+            <p>The AI does the work; you carry the risk. Why this is the best time there's ever been to build — and why missteps cost more now that building got fast and cheap.</p>
+          </div>
+        </article>
+        <article class="toc-item reveal">
+          <div class="toc-body">
+            <h4>Two Kinds of Intelligence</h4>
+            <p>What the machine is for, and what you're for. It decides <em>how</em>; you decide <em>why</em> — and only you can care whether the thing is actually right, not just whether it works.</p>
+          </div>
+        </article>
+        <article class="toc-item reveal">
+          <div class="toc-body">
+            <h4>The Two Jobs That Stay Yours</h4>
+            <p>Origination at the front, answerability at the back. You start the work and you answer for it; the agents take everything in between. The first question of the book: <em>did I choose this, or did it choose me?</em></p>
+          </div>
+        </article>
+        <article class="toc-item reveal">
+          <div class="toc-body">
+            <h4>You Are the Infrastructure</h4>
+            <p>Your condition is the binding constraint now. How to check yourself when you can't trust the mirror, and how to wire an alarm that fires on the days you'd rather ignore it.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- SECTION 2 -->
+    <div class="toc-section reveal" style="margin-top: 2.75rem;">
+      <div style="font-family:'Roboto Mono',monospace; font-size:0.72rem; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:var(--steel); margin-bottom:0.4rem;">Section 2</div>
+      <h3 style="font-size:1.4rem; font-weight:700; margin:0 0 0.5rem;">Finding Your Situation</h3>
+      <p class="lead" style="margin:0 0 1.4rem;">This book doesn't have one reader. Find the spot you're actually standing in, get the kit built for it, and learn when to borrow from the others.</p>
+      <div class="toc-grid">
+        <article class="toc-item reveal">
+          <div class="toc-body">
+            <h4>The Intake</h4>
+            <p>A short, honest read that points you to your situation — based on what you've actually built, shipped, and inherited, not on how you'd grade yourself. A route, not a label.</p>
+          </div>
+        </article>
+        <article class="toc-item reveal">
+          <div class="toc-body">
+            <h4>Build It, or Borrow It</h4>
+            <p>For every skill in front of you, one call: own it for real because you'll live with it, or borrow just enough to direct it and stay in charge. The trap on each side, and the good news.</p>
+          </div>
+        </article>
+        <article class="toc-item reveal">
+          <div class="toc-body">
+            <h4>Your Six Situations</h4>
+            <p>Growing a team, renting what you could own, depending on an outside shop, inheriting a mess you're scared to touch, shipping what you can't explain, or pushing a demo to a real product. Each drops a different job and makes a different trade.</p>
+          </div>
+        </article>
+        <article class="toc-item reveal">
+          <div class="toc-body">
+            <h4>Your Kit Isn't a Cage</h4>
+            <p>Every escape is a trade — no move sheds risk, it relocates it. Borrow across situations on purpose, and choose the dependency worth holding instead of waking up inside one.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- SECTION 3 — THE CENTERPIECE -->
+    <div class="toc-section reveal" style="margin-top: 2.75rem;">
+      <div style="font-family:'Roboto Mono',monospace; font-size:0.72rem; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:var(--steel); margin-bottom:0.4rem;">Section 3 · The Centerpiece</div>
+      <h3 style="font-size:1.4rem; font-weight:700; margin:0 0 0.5rem;">Running the Day-to-Day: The ADLC</h3>
+      <p class="lead" style="margin:0 0 1.4rem;">The <strong>Agent Development Life Cycle</strong> — the software lifecycle you may never have been taught the name of, re-staffed by a crew of agents, with you on the two gates that never transfer.</p>
+      <div class="toc-grid">
+        <article class="toc-item reveal">
+          <div class="toc-body">
+            <h4>From SDLC to ADLC</h4>
+            <p>The path every app on your phone was built on, and why each step existed. The path stays — the team in the middle becomes a crew of agents, producing everything a full human team once did.</p>
+          </div>
+        </article>
+        <article class="toc-item reveal">
+          <div class="toc-body">
+            <h4>Your Shop</h4>
+            <p>One place the work lives. A set of specialized agents, each with one narrow job. The house rules that make them build it <em>your</em> way. And the adapter that lets them see everything the company already knows.</p>
+          </div>
+        </article>
+        <article class="toc-item reveal">
+          <div class="toc-body">
+            <h4>One Job, Start to Finish</h4>
+            <p>Follow a single piece of work across the board, left to right. The agent fills the column; you own the gate between the columns. That rhythm is the whole job.</p>
+          </div>
+        </article>
+        <article class="toc-item reveal">
+          <div class="toc-body">
+            <h4>The Gates You Can't Hand Off</h4>
+            <p>Where you start, and where you answer. Because agents absorb the time the middle used to cost, real tests, granular security, and solid infrastructure become the floor — not a late-stage luxury. And the one place that claim breaks.</p>
+          </div>
+        </article>
+        <article class="toc-item reveal">
+          <div class="toc-body">
+            <h4>Teaching the AI Your Way</h4>
+            <p>The same rulebook can make you sharper or hollow you out. Set your agents to explain where the skill is yours to own; set them to just produce where you'll only ever direct. The knife-edge under every teaching agent.</p>
+          </div>
+        </article>
+        <article class="toc-item reveal">
+          <div class="toc-body">
+            <h4>The Board Is Watching You, Too</h4>
+            <p>Because the whole build runs through one place, it quietly records how you <em>worked</em> — what you reframed, what you actually read before approving, what you chose versus rubber-stamped. The honest instrument you could never keep on yourself.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- SECTION 4 -->
+    <div class="toc-section reveal" style="margin-top: 2.75rem;">
+      <div style="font-family:'Roboto Mono',monospace; font-size:0.72rem; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:var(--steel); margin-bottom:0.4rem;">Section 4</div>
+      <h3 style="font-size:1.4rem; font-weight:700; margin:0 0 0.5rem;">Playing the Long Game</h3>
+      <p class="lead" style="margin:0 0 1.4rem;">Becoming viable is this build. Remaining viable is every build after. A handful of honest questions you can carry for a career — readings your work takes for you, not a quiz you grade yourself on.</p>
+      <div class="toc-grid">
+        <article class="toc-item reveal">
+          <div class="toc-body">
+            <h4>A Different Clock</h4>
+            <p>Every reading on the short clock flatters you — a shipped feature, a happy client. The second clock ticks in years, and it's the one almost nobody is watching.</p>
+          </div>
+        </article>
+        <article class="toc-item reveal">
+          <div class="toc-body">
+            <h4>The Nine Dimensions</h4>
+            <p>Three families — the person, the practice, the ground. Nine things actually under threat over a career, each one planted earlier in the book and coming due here. A working translation of the framework from <a href="remaining-viable.html" style="color: var(--steel); border-bottom: 1px solid var(--steel-light);">Remaining Viable</a>.</p>
+          </div>
+        </article>
+        <article class="toc-item reveal">
+          <div class="toc-body">
+            <h4>Questions You Can't Lie To</h4>
+            <p>Trends, not snapshots — read against your own baseline. The most honest readings come straight from your work — your transcripts, your invoices, your last ten bios — not from your gut on a given afternoon.</p>
+          </div>
+        </article>
+        <article class="toc-item reveal">
+          <div class="toc-body">
+            <h4>The Loop Closes</h4>
+            <p>A bad reading isn't a verdict; it's the next thing worth building. Remaining viable feeds straight back into becoming viable — and the whole loop starts over, one build smarter than last time.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <p class="explore-link reveal" style="margin-top: 2rem;">
+      <em>Chapters and ordering will shift as drafting continues. The intent — comprehensive, prescriptive, honest — will not.</em>
+    </p>
+  </div>
+</section>
+
+<!-- §3 — EDITIONS & ACCESS -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow reveal"><span class="num">03</span><span class="bar"></span> Editions &amp; Access</div>
+    <h2 class="section-title reveal">One purchase. <strong>One year of revisions.</strong></h2>
+    <p class="lead reveal">Quarterly cadence — because the field doesn't move at annual speed. Industry best practices change. My own practice changes. The mentorship work surfaces new patterns every quarter. Each edition incorporates what's been learned since the last one — dated, versioned, and visible. Conditions permitting.</p>
+    <p class="lead reveal delay-1" style="margin-top: 1rem;">Buying once gives you access to one year of revisions after purchase. No subscription, no upsell. The intent is a living body of work you can return to as conditions shift during the year you are using it.</p>
+
+    <div class="editions-list">
+      <div class="edition-row current reveal">
+        <span class="edition-label">EDITION 1</span>
+        <span class="edition-title">Foundations — the working doctrine in full</span>
+        <span class="edition-status">Ships Q4 2026</span>
+      </div>
+      <div class="edition-row reveal">
+        <span class="edition-label">EDITION 2</span>
+        <span class="edition-title">Q1 2027 · new case material, agent refreshes, and chapter additions as the field demands</span>
+        <span class="edition-status">Q1 2027</span>
+      </div>
+      <div class="edition-row reveal">
+        <span class="edition-label">EDITION 3+</span>
+        <span class="edition-title">Quarterly cadence, conditions permitting</span>
+        <span class="edition-status">Future</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- §4 — PRICING / RESERVE -->
+<section class="alt-bg">
+  <div class="wrap">
+    <div class="eyebrow reveal"><span class="num">04</span><span class="bar"></span> Reserve a Copy</div>
+    <h2 class="section-title reveal">Edition 1 ships <strong>Q4 2026</strong>.</h2>
+    <p class="lead reveal">Pre-orders open closer to release. In the meantime, leave an email and I'll let you know the day Edition 1 is available — and only that day. No drip campaign.</p>
+
+    <div class="pricing-card reveal">
+      <div class="price-block">
+        <span class="price-label">At Release</span>
+        <span class="price-amount">$499<sup>USD</sup></span>
+        <p class="price-detail">One-time. Doctrine, recorded workshops, working agents, and exercises. One year of revisions included. Delivered to your inbox.</p>
+      </div>
+      <div class="price-action">
+        <form class="subscribe-form" action="https://buttondown.email/api/emails/embed-subscribe/viablecoder-playbook" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/viablecoder-playbook', 'popupwindow')">
+          <input type="email" name="email" placeholder="your@email.com" required>
+          <button type="submit">Notify me <span class="arrow">→</span></button>
+        </form>
+        <p class="micro">No charge today. I'll email once when Edition 1 is ready, and once when pre-orders open.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- §5 — RELATIONSHIP TO MENTORSHIP -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow reveal"><span class="num">05</span><span class="bar"></span> The Playbook and the Engagement</div>
+    <h2 class="section-title reveal">The doctrine, the practice, and the room.</h2>
+    <p class="lead reveal">The Playbook is the doctrine. <a href="resources.html" style="color: var(--steel); border-bottom: 1px solid var(--steel-light);">Resources</a> is the doctrine applied to real, publicly-sourced problems. <a href="mentorship.html" style="color: var(--steel); border-bottom: 1px solid var(--steel-light);">Mentorship</a> is the doctrine applied to your problem, in the room, with me sitting next to the person doing the work. Each one is complete on its own. They reinforce each other for the leaders who want all three.</p>
+
+    <aside class="engagement-note reveal" style="margin-top: 2rem;">
+      <h4>Why this is for sale.</h4>
+      <p>The doctrine was earned on what was, for several years, a fairly lonely hill. The Playbook puts that work in reach of people who aren't ready for — or don't need — a four-thousand-a-month engagement. <strong>Students, recent grads, and people my own kids' ages</strong> who want a copy and can't easily pay should reach out directly. I keep room for those conversations. More on that <a href="about.html">on the About page</a>.</p>
+    </aside>
+  </div>
+</section>
+
+<!-- QUIET LINE -->
+<section class="quiet-line">
+  <div class="narrow">
+    <p class="reveal">If you want the engagement behind the doctrine → <a href="mentorship.html">Mentorship</a>.</p>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="subscribe-band">
+  <div class="wrap">
+    <div class="sub-lede">
+      <h3 class="reveal">Sign-up for the Newsletter.</h3>
+      <p class="sub-note reveal">You'll receive publication of new Resources, Research, Data, and Playbook editions.</p>
+    </div>
+    <form class="subscribe-form reveal" action="https://buttondown.email/api/emails/embed-subscribe/viablecoder" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/viablecoder', 'popupwindow')">
+      <input type="email" name="email" placeholder="your@email.com" required>
+      <button type="submit">Subscribe <span class="arrow">&rarr;</span></button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <a href="index.html" class="wordmark"><span class="bar"></span> VIABLE CODER</a>
+      <p style="margin-top: 0.75rem; font-size: 0.8rem; color: var(--ink-3); max-width: 36ch;">A mentorship practice and an ongoing inquiry. Based in Louisville, Kentucky — working across North America and Europe.</p>
+    </div>
+    <div class="ft-col">
+      <h5>Becoming Viable</h5>
+      <a href="mentorship.html">Mentorship</a>
+      <a href="resources.html">Resources</a>
+    </div>
+    <div class="ft-col">
+      <h5>Remaining Viable</h5>
+      <a href="research.html">Research</a>
+      <a href="data.html">Data</a>
+    </div>
+    <div class="ft-col">
+      <h5>Next Steps</h5>
+      <a href="https://calendly.com/sclayturner/advisory-session" target="_blank" rel="noopener">Schedule Discussion</a>
+      <a href="playbook.html">Get Playbook</a>
+    </div>
+    <div class="ft-col">
+      <h5>S. Clay Turner</h5>
+      <a href="about.html">About Me</a>
+      <a href="mailto:clay@sclayturner.com">Email</a>
+    </div>
+    <div class="ft-bottom">
+      <div>© <span id="year"></span> S. Clay Turner</div>
+      <div><a href="https://sclayturner.com" target="_blank" rel="noopener">sclayturner.com →</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js?v=20260530"></script>
+</body>
+</html>

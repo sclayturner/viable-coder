@@ -1,0 +1,334 @@
+{
+  "id": "cognitive",
+  "family": "practitioner",
+  "title": "Cognitive Viability",
+  "question": "Is my cognitive system — capacity, focus, and growth — still intact?",
+  "whatsUnderThreat": "The full cognitive system that produced — and continues to extend — the judgment AI now amplifies. Three risks running in parallel: core-capacity atrophy as I delegate the work; erosion of executive function (focus, working memory across concurrent threads); and quiet cessation of the conceptual and lexical accretion that has always renewed the craft.",
+  "headlineMeasurementId": "self-generated-reasoning-ratio",
+  "fieldLink": "research.html#cognitive",
+  "reading": {
+    "asOf": "2026-Q2",
+    "text": "Maintenance signals holding inside expected band; growth signals show practitioner-introduced novelty trailing agent-introduced novelty roughly 1:3, consistent with early AI-native practice. Concurrency self-report tracks below activity-side count — the gap is the live signal to watch."
+  },
+  "measurements": [
+    {
+      "id": "unassisted-benchmark",
+      "group": "maintenance",
+      "question": "Can I still solve a fixed class of problems without AI tools?",
+      "method": "Quarterly structured exercise: a fixed problem set solved without AI assistance. Agent skill schedules the session, records the work, and scores against the locked answer key.",
+      "label": { "source": "asked", "cadence": "quarterly" },
+      "chart": "line",
+      "unit": "score",
+      "yDomain": [0, 100],
+      "status": "instrumented",
+      "direction": null,
+      "series": [
+        {
+          "key": "score",
+          "label": "Unassisted composite score",
+          "data": []
+        }
+      ],
+      "cohort": null,
+      "note": "First reading scheduled 2026-Q3."
+    },
+    {
+      "id": "self-generated-reasoning-ratio",
+      "group": "maintenance",
+      "question": "How much of the reasoning in my agent transcripts is self-generated versus AI-generated?",
+      "method": "Tokenize transcript turns; classify human-typed tokens as instruction, reasoning, or framing. Reported as rolling 7-day ratio of self-generated reasoning tokens to total reasoning tokens.",
+      "label": { "source": "auto", "cadence": "weekly" },
+      "chart": "line",
+      "unit": "%",
+      "yDomain": [0, 100],
+      "status": "live",
+      "direction": "neutral",
+      "series": [
+        {
+          "key": "ratio",
+          "label": "Self-generated reasoning",
+          "data": [
+            { "t": "2026-01-05", "v": 64.2 },
+            { "t": "2026-01-12", "v": 63.8 },
+            { "t": "2026-01-19", "v": 62.5 },
+            { "t": "2026-01-26", "v": 61.9 },
+            { "t": "2026-02-02", "v": 62.4 },
+            { "t": "2026-02-09", "v": 61.2 },
+            { "t": "2026-02-16", "v": 60.8 },
+            { "t": "2026-02-23", "v": 61.5 },
+            { "t": "2026-03-02", "v": 60.3 },
+            { "t": "2026-03-09", "v": 59.7 },
+            { "t": "2026-03-16", "v": 60.1 },
+            { "t": "2026-03-23", "v": 59.4 },
+            { "t": "2026-03-30", "v": 58.8 },
+            { "t": "2026-04-06", "v": 59.2 },
+            { "t": "2026-04-13", "v": 58.5 },
+            { "t": "2026-04-20", "v": 57.9 },
+            { "t": "2026-04-27", "v": 58.3 },
+            { "t": "2026-05-04", "v": 57.6 },
+            { "t": "2026-05-11", "v": 57.1 }
+          ]
+        }
+      ],
+      "cohort": [
+        {
+          "key": "ratio",
+          "label": "Cohort aggregate",
+          "data": [
+            { "t": "2026-01-05", "v": 55.8 },
+            { "t": "2026-02-02", "v": 54.2 },
+            { "t": "2026-03-02", "v": 52.7 },
+            { "t": "2026-04-06", "v": 51.4 },
+            { "t": "2026-05-04", "v": 50.6 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "accept-modify-reject-mix",
+      "group": "maintenance",
+      "question": "How often am I accepting AI suggestions outright, modifying them, or rejecting them?",
+      "method": "Diff between AI-proposed code blocks and what lands in the commit. Accept = identical; modify = edited; reject = no corresponding commit.",
+      "label": { "source": "auto", "cadence": "weekly" },
+      "chart": "stacked-area",
+      "unit": "%",
+      "yDomain": [0, 100],
+      "status": "live",
+      "direction": "neutral",
+      "series": [
+        {
+          "key": "accept",
+          "label": "Accept",
+          "data": [
+            { "t": "2026-01-05", "v": 32 },
+            { "t": "2026-02-02", "v": 34 },
+            { "t": "2026-03-02", "v": 35 },
+            { "t": "2026-04-06", "v": 36 },
+            { "t": "2026-05-04", "v": 37 }
+          ]
+        },
+        {
+          "key": "modify",
+          "label": "Modify",
+          "data": [
+            { "t": "2026-01-05", "v": 52 },
+            { "t": "2026-02-02", "v": 51 },
+            { "t": "2026-03-02", "v": 50 },
+            { "t": "2026-04-06", "v": 49 },
+            { "t": "2026-05-04", "v": 48 }
+          ]
+        },
+        {
+          "key": "reject",
+          "label": "Reject",
+          "data": [
+            { "t": "2026-01-05", "v": 16 },
+            { "t": "2026-02-02", "v": 15 },
+            { "t": "2026-03-02", "v": 15 },
+            { "t": "2026-04-06", "v": 15 },
+            { "t": "2026-05-04", "v": 15 }
+          ]
+        }
+      ],
+      "cohort": null
+    },
+    {
+      "id": "cognitive-battery",
+      "group": "maintenance",
+      "question": "How do I score on a credentialed cognitive battery, year over year?",
+      "method": "Annual credentialed cognitive assessment. Self-administered or proctored; agent schedules the appointment.",
+      "label": { "source": "asked", "cadence": "annual" },
+      "chart": "annotated-timeline",
+      "unit": "score",
+      "yDomain": [0, 100],
+      "status": "pending",
+      "direction": null,
+      "series": [
+        {
+          "key": "composite",
+          "label": "Composite score",
+          "data": []
+        }
+      ],
+      "cohort": null,
+      "note": "Instrument selection in progress with PhD collaborator. First baseline planned 2026-Q4."
+    },
+    {
+      "id": "conceptual-novelty",
+      "group": "growth",
+      "question": "Are new concepts, patterns, and architectures appearing in my own transcript turns that weren't there before?",
+      "method": "Maintain a running corpus of technical concepts the practitioner has used. For each new concept, classify whether it appeared first in agent output (parroting candidate) or in a practitioner turn (genuine acquisition candidate).",
+      "label": { "source": "auto", "cadence": "monthly" },
+      "chart": "dual-line",
+      "unit": "count",
+      "yDomain": [0, null],
+      "status": "live",
+      "direction": "neutral",
+      "series": [
+        {
+          "key": "agent-first",
+          "label": "Agent-introduced first",
+          "data": [
+            { "t": "2026-01-01", "v": 8 },
+            { "t": "2026-02-01", "v": 11 },
+            { "t": "2026-03-01", "v": 9 },
+            { "t": "2026-04-01", "v": 12 },
+            { "t": "2026-05-01", "v": 10 }
+          ]
+        },
+        {
+          "key": "practitioner-first",
+          "label": "Practitioner-introduced first",
+          "data": [
+            { "t": "2026-01-01", "v": 3 },
+            { "t": "2026-02-01", "v": 4 },
+            { "t": "2026-03-01", "v": 3 },
+            { "t": "2026-04-01", "v": 4 },
+            { "t": "2026-05-01", "v": 3 }
+          ]
+        }
+      ],
+      "cohort": null
+    },
+    {
+      "id": "vocabulary-growth",
+      "group": "growth",
+      "question": "Is my own software-engineering vocabulary still expanding in my writing and transcripts?",
+      "method": "Running per-practitioner vocabulary of domain terms across transcripts, blog posts, commit messages, PR descriptions. Count first-appearances per month.",
+      "label": { "source": "auto", "cadence": "monthly" },
+      "chart": "line",
+      "unit": "count",
+      "yDomain": [0, null],
+      "status": "live",
+      "direction": "favorable",
+      "series": [
+        {
+          "key": "new-terms",
+          "label": "New domain terms",
+          "data": [
+            { "t": "2026-01-01", "v": 7 },
+            { "t": "2026-02-01", "v": 9 },
+            { "t": "2026-03-01", "v": 8 },
+            { "t": "2026-04-01", "v": 11 },
+            { "t": "2026-05-01", "v": 10 }
+          ]
+        }
+      ],
+      "cohort": [
+        {
+          "key": "new-terms",
+          "label": "Cohort aggregate",
+          "data": [
+            { "t": "2026-01-01", "v": 6 },
+            { "t": "2026-02-01", "v": 7 },
+            { "t": "2026-03-01", "v": 7 },
+            { "t": "2026-04-01", "v": 8 },
+            { "t": "2026-05-01", "v": 8 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "concurrency-touched",
+      "group": "growth",
+      "chartGroup": "concurrency",
+      "question": "How many systems am I touching concurrently — commits, PRs, or transcript activity in the past 14 days?",
+      "method": "Count of distinct systems with commit, PR, or transcript activity in a rolling 14-day window.",
+      "label": { "source": "auto", "cadence": "weekly" },
+      "chart": "line",
+      "unit": "count",
+      "yDomain": [0, null],
+      "status": "live",
+      "direction": "neutral",
+      "series": [
+        {
+          "key": "touched",
+          "label": "Systems touched (rolling 14-day)",
+          "data": [
+            { "t": "2026-01-05", "v": 3 },
+            { "t": "2026-01-19", "v": 4 },
+            { "t": "2026-02-02", "v": 4 },
+            { "t": "2026-02-16", "v": 5 },
+            { "t": "2026-03-02", "v": 4 },
+            { "t": "2026-03-16", "v": 5 },
+            { "t": "2026-03-30", "v": 6 },
+            { "t": "2026-04-13", "v": 5 },
+            { "t": "2026-04-27", "v": 6 },
+            { "t": "2026-05-11", "v": 5 }
+          ]
+        }
+      ],
+      "cohort": null
+    },
+    {
+      "id": "concurrency-owned",
+      "group": "growth",
+      "chartGroup": "concurrency",
+      "question": "Of those concurrent systems, how many do I feel I actively own?",
+      "method": "Agent posts the activity count and asks for the owned subset. Gap between systems-touched and threads-owned is the signal.",
+      "label": { "source": "asked", "cadence": "monthly" },
+      "chart": "line",
+      "unit": "count",
+      "yDomain": [0, null],
+      "status": "live",
+      "direction": "neutral",
+      "series": [
+        {
+          "key": "owned",
+          "label": "Threads I feel I own",
+          "data": [
+            { "t": "2026-01-01", "v": 2 },
+            { "t": "2026-02-01", "v": 3 },
+            { "t": "2026-03-01", "v": 3 },
+            { "t": "2026-04-01", "v": 3 },
+            { "t": "2026-05-01", "v": 2 }
+          ]
+        }
+      ],
+      "cohort": null
+    },
+    {
+      "id": "focus-signals",
+      "group": "growth",
+      "question": "Is my ability to stay focused — within a session and across a day — improving or eroding?",
+      "method": "Three sub-signals from transcript + timestamp data: mean uninterrupted session length, context switches per hour, abandoned thread count. Composite weekly score.",
+      "label": { "source": "auto", "cadence": "weekly" },
+      "chart": "line",
+      "unit": "score",
+      "yDomain": [0, 100],
+      "status": "live",
+      "direction": "unfavorable",
+      "series": [
+        {
+          "key": "focus",
+          "label": "Composite focus score",
+          "data": [
+            { "t": "2026-01-05", "v": 72 },
+            { "t": "2026-01-19", "v": 71 },
+            { "t": "2026-02-02", "v": 70 },
+            { "t": "2026-02-16", "v": 68 },
+            { "t": "2026-03-02", "v": 67 },
+            { "t": "2026-03-16", "v": 66 },
+            { "t": "2026-03-30", "v": 64 },
+            { "t": "2026-04-13", "v": 63 },
+            { "t": "2026-04-27", "v": 62 },
+            { "t": "2026-05-11", "v": 61 }
+          ]
+        }
+      ],
+      "cohort": [
+        {
+          "key": "focus",
+          "label": "Cohort aggregate",
+          "data": [
+            { "t": "2026-01-05", "v": 68 },
+            { "t": "2026-02-02", "v": 66 },
+            { "t": "2026-03-02", "v": 64 },
+            { "t": "2026-04-06", "v": 62 },
+            { "t": "2026-05-04", "v": 60 }
+          ]
+        }
+      ]
+    }
+  ]
+}

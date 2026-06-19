@@ -1,0 +1,40 @@
+{
+  "title": "The Findings",
+  "subtitle": "Trend lines tracking what staying viable as a software practitioner actually looks like — dimension by dimension, over time.",
+  "preCommitment": {
+    "statement": "Unfavorable findings are published with the same visibility as favorable ones. Metrics were locked with the PhD collaborator before any of them went public. Methodology changes are versioned and visible.",
+    "lockedAt": "2026-XX-XX",
+    "operator": "S. Clay Turner"
+  },
+  "families": [
+    {
+      "id": "practitioner",
+      "label": "Family I · Practitioner",
+      "question": "Am I, the person, still intact?",
+      "dimensions": ["cognitive", "epistemic", "vocational", "identity"]
+    },
+    {
+      "id": "practice",
+      "label": "Family II · Practice",
+      "question": "Is what I sell still worth selling?",
+      "dimensions": ["differential", "judgment", "temporal"]
+    },
+    {
+      "id": "conditions",
+      "label": "Family III · Conditions",
+      "question": "Is the ground I'm standing on still ground?",
+      "dimensions": ["economic", "ethical"]
+    }
+  ],
+  "defaultTimeWindow": "all-time",
+  "cohort": {
+    "enabled": true,
+    "size": 4,
+    "anonymization": "aggregate-only",
+    "note": "Cohort series show an aggregate across opted-in mentees. Individual members are never resolvable from the data displayed."
+  },
+  "schema": {
+    "version": "1.0",
+    "lastUpdated": "2026-05-15"
+  }
+}

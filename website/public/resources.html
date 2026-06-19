@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resources — Viable Coder</title>
+<meta name="description" content="Real problems worked through using an approach extracted from Clay's day-to-day AI-native practice, augmented with external research, and reviewed before publishing.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="main.css?v=20260601">
+</head>
+<body>
+
+<nav class="top">
+  <div class="wrap">
+    <div class="nav-row">
+      <a href="index.html" class="wordmark"><span class="bar"></span> VIABLE CODER</a>
+      <button class="nav-toggle" type="button" aria-controls="nav-links" aria-expanded="false" aria-label="Open menu">
+        <span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <div class="nav-col">
+          <a href="becoming-viable.html" class="nav-top-link is-active">Becoming Viable</a>
+          <div class="nav-sub">
+            <a href="mentorship.html">Mentorship</a>
+            <a href="resources.html" class="is-active">Resources</a>
+          </div>
+        </div>
+        <div class="nav-col">
+          <a href="remaining-viable.html" class="nav-top-link">Remaining Viable</a>
+          <div class="nav-sub">
+            <a href="research.html">Research</a>
+            <a href="data.html">Data</a>
+          </div>
+        </div>
+        <div class="nav-col">
+          <a href="next-steps.html" class="nav-top-link">Next Steps</a>
+          <div class="nav-sub">
+            <a href="https://calendly.com/sclayturner/advisory-session" target="_blank" rel="noopener">Schedule Discussion</a>
+            <a href="playbook.html">Get Playbook</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE BAND -->
+<header class="page-band">
+  <div class="wrap">
+    <div class="crumb reveal"><a href="becoming-viable.html" class="crumb-back" aria-label="back to Becoming Viable"><span class="chevron">‹</span>BACK</a><a href="index.html">viablecoder</a> · <a href="becoming-viable.html">becoming viable</a> · <span class="accent">resources</span></div>
+    <h1 class="reveal delay-1">DIY software, <strong>done with engineering judgment.</strong></h1>
+    <p class="kicker reveal delay-2">What an experienced builder would actually do — applied, post by post, to the problems people are bringing to AI agents right now.</p>
+
+    <ol class="method-tiles reveal delay-3">
+      <li class="tile">
+        <span class="dot">01</span>
+        <span class="phase">Where</span>
+        <h3>Problems from the wild</h3>
+        <p>Real founder and operator questions pulled from Indie Hackers, Reddit, X, LinkedIn, and podcasts.</p>
+      </li>
+      <li class="tile">
+        <span class="dot">02</span>
+        <span class="phase">How</span>
+        <h3>An approach extracted, not invented</h3>
+        <p>Drawn from my own day-to-day AI exchanges and decisions — augmented with outside research and reviewed before publishing.</p>
+      </li>
+      <li class="tile">
+        <span class="dot">03</span>
+        <span class="phase">Template</span>
+        <h3>Same shape every time</h3>
+        <p>Problem named. Common flaws. A best-in-class approach. Provenance line at the foot.</p>
+      </li>
+      <li class="tile">
+        <span class="dot">04</span>
+        <span class="phase">Who</span>
+        <h3>Tuned to six situations</h3>
+        <p>For non-technical builders and less-experienced practitioners. Each post tags to one (or more) of the six audiences below.</p>
+      </li>
+    </ol>
+  </div>
+</header>
+
+<!-- §1 — BROWSE -->
+<section class="alt-bg">
+  <div class="wrap">
+    <div class="eyebrow reveal"><span class="num">01</span><span class="bar"></span> Browse — Filter by Audience</div>
+
+    <div class="filter-bar reveal" data-feed="#outcome-feed">
+      <span class="filter-label">Filter:</span>
+      <button class="filter-pill active" data-filter="all">All <span class="count">40</span></button>
+      <button class="filter-pill" data-filter="ITW">Internal Talent Worth Developing <span class="count">6</span></button>
+      <button class="filter-pill" data-filter="SVD">SaaS Vendor Dependency <span class="count">6</span></button>
+      <button class="filter-pill" data-filter="EDD">External Dev Dependency <span class="count">7</span></button>
+      <button class="filter-pill" data-filter="LSD">Legacy Software Debt <span class="count">4</span></button>
+      <button class="filter-pill" data-filter="AID">AI Development Gap <span class="count">10</span></button>
+      <button class="filter-pill" data-filter="PPW">Prototype-to-Production Wall <span class="count">12</span></button>
+      <a class="glossary-link" href="becoming-viable.html#situations">What these mean <span class="arrow">→</span></a>
+    </div>
+
+    <div class="feed" id="outcome-feed">
+      <article class="feed-item reveal" data-tags="SVD">
+        <div class="meta">2026-05-22 · <span class="accent">Audit</span></div>
+        <h3><a href="#">The $87K SaaS line: which subscriptions are insourceable today, and which still aren't</a></h3>
+        <p class="snippet">A working operator's stack laid bare — what AI-native tooling could replace this year, what needs to wait, and the order to do them in without breaking the business.</p>
+        <div class="tags">
+          <a class="tag audience" href="becoming-viable.html#SVD">SaaS Vendor Dependency</a>
+        </div>
+      </article>
+
+      <article class="feed-item reveal" data-tags="PPW">
+        <div class="meta">2026-05-12 · <span class="accent">Case study</span></div>
+        <h3><a href="#">Lovable built this auth flow in 20 minutes — here's what breaks at 10,000 users</a></h3>
+        <p class="snippet">A founder shipped a working signup flow on a Friday. By the following Tuesday it had quietly stopped scaling. What they shipped, what fails, and what a production-grade equivalent looks like.</p>
+        <div class="tags">
+          <a class="tag audience" href="becoming-viable.html#PPW">Prototype-to-Production Wall</a>
+        </div>
+      </article>
+
+      <article class="feed-item reveal" data-tags="SVD AID">
+        <div class="meta">2026-05-05 · <span class="accent">Side-by-side</span></div>
+        <h3><a href="#">Salesforce vs. the in-house CRM that fits: six weeks, one engineer, and the part they kept</a></h3>
+        <p class="snippet">A B2B founder's team replaced their Salesforce deployment with a tailored CRM built around their actual sales motion. What AI-native development made possible — and what they wisely left on the vendor.</p>
+        <div class="tags">
+          <a class="tag audience" href="becoming-viable.html#SVD">SaaS Vendor Dependency</a>
+          <a class="tag audience" href="becoming-viable.html#AID">AI Development Gap</a>
+        </div>
+      </article>
+
+      <article class="feed-item reveal" data-tags="EDD AID">
+        <div class="meta">2026-04-28 · <span class="accent">Side-by-side</span></div>
+        <h3><a href="#">$80K, six weeks, an agency proposal — and the four-day in-house alternative</a></h3>
+        <p class="snippet">A real change-order from a B2B SaaS founder's dev shop. The agency approach, the in-house approach using AI-native tooling, and the conversation that has to happen first.</p>
+        <div class="tags">
+          <a class="tag audience" href="becoming-viable.html#EDD">External Dev Dependency</a>
+          <a class="tag audience" href="becoming-viable.html#AID">AI Development Gap</a>
+        </div>
+      </article>
+
+      <article class="feed-item reveal" data-tags="AID ITW">
+        <div class="meta">2026-04-14 · <span class="accent">Working session</span></div>
+        <h3><a href="#">The team uses Copilot. The velocity hasn't moved. Here's why.</a></h3>
+        <p class="snippet">A working session reconstructed: where the tool helps, where it stalls, what changes when someone who works AI-native sits next to the team for a day.</p>
+        <div class="tags">
+          <a class="tag audience" href="becoming-viable.html#AID">AI Development Gap</a>
+          <a class="tag audience" href="becoming-viable.html#ITW">Internal Talent Worth Developing</a>
+        </div>
+      </article>
+
+      <article class="feed-item reveal" data-tags="ITW EDD">
+        <div class="meta">2026-04-02 · <span class="accent">Contrast</span></div>
+        <h3><a href="#">The protégé who built the integration vs. the contractor who quoted it</a></h3>
+        <p class="snippet">Same scope. Same week. Two paths. What the leader who chose the protégé route learned along the way — and where the contractor approach would have been the right call.</p>
+        <div class="tags">
+          <a class="tag audience" href="becoming-viable.html#ITW">Internal Talent Worth Developing</a>
+          <a class="tag audience" href="becoming-viable.html#EDD">External Dev Dependency</a>
+        </div>
+      </article>
+
+      <article class="feed-item reveal" data-tags="LSD">
+        <div class="meta">2026-03-18 · <span class="accent">Field note</span></div>
+        <h3><a href="#">"Nobody understands this codebase" — three honest moves before the rewrite question</a></h3>
+        <p class="snippet">What to do in the first week before anyone starts talking about modernization. The cheap, honest steps that change the shape of the conversation.</p>
+        <div class="tags">
+          <a class="tag audience" href="becoming-viable.html#LSD">Legacy Software Debt</a>
+        </div>
+      </article>
+
+      <article class="feed-item reveal" data-tags="PPW">
+        <div class="meta">2026-03-04 · <span class="accent">Audit</span></div>
+        <h3><a href="#">Auditing a Bubble app on the way to a security review</a></h3>
+        <p class="snippet">A working founder asked: can this pass a SOC 2 prequel? Walking through the actual app, what holds, what doesn't, and the short list of things that would have to change.</p>
+        <div class="tags">
+          <a class="tag audience" href="becoming-viable.html#PPW">Prototype-to-Production Wall</a>
+        </div>
+      </article>
+    </div>
+
+    <div class="feed-more">Load more · 40 in archive</div>
+  </div>
+</section>
+
+<!-- §2 — THE METHOD -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow reveal"><span class="num">02</span><span class="bar"></span> The Method</div>
+    <h2 class="section-title reveal">Approach extracted from <strong>actual practice</strong>.</h2>
+    <p class="lead reveal">Each post doesn't start with me writing about a problem from scratch. It starts with a structured read of how I actually <em>think</em> — across agent transcripts, plans, reviews, commits, and decisions from my day-to-day as technical co-founder of Soaring Titan and Maximum Automotive Intelligence. That extracted approach is then applied to a publicly-sourced problem, augmented with external research where the problem warrants it, and reviewed before publishing.</p>
+    <p class="lead reveal" style="margin-top: 1rem;">This matters for two reasons. First, the "best-in-class approach" in each post isn't self-asserted — it's grounded in observable patterns from work that's already shipping. Second, the same analytic pass produces signal for <a href="data.html" style="color: var(--steel); border-bottom: 1px solid var(--steel-light);">Data</a>, particularly the Cognitive, Epistemic, and Judgment dimensions. <em>One instrument, two directions.</em></p>
+    <p class="lead reveal" style="margin-top: 1rem; font-size: 0.95em;">Each post carries a provenance line at the foot: the corpus window analyzed, external sources consulted, and the review pass that preceded publication.</p>
+  </div>
+</section>
+
+<!-- §3 — ONE QUIET LINE -->
+<section class="quiet-line">
+  <div class="narrow">
+    <p class="reveal">Want more than the posts offer? Read the <a href="playbook.html">Playbook</a> or <a href="mentorship.html">become a mentee</a>.</p>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="subscribe-band">
+  <div class="wrap">
+    <div class="sub-lede">
+      <h3 class="reveal">Sign-up for the Newsletter.</h3>
+      <p class="sub-note reveal">You'll receive publication of new Resources, Research, Data, and Playbook editions.</p>
+    </div>
+    <form class="subscribe-form reveal" action="https://buttondown.email/api/emails/embed-subscribe/viablecoder" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/viablecoder', 'popupwindow')">
+      <input type="email" name="email" placeholder="your@email.com" required>
+      <button type="submit">Subscribe <span class="arrow">&rarr;</span></button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <a href="index.html" class="wordmark"><span class="bar"></span> VIABLE CODER</a>
+      <p style="margin-top: 0.75rem; font-size: 0.8rem; color: var(--ink-3); max-width: 36ch;">A mentorship practice and an ongoing inquiry. Based in Louisville, Kentucky — working across North America and Europe.</p>
+    </div>
+    <div class="ft-col">
+      <h5>Becoming Viable</h5>
+      <a href="mentorship.html">Mentorship</a>
+      <a href="resources.html">Resources</a>
+    </div>
+    <div class="ft-col">
+      <h5>Remaining Viable</h5>
+      <a href="research.html">Research</a>
+      <a href="data.html">Data</a>
+    </div>
+    <div class="ft-col">
+      <h5>Next Steps</h5>
+      <a href="https://calendly.com/sclayturner/advisory-session" target="_blank" rel="noopener">Schedule Discussion</a>
+      <a href="playbook.html">Get Playbook</a>
+    </div>
+    <div class="ft-col">
+      <h5>S. Clay Turner</h5>
+      <a href="about.html">About Me</a>
+      <a href="mailto:clay@sclayturner.com">Email</a>
+    </div>
+    <div class="ft-bottom">
+      <div>© <span id="year"></span> S. Clay Turner</div>
+      <div><a href="https://sclayturner.com" target="_blank" rel="noopener">sclayturner.com →</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js?v=20260529"></script>
+</body>
+</html>

@@ -1,0 +1,356 @@
+{
+  "id": "ethical",
+  "family": "conditions",
+  "title": "Ethical Viability",
+  "question": "Is what I'm doing defensible — to myself, to my clients, to the field, to the people downstream?",
+  "whatsUnderThreat": "Whether what I'm doing is defensible — to myself, to clients, to the field, and especially to the people downstream of the work. Environmental cost. Labor displacement. Provenance. Concentration of decision-making power inside three or four labs. Security risk of code I did not write, shipped to systems that affect people I will never meet. A real pushback is already underway, especially among the younger practitioners now entering the field. Any one of these, on a bad day, could be the answer.",
+  "headlineMeasurementId": "output-provenance",
+  "fieldLink": "research.html#ethical",
+  "reading": {
+    "asOf": "2026-Q2",
+    "text": "Shipped-output provenance has shifted: human-only fraction dropped from 31% to 19% over the quarter; AI-assisted now 64%. Client-disclosure rate trailing at 41% — meaningfully below the practice's own stated standard. Environmental, labor, and code-review instruments come online this quarter; first readings on the new measurements expected at 2026-Q3 close."
+  },
+  "measurements": [
+    {
+      "id": "annual-ethics-essay",
+      "question": "What am I writing, annually, when I articulate my own ethical standing?",
+      "method": "Annual long-form essay. Stance markers extracted on rotating questions.",
+      "label": { "source": "asked", "cadence": "annual" },
+      "chart": "annotated-timeline",
+      "unit": "essay",
+      "yDomain": null,
+      "status": "pending",
+      "direction": null,
+      "series": [
+        {
+          "key": "essay",
+          "label": "Annual essay",
+          "data": []
+        }
+      ],
+      "cohort": null,
+      "note": "First essay due 2026-Q4."
+    },
+    {
+      "id": "client-disclosure-rate",
+      "question": "How am I disclosing AI involvement in client deliverables?",
+      "method": "Scan shipped client deliverables for AI-disclosure language. Percent of deliverables with disclosure.",
+      "label": { "source": "auto", "cadence": "monthly" },
+      "chart": "line",
+      "unit": "%",
+      "yDomain": [0, 100],
+      "status": "live",
+      "direction": "unfavorable",
+      "series": [
+        {
+          "key": "disclosure-rate",
+          "label": "Deliverables with disclosure",
+          "data": [
+            { "t": "2026-01-01", "v": 38 },
+            { "t": "2026-02-01", "v": 39 },
+            { "t": "2026-03-01", "v": 40 },
+            { "t": "2026-04-01", "v": 41 },
+            { "t": "2026-05-01", "v": 41 }
+          ]
+        }
+      ],
+      "cohort": [
+        {
+          "key": "disclosure-rate",
+          "label": "Cohort aggregate",
+          "data": [
+            { "t": "2026-01-01", "v": 22 },
+            { "t": "2026-02-01", "v": 24 },
+            { "t": "2026-03-01", "v": 26 },
+            { "t": "2026-04-01", "v": 28 },
+            { "t": "2026-05-01", "v": 30 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "public-work-disclosure",
+      "question": "How am I disclosing AI involvement in my public work — talks, posts, bios, bylines?",
+      "method": "Scan public bios, bylines, talk transcripts, and posts for AI-disclosure language. Percent of public artifacts with explicit disclosure.",
+      "label": { "source": "auto", "cadence": "monthly" },
+      "chart": "line",
+      "unit": "%",
+      "yDomain": [0, 100],
+      "status": "live",
+      "direction": "unfavorable",
+      "series": [
+        {
+          "key": "disclosure-rate",
+          "label": "Public artifacts with disclosure",
+          "data": [
+            { "t": "2026-01-01", "v": 22 },
+            { "t": "2026-02-01", "v": 24 },
+            { "t": "2026-03-01", "v": 27 },
+            { "t": "2026-04-01", "v": 30 },
+            { "t": "2026-05-01", "v": 33 }
+          ]
+        }
+      ],
+      "cohort": null
+    },
+    {
+      "id": "output-provenance",
+      "question": "Of the output I ship, what fraction is AI-generated, AI-assisted, or fully human?",
+      "method": "Pair git commits with their originating transcripts; tag each commit.",
+      "label": { "source": "auto", "cadence": "monthly" },
+      "chart": "stacked-area",
+      "unit": "%",
+      "yDomain": [0, 100],
+      "status": "live",
+      "direction": "neutral",
+      "series": [
+        {
+          "key": "human-only",
+          "label": "Fully human",
+          "data": [
+            { "t": "2026-01-01", "v": 31 },
+            { "t": "2026-02-01", "v": 27 },
+            { "t": "2026-03-01", "v": 24 },
+            { "t": "2026-04-01", "v": 21 },
+            { "t": "2026-05-01", "v": 19 }
+          ]
+        },
+        {
+          "key": "ai-assisted",
+          "label": "AI-assisted",
+          "data": [
+            { "t": "2026-01-01", "v": 54 },
+            { "t": "2026-02-01", "v": 58 },
+            { "t": "2026-03-01", "v": 60 },
+            { "t": "2026-04-01", "v": 62 },
+            { "t": "2026-05-01", "v": 64 }
+          ]
+        },
+        {
+          "key": "ai-generated",
+          "label": "AI-generated",
+          "data": [
+            { "t": "2026-01-01", "v": 15 },
+            { "t": "2026-02-01", "v": 15 },
+            { "t": "2026-03-01", "v": 16 },
+            { "t": "2026-04-01", "v": 17 },
+            { "t": "2026-05-01", "v": 17 }
+          ]
+        }
+      ],
+      "cohort": null
+    },
+    {
+      "id": "field-norm-tracker",
+      "question": "Where is the field shifting on attribution, labor displacement, and model-generated code in regulated systems?",
+      "method": "Curated scan of professional-body publications, regulatory filings, policy positions, news coverage. AI summarization and stance-tracking per topic.",
+      "label": { "source": "auto", "cadence": "monthly" },
+      "chart": "scatter",
+      "unit": "publications",
+      "yDomain": [0, null],
+      "status": "live",
+      "direction": "neutral",
+      "series": [
+        {
+          "key": "attribution",
+          "label": "Attribution",
+          "data": [
+            { "t": "2026-01-15", "v": 2 },
+            { "t": "2026-02-15", "v": 3 },
+            { "t": "2026-03-15", "v": 4 },
+            { "t": "2026-04-15", "v": 6 },
+            { "t": "2026-05-15", "v": 5 }
+          ]
+        },
+        {
+          "key": "labor-displacement",
+          "label": "Labor displacement",
+          "data": [
+            { "t": "2026-01-15", "v": 4 },
+            { "t": "2026-02-15", "v": 5 },
+            { "t": "2026-03-15", "v": 4 },
+            { "t": "2026-04-15", "v": 6 },
+            { "t": "2026-05-15", "v": 7 }
+          ]
+        },
+        {
+          "key": "regulated-systems",
+          "label": "Regulated systems",
+          "data": [
+            { "t": "2026-01-15", "v": 1 },
+            { "t": "2026-02-15", "v": 2 },
+            { "t": "2026-03-15", "v": 2 },
+            { "t": "2026-04-15", "v": 3 },
+            { "t": "2026-05-15", "v": 4 }
+          ]
+        }
+      ],
+      "cohort": null
+    },
+    {
+      "id": "token-volume",
+      "question": "How many tokens am I generating per month, and what is the trend?",
+      "method": "Pull billing and usage data from every AI provider. Sum input plus output tokens per month.",
+      "label": { "source": "auto", "cadence": "monthly" },
+      "chart": "line",
+      "unit": "M tokens",
+      "yDomain": [0, null],
+      "status": "live",
+      "direction": "neutral",
+      "series": [
+        {
+          "key": "monthly-tokens",
+          "label": "Total tokens per month (millions)",
+          "data": [
+            { "t": "2026-01-01", "v": 42 },
+            { "t": "2026-02-01", "v": 48 },
+            { "t": "2026-03-01", "v": 55 },
+            { "t": "2026-04-01", "v": 63 },
+            { "t": "2026-05-01", "v": 71 }
+          ]
+        }
+      ],
+      "cohort": null,
+      "note": "Reported in millions of tokens (input plus output). Trend reads upward as practice scales; ethical reading depends on the kWh and CO₂e it implies — see the next measurement."
+    },
+    {
+      "id": "compute-environmental-cost",
+      "question": "What is the estimated kWh and CO₂e of that month's compute, using each provider's published efficiency numbers?",
+      "method": "Apply provider-published efficiency factors (Wh per token, grid CO₂ intensity by provider region) to monthly token volume. Methodology versioned with PhD collaborator; gaps in provider transparency disclosed alongside readings.",
+      "label": { "source": "auto", "cadence": "monthly" },
+      "chart": "line",
+      "unit": "kWh / kg CO₂e",
+      "yDomain": [0, null],
+      "status": "pending",
+      "direction": null,
+      "series": [
+        {
+          "key": "kwh",
+          "label": "Estimated kWh",
+          "data": []
+        },
+        {
+          "key": "co2e",
+          "label": "Estimated kg CO₂e",
+          "data": []
+        }
+      ],
+      "cohort": null,
+      "note": "Methodology under construction with PhD collaborator. Several providers publish nothing usable today; gaps and assumptions will be disclosed alongside the first reading at 2026-Q3 close."
+    },
+    {
+      "id": "model-efficiency-choice",
+      "question": "When a smaller or more efficient model can do the job, am I choosing it?",
+      "method": "Per-request model selection extracted from agent transcripts. Tasks tagged by complexity floor; measure the share routed to lighter models where complexity floor permits.",
+      "label": { "source": "auto", "cadence": "monthly" },
+      "chart": "line",
+      "unit": "%",
+      "yDomain": [0, 100],
+      "status": "live",
+      "direction": "favorable",
+      "series": [
+        {
+          "key": "light-model-share",
+          "label": "Light-model share where adequate",
+          "data": [
+            { "t": "2026-01-01", "v": 12 },
+            { "t": "2026-02-01", "v": 17 },
+            { "t": "2026-03-01", "v": 23 },
+            { "t": "2026-04-01", "v": 31 },
+            { "t": "2026-05-01", "v": 38 }
+          ]
+        }
+      ],
+      "cohort": null,
+      "note": "Direction favorable: rising share means more work is being routed to lighter models when frontier capability isn't required."
+    },
+    {
+      "id": "roles-displaced",
+      "question": "What roles or hours of work am I no longer paying humans for that I would have a year ago?",
+      "method": "Quarterly self-report. Roles formerly outsourced or hired for, now performed by agents. Hours and dollar deltas tracked, with year-over-year framing.",
+      "label": { "source": "asked", "cadence": "quarterly" },
+      "chart": "annotated-timeline",
+      "unit": "report",
+      "yDomain": null,
+      "status": "pending",
+      "direction": null,
+      "series": [
+        {
+          "key": "quarterly-report",
+          "label": "Quarterly displacement report",
+          "data": []
+        }
+      ],
+      "cohort": null,
+      "note": "First reading at 2026-Q3 close."
+    },
+    {
+      "id": "provider-concentration",
+      "question": "How concentrated is my practice in any single provider's tooling, and do I have a working fallback if access were cut?",
+      "method": "Token spend per provider as a share of total. Plus a quarterly tested-fallback flag — whether a real workload was successfully run on an alternate provider in the past ninety days.",
+      "label": { "source": "auto", "cadence": "quarterly" },
+      "chart": "stacked-area",
+      "unit": "%",
+      "yDomain": [0, 100],
+      "status": "live",
+      "direction": "unfavorable",
+      "series": [
+        {
+          "key": "anthropic",
+          "label": "Anthropic",
+          "data": [
+            { "t": "2026-01-01", "v": 71 },
+            { "t": "2026-02-01", "v": 73 },
+            { "t": "2026-03-01", "v": 75 },
+            { "t": "2026-04-01", "v": 77 },
+            { "t": "2026-05-01", "v": 78 }
+          ]
+        },
+        {
+          "key": "openai",
+          "label": "OpenAI",
+          "data": [
+            { "t": "2026-01-01", "v": 22 },
+            { "t": "2026-02-01", "v": 20 },
+            { "t": "2026-03-01", "v": 18 },
+            { "t": "2026-04-01", "v": 17 },
+            { "t": "2026-05-01", "v": 16 }
+          ]
+        },
+        {
+          "key": "other",
+          "label": "Other (Google, open-source, local)",
+          "data": [
+            { "t": "2026-01-01", "v": 7 },
+            { "t": "2026-02-01", "v": 7 },
+            { "t": "2026-03-01", "v": 7 },
+            { "t": "2026-04-01", "v": 6 },
+            { "t": "2026-05-01", "v": 6 }
+          ]
+        }
+      ],
+      "cohort": null,
+      "note": "Last successful fallback-test: 2026-04 (a real workload routed to OpenAI for three hours). Direction unfavorable as Anthropic share continues to drift upward."
+    },
+    {
+      "id": "code-review-fraction",
+      "question": "What fraction of model-generated code from my practice am I personally reviewing before it reaches systems that affect people?",
+      "method": "Instrument the deployment pipeline. Tag commits as reviewed-line-by-line versus accepted-without-line-review. Filter for commits reaching production systems.",
+      "label": { "source": "auto", "cadence": "monthly" },
+      "chart": "line",
+      "unit": "%",
+      "yDomain": [0, 100],
+      "status": "pending",
+      "direction": null,
+      "series": [
+        {
+          "key": "reviewed-fraction",
+          "label": "Reviewed line-by-line",
+          "data": []
+        }
+      ],
+      "cohort": null,
+      "note": "Pipeline instrumentation under development. First reading expected at 2026-Q3 close."
+    }
+  ]
+}

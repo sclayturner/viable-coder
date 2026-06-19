@@ -1,0 +1,181 @@
+{
+  "id": "judgment",
+  "family": "practice",
+  "title": "Judgment Viability",
+  "question": "What happens when the models exercise the judgment I currently sell?",
+  "whatsUnderThreat": "The architectural, strategic, and design judgment that AI tools currently accelerate but do not yet originate. The judgment senior practitioners sell is migrating into the models themselves at a rate nobody has fully reckoned with.",
+  "headlineMeasurementId": "material-improvement-override-rate",
+  "fieldLink": "research.html#judgment",
+  "reading": {
+    "asOf": "2026-Q2",
+    "text": "First blind comparison: practitioner preferred in 6/8 problems. Locked-benchmark gap narrowing with each release — frontier model now scoring 71 against the practitioner's locked 78. Material-improvement override rate holding ~3.2 per session; the trend matters more than the absolute number."
+  },
+  "measurements": [
+    {
+      "id": "blind-comparison",
+      "question": "On the same problem, how does my work compare to the frontier model's — judged blindly by independent reviewers?",
+      "method": "Practitioner and model solve the same set of problems; independent reviewers score blindly.",
+      "label": { "source": "asked", "cadence": "quarterly" },
+      "chart": "line",
+      "unit": "%",
+      "yDomain": [0, 100],
+      "status": "live",
+      "direction": "favorable",
+      "series": [
+        {
+          "key": "preference-rate",
+          "label": "Practitioner-preference rate",
+          "data": [
+            { "t": "2026-03-01", "v": 75 }
+          ]
+        }
+      ],
+      "cohort": null,
+      "note": "First run: n=8 problems. Practitioner preferred 6/8."
+    },
+    {
+      "id": "frontier-gap-tracker",
+      "question": "On a locked set of judgment-heavy problems, how is the gap moving with each new frontier model release?",
+      "method": "Locked benchmark, re-run automatically on each major model release.",
+      "label": { "source": "auto", "cadence": "per-release" },
+      "chart": "step",
+      "unit": "score",
+      "yDomain": [0, 100],
+      "status": "live",
+      "direction": "neutral",
+      "series": [
+        {
+          "key": "model-score",
+          "label": "Frontier model score on locked benchmark",
+          "data": [
+            { "t": "2026-01-10", "v": 58 },
+            { "t": "2026-02-15", "v": 62 },
+            { "t": "2026-04-10", "v": 71 }
+          ]
+        }
+      ],
+      "cohort": null,
+      "referenceLines": [
+        {
+          "label": "Practitioner score (locked)",
+          "value": 78
+        }
+      ]
+    },
+    {
+      "id": "material-improvement-override-rate",
+      "question": "How often am I pushing back on the agent in ways that materially improve the planned code?",
+      "method": "For each diff between agent-proposed code and what landed in the commit, two signal sources: agent-validated overrides (where the agent acknowledges the practitioner's pushback was right AND amends its planned action) and AI-evaluated overrides (classified as improvement / neutral / regression).",
+      "label": { "source": "auto", "cadence": "weekly" },
+      "chart": "line",
+      "unit": "rate",
+      "yDomain": [0, null],
+      "status": "live",
+      "direction": "neutral",
+      "series": [
+        {
+          "key": "rate",
+          "label": "Material-improvement overrides per session",
+          "data": [
+            { "t": "2026-01-05", "v": 3.8 },
+            { "t": "2026-01-19", "v": 3.6 },
+            { "t": "2026-02-02", "v": 3.7 },
+            { "t": "2026-02-16", "v": 3.4 },
+            { "t": "2026-03-02", "v": 3.5 },
+            { "t": "2026-03-16", "v": 3.3 },
+            { "t": "2026-03-30", "v": 3.2 },
+            { "t": "2026-04-13", "v": 3.1 },
+            { "t": "2026-04-27", "v": 3.2 },
+            { "t": "2026-05-11", "v": 3.0 }
+          ]
+        }
+      ],
+      "cohort": [
+        {
+          "key": "rate",
+          "label": "Cohort aggregate",
+          "data": [
+            { "t": "2026-01-05", "v": 2.6 },
+            { "t": "2026-02-02", "v": 2.5 },
+            { "t": "2026-03-02", "v": 2.3 },
+            { "t": "2026-04-06", "v": 2.2 },
+            { "t": "2026-05-04", "v": 2.1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly-judgment-log",
+      "question": "Each week, which three judgment calls did I make that the model wouldn't have?",
+      "method": "Agent surfaces candidate moments from transcripts where the practitioner overrode an AI suggestion; practitioner confirms or replaces with their own three, with one-sentence rationale.",
+      "label": { "source": "asked", "cadence": "weekly" },
+      "chart": "line",
+      "unit": "count",
+      "yDomain": [0, null],
+      "status": "live",
+      "direction": "neutral",
+      "series": [
+        {
+          "key": "logged",
+          "label": "Judgment calls logged per week",
+          "data": [
+            { "t": "2026-01-05", "v": 3 },
+            { "t": "2026-01-19", "v": 3 },
+            { "t": "2026-02-02", "v": 2 },
+            { "t": "2026-02-16", "v": 3 },
+            { "t": "2026-03-02", "v": 3 },
+            { "t": "2026-03-16", "v": 3 },
+            { "t": "2026-03-30", "v": 3 },
+            { "t": "2026-04-13", "v": 3 },
+            { "t": "2026-04-27", "v": 2 },
+            { "t": "2026-05-11", "v": 3 }
+          ]
+        }
+      ],
+      "cohort": null
+    },
+    {
+      "id": "judgment-category-migration",
+      "question": "Which categories of judgment — architectural, strategic, design, operational — are moving into the model first?",
+      "method": "Classify locked-benchmark problems by category; track per-category gap movement.",
+      "label": { "source": "auto", "cadence": "quarterly" },
+      "chart": "dual-line",
+      "unit": "gap",
+      "yDomain": [0, null],
+      "status": "instrumented",
+      "direction": null,
+      "series": [
+        {
+          "key": "architectural",
+          "label": "Architectural",
+          "data": [
+            { "t": "2026-04-10", "v": 14 }
+          ]
+        },
+        {
+          "key": "strategic",
+          "label": "Strategic",
+          "data": [
+            { "t": "2026-04-10", "v": 18 }
+          ]
+        },
+        {
+          "key": "design",
+          "label": "Design",
+          "data": [
+            { "t": "2026-04-10", "v": 8 }
+          ]
+        },
+        {
+          "key": "operational",
+          "label": "Operational",
+          "data": [
+            { "t": "2026-04-10", "v": 4 }
+          ]
+        }
+      ],
+      "cohort": null,
+      "note": "First per-category reading taken on 2026-Q2 model release. Trend emerges with subsequent quarterly readings."
+    }
+  ]
+}

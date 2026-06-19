@@ -1,0 +1,129 @@
+{
+  "id": "epistemic",
+  "family": "practitioner",
+  "title": "Epistemic Viability",
+  "question": "Do I still know what I know?",
+  "whatsUnderThreat": "The standing relationship between me and the artifacts I produce. When systems are generated through dialogue with an agent, do I understand them the way I understood code I wrote by hand?",
+  "headlineMeasurementId": "explain-it-cold",
+  "fieldLink": "research.html#epistemic",
+  "reading": {
+    "asOf": "2026-Q2",
+    "text": "Baseline established (n=4). Composite explain-it-cold score 78/100. Self-reports out-of-step with debug-time results in 2 of 4 cases — the practitioner's stated understanding consistently overestimates measured understanding."
+  },
+  "measurements": [
+    {
+      "id": "explain-it-cold",
+      "question": "Can I explain, cold, a system I built 30–90 days ago — without agent access?",
+      "method": "Agent picks a system from 30–90 days ago, schedules a recorded explanation session. AI evaluator scores the explanation against the repo for factual accuracy.",
+      "label": { "source": "asked", "cadence": "monthly" },
+      "chart": "line",
+      "unit": "score",
+      "yDomain": [0, 100],
+      "status": "live",
+      "direction": "neutral",
+      "series": [
+        {
+          "key": "score",
+          "label": "Explain-it-cold accuracy",
+          "data": [
+            { "t": "2026-01-01", "v": 82 },
+            { "t": "2026-02-01", "v": 80 },
+            { "t": "2026-03-01", "v": 78 },
+            { "t": "2026-04-01", "v": 79 },
+            { "t": "2026-05-01", "v": 77 }
+          ]
+        }
+      ],
+      "cohort": [
+        {
+          "key": "score",
+          "label": "Cohort aggregate",
+          "data": [
+            { "t": "2026-01-01", "v": 71 },
+            { "t": "2026-02-01", "v": 70 },
+            { "t": "2026-03-01", "v": 70 },
+            { "t": "2026-04-01", "v": 69 },
+            { "t": "2026-05-01", "v": 69 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "time-to-debug",
+      "question": "How quickly can I debug a prior-built system without the agent's help?",
+      "method": "Agent introduces a known bug into a prior system; practitioner times themselves debugging without agent help.",
+      "label": { "source": "asked", "cadence": "quarterly" },
+      "chart": "line",
+      "unit": "minutes",
+      "yDomain": [0, null],
+      "status": "instrumented",
+      "direction": null,
+      "series": [
+        {
+          "key": "minutes",
+          "label": "Median minutes to fix",
+          "data": []
+        }
+      ],
+      "cohort": null,
+      "note": "First reading scheduled 2026-Q3."
+    },
+    {
+      "id": "human-vs-agent-doc-ratio",
+      "question": "How much of the documentation on my shipped systems was written by me versus by the agent?",
+      "method": "Git blame on docs (READMEs, .md files, code comments) plus stylometric classifier flagging agent-authored prose.",
+      "label": { "source": "auto", "cadence": "monthly" },
+      "chart": "line",
+      "unit": "%",
+      "yDomain": [0, 100],
+      "status": "live",
+      "direction": "neutral",
+      "series": [
+        {
+          "key": "human-authored",
+          "label": "Human-authored documentation",
+          "data": [
+            { "t": "2026-01-01", "v": 58 },
+            { "t": "2026-02-01", "v": 55 },
+            { "t": "2026-03-01", "v": 53 },
+            { "t": "2026-04-01", "v": 51 },
+            { "t": "2026-05-01", "v": 49 }
+          ]
+        }
+      ],
+      "cohort": [
+        {
+          "key": "human-authored",
+          "label": "Cohort aggregate",
+          "data": [
+            { "t": "2026-01-01", "v": 42 },
+            { "t": "2026-02-01", "v": 40 },
+            { "t": "2026-03-01", "v": 38 },
+            { "t": "2026-04-01", "v": 36 },
+            { "t": "2026-05-01", "v": 35 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "architectural-recall",
+      "question": "Can I draw the architecture of one of my systems from memory — and does it match ground truth?",
+      "method": "Practitioner draws or types out the architecture; AI evaluator compares to actual codebase architecture.",
+      "label": { "source": "asked", "cadence": "quarterly" },
+      "chart": "line",
+      "unit": "score",
+      "yDomain": [0, 100],
+      "status": "instrumented",
+      "direction": null,
+      "series": [
+        {
+          "key": "accuracy",
+          "label": "Architectural recall accuracy",
+          "data": []
+        }
+      ],
+      "cohort": null,
+      "note": "First reading scheduled 2026-Q3."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Viable Coder Voice"
+  short_description: "Keep Viable Coder writing in Clay Turner’s voice and position."
+  default_prompt: "Review this for Viable Coder voice and positioning."
