@@ -14,7 +14,7 @@
  
 **The load-bearing diagnostic for every audience** is the one your outline calls the sharpest tool in the part: **develop the faculty** (the person wants this end as a real, owned capability) vs. **borrow the frame** (the person needs just enough to stay *answerable* for a call they will never author). Each situation below is tagged with its default position on that spectrum, plus **which of the two ends it holds badly** — origination at the front, answerability at the back. That tag is what later calibrates the teaching agents in Section 3 (transfer fully vs. teach just enough frame).
  
-A note on your own material: throughout, I flag **"Clay-experience anchors to capture."** These are prompts for *you* to mine your own 30-year engineering and founder history — the modules that make this yours and not a generic survey. I can't research those; I can only mark where the playbook needs one.
+A note on your own material: throughout, I flag **"Clay-experience anchors to capture."** These are prompts for *you* to mine three wells of experience: founder judgment, engineering judgment, and the personal life experience beneath both. The modules become yours when they carry the right source: what you learned building companies, what you learned building systems, and what you learned by owning consequences in ordinary human life. I can't research those; I can only mark where the playbook needs one.
  
 ---
  
@@ -240,4 +240,3 @@ Streams C and D can be folded into whichever pass first needs them rather than d
 3. **Whether the founder faculty (Stream A) becomes its own audience-adjacent track** or stays a borrowable module set — first-time founders may need it as a full default collection, not a borrow.
 4. **Where "review capacity as condition" (Stream D) lives** — Section 2 as an audience trait, or Section 3 as an ADLC constraint, or both.
 5. **How much psychometric apparatus the operating profile (Stream F) carries** — a light functional read administered with the intake, or a more formal instrument, and how far its baselines feed the Section 4 dashboard thresholds. Keep it functional (instrument the constraint) rather than categorical (type the person), per the stream's methodological spine.
- 

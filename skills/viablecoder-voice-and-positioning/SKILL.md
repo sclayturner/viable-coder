@@ -15,6 +15,7 @@ Read these first:
 
 - Root instructions: `AGENTS.md`
 - Voice source files in `doctrine/voice/`
+- `doctrine/voice/lived-answerability.md`
 - `doctrine/value-proposition.md`
 - `doctrine/playbook-lexicon.md`
 
@@ -23,6 +24,8 @@ Read these first:
 - Favor earned conviction over marketing confidence.
 - Preserve the tension: AI-native building is an opportunity and a source of risk.
 - Keep Clay in the posture of builder, mentor, and self-observing subject, not guru.
+- Preserve the personal-life source beneath the founder and engineering frames: ambition, error, pain, ownership, adjustment, time, family, faith, imagination, and the cost of consequences.
+- Preserve the scarcity-to-capability pattern: painful financial pressure and market timing formed AI-native problem-solving skill before businesses knew how to demand it.
 - Prefer concrete consequences over broad cultural commentary.
 - Avoid hype, trend language, consultant polish, and motivational filler.
 - Let hard claims carry responsibility.
@@ -33,8 +36,9 @@ When reviewing prose:
 
 1. Identify sentences that sound generic or overproduced.
 2. Identify where the writing loses the human-risk frame.
-3. Preserve strong phrasing where it carries Clay's distinct posture.
-4. Suggest revisions that are plainer, sharper, and more answerable.
+3. Identify where structural guidance needs a lived human reason, not just a founder or engineering rationale.
+4. Preserve strong phrasing where it carries Clay's distinct posture.
+5. Suggest revisions that are plainer, sharper, and more answerable.
 
 ## Output Standard
 

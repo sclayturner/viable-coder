@@ -16,6 +16,7 @@ Read these first:
 - Root instructions: `AGENTS.md`
 - Book instructions: `book/AGENTS.md`
 - Source routing: `ai/source-map.md`
+- Lived answerability: `doctrine/voice/lived-answerability.md`
 - Structure eval: `ai/evals/structure-checklist.md`
 - Doctrine drift eval: `ai/evals/doctrine-drift-checklist.md`
 
@@ -27,6 +28,8 @@ Read these first:
 - Is a bridge missing between audience, module, ADLC gate, and Section 4 signal?
 - Has a term drifted from `doctrine/playbook-lexicon.md`?
 - Has the human-machine role distinction blurred?
+- Has personal source material been framed as structural evidence, or has it drifted into memoir disconnected from the reader's path?
+- Has structural material lost the lived human reason that makes the doctrine matter?
 
 ## Output Standard
 

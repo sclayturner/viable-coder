@@ -30,7 +30,7 @@ The repository is a live working source, not a finished publication package.
 | `skills/` | Reusable Codex skills for this project. |
 | `agents/` | Role briefs for independent editorial, research, voice, structure, and module reviews. |
 | `ai/` | Collaboration workflows, source map, evaluation checklists, and operating notes. |
-| `archive/` | Historical imported material and provenance. Do not edit it as canonical source. |
+| `archive/` | Historical imported material, prior books, and provenance. Do not edit it as canonical source. |
 
 Use `ai/source-map.md` to decide which files to load for a task. Prefer canonical source files over `archive/`.
 
@@ -128,6 +128,7 @@ Do not present current mocked site findings as validated research evidence. If a
 
 The repository includes process support for AI-assisted authorship:
 
+- `ai/adlc-dogfooding.md` maps the ADLC back onto how this repository is worked.
 - `ai/workflows/` holds repeatable workflows.
 - `ai/evals/` holds quality checklists.
 - `agents/` holds independent review role briefs.
@@ -140,4 +141,3 @@ For AI collaborators, the root instruction file is `AGENTS.md`. It is part of th
 Write plainly, with weight.
 
 Avoid hype, vendor language, and generalized futurism. Keep the human answerable for risk, judgment, origination, and review. Treat AI as a powerful collaborator inside a governed process, not as the author of the ends.
-

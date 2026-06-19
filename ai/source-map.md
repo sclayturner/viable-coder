@@ -11,6 +11,14 @@ Use this file to route context loads. Prefer canonical files over `archive/`.
 - Website instructions: `website/AGENTS.md`
 - Skill instructions: `skills/AGENTS.md`
 
+## AI Collaboration
+
+- Collaboration model: `ai/collaboration-model.md`
+- ADLC dogfooding: `ai/adlc-dogfooding.md`
+- Workflows: `ai/workflows/`
+- Evals: `ai/evals/`
+- Source guides: `ai/source-guides/`
+
 ## Book
 
 - Current section outlines: `book/outlines/`
@@ -28,6 +36,7 @@ Use this file to route context loads. Prefer canonical files over `archive/`.
 - Upkeep: `doctrine/upkeep.md`
 - Nine dimensions: `doctrine/nine-dimensions-model.md`
 - Clay voice anchors: `doctrine/voice/`
+- Lived answerability: `doctrine/voice/lived-answerability.md`
 
 ## Research
 
@@ -44,4 +53,10 @@ Use this file to route context loads. Prefer canonical files over `archive/`.
 ## Archive
 
 - Raw Claude project import: `archive/claude-project-import/`
+- Prior book source: `archive/prior-books/superhuman-2025.md`
 - Use archive material only for provenance or when no canonical promoted file exists.
+
+## Historical Source Guides
+
+- Prior book source guide: `ai/source-guides/superhuman-2025-source-guide.md`
+- Treat guided historical sources as references, not canonical source. Promote ideas into the appropriate canonical folder before using them as doctrine, manuscript, research, or website copy.

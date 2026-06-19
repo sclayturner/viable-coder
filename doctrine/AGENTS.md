@@ -9,7 +9,7 @@ Use this folder for durable concepts that govern the playbook and website.
 - `organic-intelligence.md`: the human side of the human-machine distinction.
 - `human-condition.md`, `observability.md`, `upkeep.md`: the maintenance trilogy for the human as an instrument.
 - `nine-dimensions-model.md`: long-term viability model.
-- `voice/`: source material for Clay's style, posture, and philosophical commitments.
+- `voice/`: source material for Clay's style, posture, lived answerability, and philosophical commitments.
 
 ## Working Rules
 
@@ -17,3 +17,4 @@ Use this folder for durable concepts that govern the playbook and website.
 - When adding a term, decide whether it belongs in `playbook-lexicon.md`.
 - When changing a core distinction, check whether the four-section architecture still holds.
 - Keep doctrine reusable. If a passage is chapter prose, move it to `book/`.
+- When using personal source material, keep it structurally relevant. It should explain why a doctrine, gate, module, or discipline matters; it should not become decorative memoir.
