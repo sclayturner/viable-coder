@@ -33,6 +33,7 @@ Then load only the files needed for the current task:
 - Preserve the four-section architecture unless the task is explicitly architectural.
 - Keep chapter prose distinct from research notes, website copy, and doctrine definitions.
 - Prefer felt-need order over explanation order for major reader-facing units: Scene -> Tension -> Distinction -> Tool -> Return.
+- For structural work on major reader-facing units, use a narrative prose draft as a validation artifact alongside the structural artifact. The narrative is not manuscript prose or polish; it tests whether the structure earns reader-pull. Default sequence: conceptual frame -> granular sub-beats -> narrative validation.
 - Use story as structural evidence. A scene should carry a doctrine, gate, module, diagnostic, exercise, or signal; it should not merely add color.
 - Prefer concrete reader situations, diagnostics, exercises, and decisions.
 - Know which Clay source is carrying the passage: founder experience, engineering experience, personal life experience, or a deliberate combination.
@@ -42,7 +43,7 @@ Then load only the files needed for the current task:
 
 ## Output Standard
 
-For review tasks, lead with findings and file references. For drafting tasks, produce clean prose plus a short note on source assumptions. For restructuring tasks, propose moves before rewriting.
+For review tasks, lead with findings and file references. For drafting tasks, produce clean prose plus a short note on source assumptions. For restructuring tasks, propose moves before rewriting. For structural tasks on major reader-facing units, include or recommend the narrative validation pass unless there is a clear reason it does not apply.
 
 ## Checks
 

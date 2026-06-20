@@ -35,3 +35,8 @@ The reader-orientation pattern lives in `doctrine/reader-orientation-pattern.md`
 ## Sync Rule
 
 When changing a reusable AI workflow, skill, agent, or instruction surface, update every active harness copy in the same change. Do not update only one harness location unless the change is intentionally harness-specific. If a divergence is intentional, document the reason in the changed file or here.
+
+## Guidance Sync Notes
+
+- 2026-06-20: Added narrative validation guidance for major reader-facing playbook structure work across `book/AGENTS.md`, `.claude/rules/book.md`, both `viablecoder-playbook-editor` skill copies, `ai/evals/structure-checklist.md`, and `book/outlines/README.md`.
+- 2026-06-20: Established `doctrine/audiences.md` as the canonical six-audience source of truth; registered in `doctrine/AGENTS.md`, `.claude/rules/doctrine.md`, and `ai/source-map.md`. Downstream propagation across `book/modules/`, `book/outlines/`, and `website/` follows.

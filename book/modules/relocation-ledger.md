@@ -1,6 +1,8 @@
 # The Relocation Ledger & Dimension Pointers
  
 *Section 2 → Section 4 bridge artifact. Every escape is a trade: each situation's fix relocates risk rather than removing it. This artifact books both columns of that trade (the ledger) and names which of Section 4's nine dimensions each trade lights up (the pointer) — **named only, never defined here.** Definitions and instrumentation are Section 4's harvest.*
+
+*Canonical audience definitions live in [doctrine/audiences.md](doctrine/audiences.md). The ledger entries below assume those definitions; if they drift, update the doctrine first, then the ledger.*
  
 ---
  
@@ -12,7 +14,8 @@
 | **SaaS Vendor Dependency** | Perpetual rent and the vendor's control over a slice of operations | The maintenance burden of the tool you now own and run; model/build risk if it's agent-built | Temporal · Economic |
 | **External Dev Dependency** | The agency margin and the "you don't own what you can't change or see" trap | In-house origination + answerability — and, once the same agents are available to everyone, the question of what's left that's yours | Differential · Economic |
 | **Legacy Software Debt** | A system you couldn't see, couldn't safely touch, and feared | A modernization in which a model now makes change decisions on your behalf over code you still don't fully frame | Judgment |
-| **AI Development Gap** | The bottleneck of producing by hand | The standing burden of *verification debt* — output you can ship but can't fully verify or explain | Epistemic · Cognitive |
+| **AI Development Gap** *(Shape A — pre-adoption)* | The drag of stalled adoption / evaluation paralysis / staying structurally behind | Change-management load, tool-evaluation cost, and the risk of crossing into Shape B (verification debt) if velocity is chased before the answerable end | Epistemic · Cognitive |
+| **AI Development Gap** *(Shape B — post-adoption, blind)* | The bottleneck of producing by hand | The standing burden of *verification debt* — output you can ship but can't fully verify or explain | Epistemic · Cognitive |
 | **Prototype-to-Production Wall** | The freedom of a prototype that never had to hold the answerable half | Accountability in registers the prototype never owed — real user data, security, reliability, the consequences that land on people once it's live | Ethical |
  
 ---
@@ -22,7 +25,7 @@
 Each carries a one-line routing header (which end held badly / develop-or-borrow default / who lands here), the two-column ledger with the **Adopted** side forced to three-plus entries — it's the column founders leave empty — and a **residual-risk statement** template, the sentence that converts a hidden cost into a chosen one.
  
 ### 1. Internal Talent Worth Developing
-*Holds both ends, wants to transfer the engineering faculty into real people · default: develop the faculty, fully · existing employees + the leader who sponsors them.*
+*Holds both ends, wants to transfer the engineering and product-ownership faculty into specific developable people — an individual standout or a small team of change-makers · default: develop the faculty, fully · existing employees + the leader who sponsors them.*
  
 - **Shed:** external hiring/contracting capability.
 - **Adopted:**
@@ -62,7 +65,18 @@ Each carries a one-line routing header (which end held badly / develop-or-borrow
 - **Residual-risk statement:** *"We choose to hold the risk that modernization decisions are partly the model's — acceptable only while we externalize the situation model (characterization tests, ADRs) to keep the judgment ours."*
 - **Lights up:** Judgment.
 ### 5. AI Development Gap
-*Producible middle flows, answerable back end unheld · default: develop the faculty (closing the gap* is *building owned capability) · the team mid-adoption.*
+*Two shapes — sometimes both at once — but the same kit and the same destination · default: develop the faculty (closing the gap* is *building owned capability) · the team mid-non-adoption or mid-blind-adoption.*
+
+**Shape A — pre-adoption (stalled, paralyzed, not started).**
+
+- **Shed:** the drag of stalled adoption / evaluation paralysis / staying structurally behind while peers move.
+- **Adopted:**
+  - change-management load — the org has to actually do the work of moving;
+  - tool-evaluation cost — credible first-move pathways, not just buying Copilot seats;
+  - the risk of crossing into Shape B if velocity is chased before the answerable end is built.
+- **Residual-risk statement:** *"We choose to hold the change-management and tool-evaluation load of moving AI-native — acceptable only because we develop the answerable end alongside the producible velocity, not after it."*
+
+**Shape B — post-adoption, blind (verification debt).**
  
 - **Shed:** the bottleneck of producing by hand.
 - **Adopted:**
@@ -70,9 +84,11 @@ Each carries a one-line routing header (which end held badly / develop-or-borrow
   - review-capacity load that can't scale (finite attention, the rubber-stamp default);
   - automation complacency that keeps the gap invisible, plus the self-spec substitution risk.
 - **Residual-risk statement:** *"We choose to hold the standing burden of telling true from merely plausible as volume grows — acceptable only while we develop owned capability (spec-driven development, structural gates) faster than output."*
-- **Lights up:** Epistemic · Cognitive.
+
+- **Lights up (either shape):** Epistemic · Cognitive.
+
 ### 6. Prototype-to-Production Wall
-*Origination happened and the thing exists, but the answerable back end was never required by a prototype · default: develop on the non-functional surface, borrow where you'll rely on specialists/agents · technical or non-technical founder with a demo to productize.*
+*Built on Lovable / Base44 / Replit / Bubble / a Cursor-vibe stack — looks amazing, traction showed up, scaling isn't happening · default: develop on the non-functional surface, borrow where you'll rely on specialists/agents · the enthusiastic founder who chose those tools specifically because they appeared to remove engineering time and cost from the equation.*
  
 - **Shed:** the freedom of a prototype that never had to hold the answerable half.
 - **Adopted:**

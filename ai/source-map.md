@@ -43,6 +43,7 @@ Use this file to route context loads. Prefer canonical files over `archive/`.
 
 - Value proposition: `doctrine/value-proposition.md`
 - Lexicon: `doctrine/playbook-lexicon.md`
+- Audiences (canonical six): `doctrine/audiences.md`
 - Organic Intelligence: `doctrine/organic-intelligence.md`
 - Human condition: `doctrine/human-condition.md`
 - Observability: `doctrine/observability.md`

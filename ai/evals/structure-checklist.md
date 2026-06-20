@@ -11,4 +11,5 @@ Check substantial changes against these questions:
 - If personal material appears, is it doing structural work rather than merely adding color?
 - Does the chapter or section end with a usable move?
 - Does each major reader-facing unit follow the reader-orientation pattern where appropriate: Scene -> Tension -> Distinction -> Tool -> Return?
+- Has the major reader-facing unit been tested through a narrative validation draft, or is there a clear reason that pass does not apply?
 - Is the opening scene or situation returned to with changed understanding, rather than abandoned after the concept is explained?

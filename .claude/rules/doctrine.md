@@ -11,6 +11,7 @@ Use this folder for durable concepts that govern the playbook and website.
 
 - `value-proposition.md`: purpose, market position, and mission.
 - `playbook-lexicon.md`: terms that should remain consistent across the project.
+- `audiences.md`: the canonical six audiences (situations) the playbook and website serve; the source of truth every downstream artifact defers to.
 - `organic-intelligence.md`: the human side of the human-machine distinction.
 - `human-condition.md`, `observability.md`, `upkeep.md`: the maintenance trilogy for the human as an instrument.
 - `nine-dimensions-model.md`: long-term viability model.

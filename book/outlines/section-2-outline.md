@@ -57,10 +57,10 @@
  
 ### You've got people worth growing
  
-- This is you if: you lead a team and want to grow your own builders instead of renting them.
-- The risk: you hold both jobs today — the trick is handing the building skill to real people without it leaking away.
-- What you do: teach so people *build* the skill, not so they lean on the AI and go soft — and spot the leaner early.
-- The trade: you stop renting talent and start growing it — but now your team's sharpness is yours to keep up.
+- This is you if: you see an individual standout — or a small team of change-makers — already on your payroll who could be developed into real product owners, instead of hiring outside again.
+- The risk: you hold both jobs today — the trick is handing the building skill to real people without it leaking away, and without confusing "training the org" with "developing the specific ones."
+- What you do: teach so people *build* the skill, not so they lean on the AI and go soft — and spot the leaner early. Avoid bootcamps and disruptive offsites; the kit is apprenticeship-shaped on purpose.
+- The trade: you stop renting talent and start growing it — but now your bench's sharpness is yours to keep up, and the people you developed may take the capability elsewhere.
 - The question you'll carry into the long game: *is my bench actually getting stronger, or quietly going dull?*
 ### You're renting what you could own
  
@@ -83,18 +83,18 @@
 - What you do: build real understanding first (with the AI's help, and knowing where the AI actually slows you down), and put a safety net under it before you touch anything.
 - The trade: you swap "a system I can't see" for "a system the AI helps me change" — but now some of the calls are the AI's, not yours.
 - The question you'll carry into the long game: *how much of the judgment about this code is still mine?*
-### Your team ships what it can't explain
+### Your team hasn't really moved on AI — or it has, and you can't answer for what it ships
  
-- This is you if: AI is producing plenty of working code, but nobody can fully verify or explain it.
-- The risk: the work flows, but the back job — standing behind it — isn't being held.
-- What you do: close the gap by building real ownership — say what "right" means up front, and prove you can check what you shipped.
-- The trade: you swap raw speed for the standing job of telling true from just-looks-true.
+- This is you if (one of two shapes — sometimes both): *(a)* your developers haven't moved AI-native — stalled adoption, evaluation paralysis, or simply haven't started — and you feel behind without knowing how far; *or (b)* AI is producing plenty of working code, but you fear nobody can fully verify or explain what's being shipped.
+- The risk: in both cases, AI isn't yet an *owned capability* — you either haven't taken it up, or you've taken it up without owning the half that matters.
+- What you do: close the gap by building real ownership — say what "right" means up front, prove you can check what you shipped, and (for the stalled team) find the credible first move that doesn't just buy seats.
+- The trade: either you swap "comfortably behind" for "change-management load now," or you swap "raw speed" for "the standing job of telling true from just-looks-true." Both kits run through the same destination.
 - The question you'll carry into the long game: *can I still make that call as the volume keeps climbing?*
 ### Your demo has to become a real product
  
-- This is you if: you have a working prototype that now has to survive real users.
+- This is you if: you built it on Lovable, Base44, Replit, Bubble, or another no-code / low-code / AI-assisted tool — chose those tools specifically because they appeared to remove engineering time and cost from the equation — got traction, and now scaling is not happening. Built it, looks amazing, demand showed up, the wall is real.
 - The risk: you started it and it exists — but a demo never made you handle the hard, unglamorous half.
-- What you do: harden the parts a prototype skips — security, reliability, real data — and know which to own and which to hand to specialists.
+- What you do: harden the parts a prototype skips — security, reliability, real data, observability — and know which to own and which to hand to specialists.
 - The trade: you swap "it works on my machine" for answering to real people the moment it's live.
 - The question you'll carry into the long game: *am I ready to be accountable in ways a prototype never asked of me?*
 *The takeaway: each spot drops a different job and makes a different trade — but the trade is the part you'll be tracking for the rest of your career.*

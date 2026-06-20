@@ -10,6 +10,7 @@ Use this folder for the saleable playbook: manuscript chapters, outlines, module
 - Do not let a chapter become a research memo. Move support material to `research/` or `doctrine/`.
 - Do not let a chapter become website copy. Move promotional or conversion language to `website/`.
 - Organize major reader-facing units in felt-need order when possible: Scene -> Tension -> Distinction -> Tool -> Return. Use `doctrine/reader-orientation-pattern.md` as the governing doctrine and `book/narrative-ledger.md` to track recurring anchors.
+- When developing structure for a major reader-facing unit, such as a section, chapter, or major module, use a narrative prose draft as a validation artifact alongside the structural artifact. The narrative is not manuscript prose or polish; it tests whether the structure earns reader-pull. Default sequence: conceptual frame -> granular sub-beats -> narrative validation.
 - Treat story as structural evidence, not ornament. A scene should carry a doctrine, gate, module, diagnostic, exercise, or signal.
 
 ## Section Architecture

@@ -1,6 +1,8 @@
 # The Module ↔ Skill Crosswalk
  
 *Section 2 ⇄ Section 3 bridge artifact — the single source of truth for how an audience's kit configures the ADLC's agents. Section 2 hands the human a **module** (guidance + exercise); the same act loads the agent a **Skill** (executable `SKILL.md`). This document books the join so the two sections share one truth instead of drifting.*
+
+*Canonical audience definitions live in [doctrine/audiences.md](doctrine/audiences.md). The audience codes used throughout this crosswalk (ITW · SVD · EDD · LSD · AID · PPW) point back to those definitions. AID covers both pre-adoption (Shape A) and post-adoption-blind (Shape B); the gate hardened (G7) and the load-bearing signals are the same for both shapes — the kit gets there by different roads.*
  
 > **What this artifact does and doesn't carry.** It owns the *new* information: each module's paired Skill, its **register**, the ADLC **gate** it hardens, the **subagent** it configures, and the **trailing signal** it feeds. It does **not** reproduce audience membership — that lives in the module-to-audience grid in `section-2-audience-research-plan.md`, and pointing back to it (rather than copying it) is what keeps the two from drifting. Section 4's nine dimensions appear here only as **named pointers**, never defined — the harvest stays Section 4's.
  

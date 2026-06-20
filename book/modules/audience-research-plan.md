@@ -1,6 +1,8 @@
 # Section 2 Research Plan: Mapping Audiences to Valuable Insights
  
 *A research **plan**, not the research itself. This document outlines, for each audience, the guiding principles to fetch depth on later — one audience at a time. It is built to feed the **module library** (guidance + exercise + paired agent skill) that Part 2 of the playbook hands to each audience as a default set, borrowable across types.*
+
+*Canonical audience definitions live in [doctrine/audiences.md](doctrine/audiences.md). This document elaborates the research backing each audience; the snapshots below align with the doctrine. If a snapshot drifts, update the doctrine first, then the elaboration.*
  
 ---
  
@@ -88,7 +90,7 @@ Each profile gives: a **snapshot** (dominant risk, which end held badly, develop
  
 ### 1. Internal Talent Worth Developing (ITW)
  
-**Snapshot.** Dominant risk: developing people into *delegators* who atrophy rather than *inquirers* who build real capability — and losing the investment to attrition. End held badly: the org currently holds both ends and wants to **transfer the engineering faculty into real people**. Default: **develop the faculty, fully** — this is the most teaching-heavy audience. Persona: existing employees; the leader who sponsors them. Clay-experience anchor: your history growing engineers and the moment someone "got it."
+**Snapshot.** Dominant risk: developing people into *delegators* who atrophy rather than *inquirers* who build real capability — and losing the investment to attrition. End held badly: the org currently holds both ends and wants to **transfer the engineering and product-ownership faculty into real people**. Unit is *specific, developable people* — an individual standout, or a small team of change-makers (the handful who would shift how the org actually builds, if developed). Not org-wide training; not hiring; not a generic L&D initiative. Default: **develop the faculty, fully** — this is the most teaching-heavy audience. Persona: existing employees; the leader who sponsors them. Clay-experience anchor: your history growing engineers and the moment someone "got it."
  
 **Research topics.**
 - Cognitive apprenticeship and scaffolding-then-fading applied to AI-assisted engineering (leans on Stream B).
@@ -156,16 +158,17 @@ Each profile gives: a **snapshot** (dominant risk, which end held badly, develop
  
 ### 5. AI Development Gap (AID)
  
-**Snapshot.** Dominant risk: AI-assisted *output* with no owned *capability* behind it — the team ships what it can't verify or explain. End held badly: the producible middle flows, but the **answerable back end is unheld** (verification debt). Default: **develop the faculty** — closing the gap *is* building owned capability. Persona: the team mid-adoption; the AI-Gap is itself a maturity stage. Clay-experience anchor: your own moment of seeing the gap between generated and understood.
+**Snapshot.** Dominant risk: AI is not yet a deliberate, *owned capability* — in either of two shapes, sometimes both at once. **Shape A (pre-adoption):** stalled adoption, evaluation paralysis, or simply not having started — the team has not moved AI-native and feels behind without knowing how far. **Shape B (post-adoption, blind):** AI-assisted output ships at velocity, but nobody can fully verify or explain it — verification debt that looks like progress on the dashboard. End held badly: in Shape A, both ends invisibly; in Shape B, the producible middle flows but the **answerable back end is unheld**. Same kit reaches both — closing the gap *is* building owned capability. Default: **develop the faculty.** Persona: the team mid-non-adoption or the team mid-blind-adoption; either way, the AI-Gap is a maturity stage. Clay-experience anchor: your own moments of seeing each shape — the team that wouldn't move, and the team that moved without owning what it shipped.
  
 **Research topics.**
-- Verification debt (Sonar) and the perception gap (the full METR 2025→2026 arc, the May 2026 survey) as the diagnostic symptoms.
-- The vibe-coding → structured-agentic-engineering progression: what each lacks and the bridge between them.
-- Spec-driven development as the gap-closer (Spec Kit; "specs as executable contracts") — and the self-spec substitution risk to police.
+- Adoption-blocker taxonomy for Shape A: evaluation paralysis, hype fatigue, tool churn, security-policy blockers, and what credible first-move pathways look like for a stalled team.
+- Verification debt (Sonar) and the perception gap (the full METR 2025→2026 arc, the May 2026 survey) as the diagnostic symptoms of Shape B.
+- The vibe-coding → structured-agentic-engineering progression: what each lacks and the bridge between them — covers both shapes' destinations.
+- Spec-driven development as the gap-closer (Spec Kit; "specs as executable contracts") — and the self-spec substitution risk to police in Shape B.
 - What "owned capability" means operationally: review capacity, mental models, the ability to say *why* code is wrong (leans on Streams B and D).
-- DORA's AI Capabilities Model and "AI anoints elite organizations" — the gap is wider on weak foundations.
-- Automation complacency as the thing that *keeps* the gap invisible.
-**Modules to produce.** A spec-driven-development onboarding module; a "can you verify what you shipped?" diagnostic; a vibe-to-engineering progression ladder.
+- DORA's AI Capabilities Model and "AI anoints elite organizations" — the gap is wider on weak foundations; especially load-bearing for Shape A teams evaluating whether to move at all.
+- Automation complacency as the thing that *keeps* the Shape B gap invisible.
+**Modules to produce.** A spec-driven-development onboarding module; a "can you verify what you shipped?" diagnostic (Shape B); an honest-evaluation first-move pathway (Shape A); a vibe-to-engineering progression ladder.
  
 **Dimension pointers (Section 4 seed).** **Epistemic** and **Cognitive** — closing the gap with generated output trades raw speed for the standing burden of telling true from merely plausible; the dimension measures whether you can still make that call as the volume grows.
  
@@ -173,7 +176,7 @@ Each profile gives: a **snapshot** (dominant risk, which end held badly, develop
  
 ### 6. Prototype-to-Production Wall (PPW)
  
-**Snapshot.** Dominant risk: a working prototype that was never built to hold the answerable half — security, infra, reliability — and the team mistakes "it works" for "it's right." End held badly: origination happened and the thing exists, but the **answerable back end was never required** by a prototype. Default: **develop the faculty** on the non-functional surface; **borrow the frame** where a founder will rely on agents/specialists. Persona: technical or non-technical founder with a demo that needs to become a product. Clay-experience anchor: a prototype you carried across the wall and what broke first.
+**Snapshot.** Dominant risk: an enthusiastic founder built it on Lovable, Base44, Replit, Bubble, or another no-code/low-code/AI-assisted tool — chose those tools specifically because they appeared to remove engineering time and cost from the equation — got traction, and is now hitting the wall between *"it works"* and *"it holds up."* Built it, looks amazing, scaling is not happening. End held badly: origination happened and the thing exists, but the **answerable back end was never required** by a prototype — security, reliability, real data, the non-functional registers. Default: **develop the faculty** on the non-functional surface; **borrow the frame** where the founder will rely on agents or specialists. Persona: technical or non-technical founder with a traction-bearing prototype that has to become a product. Clay-experience anchor: a prototype you carried across the wall and what broke first.
  
 **Research topics.**
 - What "production-ready" concretely means: the non-functional requirements a prototype skips (reliability, scale, data integrity, compliance, SLAs).

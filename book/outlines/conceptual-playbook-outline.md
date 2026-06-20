@@ -76,12 +76,12 @@ The producible/answerable split as the sorting key. The sharpest tool in the par
 ### 2.3 The six situations
 **[DECISION]** Reconcile the site's six *situations* with the *personas* in your brief (non-technical founder building a product; first-time technical founder; non-technical career-changer into engineering). Recommended reconciliation: the six situations remain canonical (already on the site); the personas are how those situations show up in people; the producible/answerable diagnostic is the cross-cutting overlay. Profile each situation by: dominant risk, which end it holds badly, the Clay-experience module it leans on, and its default module set.
  
-- **Internal Talent Worth Developing** — develop the engineering faculty in real people; teaching-heavy.
-- **SaaS Vendor Dependency** — borrow enough engineering frame to own what you were renting.
+- **Internal Talent Worth Developing** — develop an individual standout, or a small team of change-makers, into real product owners; teaching-heavy; not org-wide training or hiring.
+- **SaaS Vendor Dependency** — borrow enough engineering frame to own what you were renting across the operational stack.
 - **External Dev Dependency** — move origination and answerability back in-house from an outside shop.
-- **Legacy Software Debt** — hold the frame over a codebase you didn't author and can't fully see.
-- **AI Development Gap** — close the distance between AI-assisted output and owned capability.
-- **Prototype-to-Production Wall** — the answerable half (security, infra, reliability) that a working prototype never had to hold.
+- **Legacy Software Debt** — hold the frame over a codebase whose original authors are gone and which nobody currently on the team fully understands.
+- **AI Development Gap** — close the distance between AI as a workflow input and AI as an owned capability — in either of two shapes: the team that hasn't moved AI-native, or the team that has moved but ships code with AI "blindly," faster than anyone can verify.
+- **Prototype-to-Production Wall** — the answerable half (security, infra, reliability, observability) that a working prototype built on Lovable, Base44, Replit, Bubble, or similar tools never had to hold — built it, looks amazing, scaling isn't happening.
 ### 2.4 The module library
 What a module is: a unit of guidance + an exercise + **the agent skill it pairs with in Part 3.** This is where Part 2 and Part 3 become the same map read from two sides — the human module and its mirrored agent calibration are authored together.
  
