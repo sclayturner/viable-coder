@@ -11,3 +11,5 @@ Check substantial prose against these questions:
 - Where the passage is structural, does it still carry the cost of error, ownership, time, or consequence?
 - If it uses Clay's painful scarcity period, does it show capability formed under constraint without romanticizing pain?
 - Does it avoid overexplaining what a capable reader can infer?
+- If it uses a scene or story, is the scene doing structural work rather than sentiment, color, or motivational framing?
+- Does the passage move from concrete tension into a usable distinction or tool, instead of staying in anecdote?

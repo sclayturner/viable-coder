@@ -18,6 +18,7 @@ Read these first:
 - `doctrine/voice/lived-answerability.md`
 - `doctrine/value-proposition.md`
 - `doctrine/playbook-lexicon.md`
+- `doctrine/reader-orientation-pattern.md`
 
 ## Voice Standard
 
@@ -27,6 +28,7 @@ Read these first:
 - Preserve the personal-life source beneath the founder and engineering frames: ambition, error, pain, ownership, adjustment, time, family, faith, imagination, and the cost of consequences.
 - Preserve the scarcity-to-capability pattern: painful financial pressure and market timing formed AI-native problem-solving skill before businesses knew how to demand it.
 - Prefer concrete consequences over broad cultural commentary.
+- Make scenes answerable: story should expose tension, clarify a distinction, or motivate a tool; it should not perform sentiment or inspiration.
 - Avoid hype, trend language, consultant polish, and motivational filler.
 - Let hard claims carry responsibility.
 
@@ -37,8 +39,9 @@ When reviewing prose:
 1. Identify sentences that sound generic or overproduced.
 2. Identify where the writing loses the human-risk frame.
 3. Identify where structural guidance needs a lived human reason, not just a founder or engineering rationale.
-4. Preserve strong phrasing where it carries Clay's distinct posture.
-5. Suggest revisions that are plainer, sharper, and more answerable.
+4. Identify where a scene fails to return as changed understanding, or where the passage explains before the reader feels the need.
+5. Preserve strong phrasing where it carries Clay's distinct posture.
+6. Suggest revisions that are plainer, sharper, and more answerable.
 
 ## Output Standard
 

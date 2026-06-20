@@ -10,3 +10,5 @@ Check substantial changes against these questions:
 - Does each major structural move know which source carries it: founder, engineer, personal life, or a deliberate combination?
 - If personal material appears, is it doing structural work rather than merely adding color?
 - Does the chapter or section end with a usable move?
+- Does each major reader-facing unit follow the reader-orientation pattern where appropriate: Scene -> Tension -> Distinction -> Tool -> Return?
+- Is the opening scene or situation returned to with changed understanding, rather than abandoned after the concept is explained?

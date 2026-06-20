@@ -69,7 +69,7 @@ When using this source, classify each extract before promoting it:
 | Playbook example or story | `book/` | Use only when it helps the reader make a diagnostic, gate, exercise, or decision. |
 | Research or AI history claim | `research/` | Verify against 2026 sources first and mark evidence status. |
 | Website positioning | `website/` | Translate into current Becoming / Remaining language and avoid old product promises. |
-| AI collaboration pattern | `ai/`, `agents/`, or `skills/` | Convert into operational guidance; do not import old metaphor as-is. |
+| AI collaboration pattern | `ai/` or harness-native files under `.agents/`, `.claude/`, and `.codex/` | Convert into operational guidance; do not import old metaphor as-is. |
 
 ## Translation Notes
 

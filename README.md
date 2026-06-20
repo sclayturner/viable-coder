@@ -27,9 +27,11 @@ The repository is a live working source, not a finished publication package.
 | `doctrine/` | Governing concepts: value proposition, lexicon, Organic Intelligence, condition, upkeep, observability, nine dimensions, voice anchors. |
 | `research/` | Research streams, evidence ledgers, instruments, and measurement design. |
 | `website/` | Static public site and website documentation. |
-| `skills/` | Reusable Codex skills for this project. |
-| `agents/` | Role briefs for independent editorial, research, voice, structure, and module reviews. |
-| `ai/` | Collaboration workflows, source map, evaluation checklists, and operating notes. |
+| `.agents/skills/` | Codex-discoverable repository skills for this project. |
+| `.claude/skills/` | Claude Code-discoverable repository skills for this project. |
+| `.codex/agents/` | Codex custom subagents for independent editorial, research, voice, structure, and module reviews. |
+| `.claude/agents/` | Claude Code custom subagents for independent editorial, research, voice, structure, and module reviews. |
+| `ai/` | Collaboration workflows, source map, harness map, evaluation checklists, and operating notes. |
 | `archive/` | Historical imported material, prior books, and provenance. Do not edit it as canonical source. |
 
 Use `ai/source-map.md` to decide which files to load for a task. Prefer canonical source files over `archive/`.
@@ -50,13 +52,13 @@ The governing vocabulary lives in `doctrine/playbook-lexicon.md`. Important spin
 
 ## Working Rules
 
-Before changing a surface, read the nearest `AGENTS.md`.
+Before changing a surface, read the nearest `AGENTS.md`. For Claude Code sessions, also apply `CLAUDE.md` and the relevant `.claude/rules/` file.
 
-1. Identify the surface: book, doctrine, research, website, skills, agents, or AI workflow.
+1. Identify the surface: book, doctrine, research, website, harness configuration, or AI workflow.
 2. Read the relevant folder guidance.
 3. Load only the necessary context from `ai/source-map.md`.
 4. Make the smallest coherent change.
-5. Check for doctrine drift, voice drift, and structural drift before finishing.
+5. Check for doctrine drift, voice drift, structural drift, and harness drift before finishing.
 
 Keep these boundaries intact:
 
@@ -131,10 +133,13 @@ The repository includes process support for AI-assisted authorship:
 - `ai/adlc-dogfooding.md` maps the ADLC back onto how this repository is worked.
 - `ai/workflows/` holds repeatable workflows.
 - `ai/evals/` holds quality checklists.
-- `agents/` holds independent review role briefs.
-- `skills/` holds reusable Codex skills.
+- `.codex/agents/` holds Codex custom subagents.
+- `.claude/agents/` holds Claude Code custom subagents.
+- `.agents/skills/` holds Codex-discoverable repository skills.
+- `.claude/skills/` holds Claude Code-discoverable repository skills.
+- `ai/harness-map.md` maps equivalent artifacts across harnesses.
 
-For AI collaborators, the root instruction file is `AGENTS.md`. It is part of the project contract, not incidental metadata.
+For AI collaborators, `AGENTS.md` and `CLAUDE.md` are part of the project contract, not incidental metadata.
 
 ## Style
 

@@ -19,7 +19,9 @@
 **Viable coding / "from vibe coding to viable coding" ◆** — The positioning. The move from AI-assisted *vibe coding* (◇, see below) to durable AI-native product ownership.
  
 **Seed → bloom → harvest ◆** — How the book teaches. Each idea is *planted* light in Section 1, *bloomed* in context in the section where the reader is actually doing the thing it governs, and *harvested* as measurable data in Section 4. The reader meets each concept exactly when they need it, never as an upfront lecture.
- 
+
+**Reader-orientation pattern / Scene -> Tension -> Distinction -> Tool -> Return ◆** — The chapter- and module-level teaching rhythm inside *seed -> bloom -> harvest*. A major unit opens from a concrete human situation, names the pressure that makes it matter, introduces the Viable Coder distinction that clarifies it, gives the reader a usable move, and returns to the opening situation with changed understanding. *Compared with:* explanation order. The book should usually teach in felt-need order, not by defining concepts before the reader knows why they matter.
+
 ---
  
 ## The two intelligences & the two ends (the geometry)

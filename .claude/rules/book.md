@@ -1,3 +1,8 @@
+---
+paths:
+  - "book/**"
+---
+
 # Book Instructions
 
 Use this folder for the saleable playbook: manuscript chapters, outlines, modules, and exercises.

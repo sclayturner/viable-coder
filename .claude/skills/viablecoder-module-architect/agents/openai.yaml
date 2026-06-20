@@ -1,0 +1,4 @@
+interface:
+  display_name: "Viable Coder Module Architect"
+  short_description: "Map modules to ADLC gates and signals."
+  default_prompt: "Help me organize Viable Coder modules and their ADLC mappings."

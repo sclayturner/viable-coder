@@ -9,20 +9,33 @@ Use this file to route context loads. Prefer canonical files over `archive/`.
 - Doctrine instructions: `doctrine/AGENTS.md`
 - Research instructions: `research/AGENTS.md`
 - Website instructions: `website/AGENTS.md`
-- Skill instructions: `skills/AGENTS.md`
+- Harness artifact sync: `ai/harness-map.md`
 
 ## AI Collaboration
 
 - Collaboration model: `ai/collaboration-model.md`
 - ADLC dogfooding: `ai/adlc-dogfooding.md`
+- Harness map: `ai/harness-map.md`
 - Workflows: `ai/workflows/`
 - Evals: `ai/evals/`
 - Source guides: `ai/source-guides/`
+
+## Harness Artifacts
+
+- Codex project instructions: `AGENTS.md`
+- Claude Code project instructions: `CLAUDE.md`
+- Codex skills: `.agents/skills/`
+- Claude Code skills: `.claude/skills/`
+- Codex custom agents: `.codex/agents/`
+- Claude Code subagents: `.claude/agents/`
+- Claude Code path rules: `.claude/rules/`
+- Cross-harness mapping and sync rules: `ai/harness-map.md`
 
 ## Book
 
 - Current section outlines: `book/outlines/`
 - Audience and module architecture: `book/modules/`
+- Narrative anchor tracker: `book/narrative-ledger.md`
 - Publishable manuscript: `book/manuscript/`
 - Exercises: `book/exercises/`
 
@@ -35,6 +48,7 @@ Use this file to route context loads. Prefer canonical files over `archive/`.
 - Observability: `doctrine/observability.md`
 - Upkeep: `doctrine/upkeep.md`
 - Nine dimensions: `doctrine/nine-dimensions-model.md`
+- Reader orientation pattern: `doctrine/reader-orientation-pattern.md`
 - Clay voice anchors: `doctrine/voice/`
 - Lived answerability: `doctrine/voice/lived-answerability.md`
 

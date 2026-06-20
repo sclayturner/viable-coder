@@ -1,3 +1,8 @@
+---
+paths:
+  - "doctrine/**"
+---
+
 # Doctrine Instructions
 
 Use this folder for durable concepts that govern the playbook and website.

@@ -1,4 +1,4 @@
-# Viable Coder Agent Instructions
+# Viable Coder Claude Code Instructions
 
 This repository is the working source for the Viable Coder playbook, its supporting doctrine, its research inquiry, its public website, and the AI collaboration machinery used to build them.
 
@@ -8,10 +8,10 @@ Clay Turner is the author and subject-matter owner. Treat the repository as a bo
 
 - Preserve Clay's earned point of view. Do not flatten the work into generic AI productivity advice.
 - Distinguish saleable manuscript, governing doctrine, research support, website presentation, and AI collaboration machinery.
-- Prefer small, well-routed context loads. Read the relevant `AGENTS.md` in the folder you are touching before acting.
+- Prefer small, well-routed context loads. Use `ai/source-map.md` before loading broad context.
 - Treat `archive/` as provenance, not the working source of truth.
 - When promoting material from `archive/`, move the idea into the appropriate canonical folder and leave the archive untouched.
-- Keep changes scoped. Do not reorganize doctrine, manuscript, research, and website in one pass unless the task explicitly requires it.
+- Keep changes scoped. Do not reorganize doctrine, manuscript, research, website, and harness configuration in one pass unless the task explicitly requires it.
 
 ## Source Boundaries
 
@@ -45,8 +45,8 @@ Do not update only one harness location unless the change is intentionally harne
 ## Default Workflow
 
 1. Identify which surface the task touches: book, doctrine, research, website, harness configuration, or AI workflow.
-2. Read the nearest `AGENTS.md`.
-3. Load only the necessary source files from `ai/source-map.md`.
+2. Load only the necessary source files from `ai/source-map.md`.
+3. Apply any path-specific Claude rule under `.claude/rules/`.
 4. Make the smallest coherent change.
 5. Check for doctrine drift, voice drift, structural drift, and harness drift before finishing.
 

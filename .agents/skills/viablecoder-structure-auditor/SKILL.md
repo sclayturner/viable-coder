@@ -17,6 +17,7 @@ Read these first:
 - Book instructions: `book/AGENTS.md`
 - Source routing: `ai/source-map.md`
 - Lived answerability: `doctrine/voice/lived-answerability.md`
+- Reader orientation pattern: `doctrine/reader-orientation-pattern.md`
 - Structure eval: `ai/evals/structure-checklist.md`
 - Doctrine drift eval: `ai/evals/doctrine-drift-checklist.md`
 
@@ -30,6 +31,8 @@ Read these first:
 - Has the human-machine role distinction blurred?
 - Has personal source material been framed as structural evidence, or has it drifted into memoir disconnected from the reader's path?
 - Has structural material lost the lived human reason that makes the doctrine matter?
+- Does each major reader-facing unit create felt need before exposition, then return to its opening scene or situation with changed understanding?
+- Are recurring scenes and callbacks tracked or aligned with `book/narrative-ledger.md` when they cross sections?
 
 ## Output Standard
 

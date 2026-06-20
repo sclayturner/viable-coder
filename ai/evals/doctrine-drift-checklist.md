@@ -10,3 +10,4 @@ Check substantial changes against these questions:
 - Does the change preserve lived answerability rather than reducing Clay's authority to only founder or engineering expertise?
 - If older source material is used, has it been translated into current Viable Coder doctrine rather than importing outdated framing?
 - Should `doctrine/playbook-lexicon.md` be updated?
+- If the change affects how the playbook teaches, does it preserve `doctrine/reader-orientation-pattern.md` and the seed -> bloom -> harvest architecture?

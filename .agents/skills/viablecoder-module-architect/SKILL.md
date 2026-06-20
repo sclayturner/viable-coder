@@ -16,6 +16,7 @@ Read these first:
 - Root instructions: `AGENTS.md`
 - Book instructions: `book/AGENTS.md`
 - Lived answerability: `doctrine/voice/lived-answerability.md`
+- Reader orientation pattern: `doctrine/reader-orientation-pattern.md`
 - `book/modules/module-skill-crosswalk.md`
 - `book/modules/audience-research-plan.md`
 - `book/modules/relocation-ledger.md`
@@ -28,12 +29,14 @@ Read these first:
 - Situation selects the module set and hardened gate.
 - Persona selects register: explanatory, produce, or switchable.
 - Operating profile tunes pacing and structure, not doctrine.
+- Each module should know the reader situation and tension that create the need before it names the guidance, exercise, paired skill, or trailing signal.
 - Clay-experience anchors should name their source: founder, engineer, personal life, or a deliberate combination.
 - Section 4 dimensions should usually remain named pointers in module tables.
 
 ## Audit Questions
 
 - Does each module have a clear audience purpose?
+- Does each module start from a concrete situation or tension rather than an abstract capability label?
 - Does each module harden a real ADLC gate?
 - Is the paired skill a real interaction pattern or only a title?
 - Does the register match develop-vs-borrow?
