@@ -7,6 +7,8 @@ Dogfooding does not mean turning every edit into process theater. It means keepi
 - Clay holds origination: what should be made, why it matters, and what risk is worth taking.
 - The agent can take the producible middle: search, comparison, drafting, editing, implementation, and verification.
 - Clay holds answerability: whether the result is right, whether it preserves the doctrine, and whether it should become part of the project.
+- Clay steers through the middle: reads the agent's reasoning while the work runs (not only when it lands), redirects when the trajectory drifts off the *why* set at origination, and interrupts when the path would produce an artifact he cannot stand behind at review. Steering is not a fourth responsibility — it is the in-flight form of holding the two jobs above. See `doctrine/steering.md`. The corollary for this repo: when the agent's column would otherwise run opaquely (long-running drafts, multi-file edits, research sweeps), prefer configurations where its reasoning is exposed in flight rather than summarized after.
+- Clay sets the routing policy: which model runs which subagent on which task is a practitioner-set policy, not a default the harness silently makes on his behalf. See `doctrine/right-sized-models.md`. The corollary for this repo: prefer right-sizing — frontier capability for genuinely judgment-dense or open-ended work, mid-tier or open-source / self-hosted for boilerplate, summarization, and high-volume background passes. Frontier-by-default is the failure mode (default escalation); rate-limit pressure and unexplained cost trajectory are its leading indicators.
 
 ## Practical ADLC Mapping
 
@@ -42,5 +44,5 @@ This repo can also measure whether we are practicing the doctrine:
 - how often structural changes carry no lived Clay-experience anchor;
 - how often final answers identify verification and residual risk.
 
-These are not bureaucratic metrics. They are trailing signals that show whether the collaboration is preserving origination, gating the middle, and returning answerability to the human.
+These are not bureaucratic metrics. They are trailing signals that show whether the collaboration is preserving origination, *steering through* the middle (per `doctrine/steering.md`), and returning answerability to the human. *Gating* the middle is the boundary form; *steering* is the in-flight form. Both are now part of what is being measured.
 

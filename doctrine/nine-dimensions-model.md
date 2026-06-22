@@ -66,7 +66,7 @@ Every signal carries one of two labels and a cadence (`Auto · Weekly`, `Asked �
 #### Cognitive Viability
 **Question:** Is my cognitive system — capacity, focus, and growth — still intact?
  
-**What's under threat:** The thinking that built your judgment in the first place, and the focus to hold a hard problem in your head for an hour. Three risks run in parallel: core capacity atrophying as more of the work is handed to the model; executive function eroding under AI-native conditions; and quietly ceasing to pick up the new concepts and vocabulary that have always renewed the craft.
+**What's under threat:** The thinking that built your judgment in the first place, and the focus to hold a hard problem in your head for an hour. Four risks run in parallel: core capacity atrophying as more of the work is handed to the model; executive function eroding under AI-native conditions; quietly ceasing to pick up the new concepts and vocabulary that have always renewed the craft; and answerable ownership diluting as the count of concurrent systems exceeds what one mind can hold. The gap between systems touched and systems owned is the rate of abdication-by-over-distribution.
  
 **Signals — maintenance:**
 - Can I still solve a fixed class of problems without AI tools? — `Asked · Quarterly`

@@ -8,11 +8,12 @@
  
 ## Chapter 1 — Why This Is the Best Time to Build (and Why It's on You)
  
-*What you get: you'll see the opportunity clearly, and understand in plain terms why you're the one who wins or loses it.*
+*What you get: you'll see the opportunity clearly, and understand in plain terms why you're the one who wins it bigger or loses it all.*
  
+- Why this work was worth building a life around (told briefly, in first person): a canvas, a discipline that travels, a life you can shape, a living, a world of people, a way to give some of it back. *Every one of those is in play right now.*
 - What just changed: you can hand a goal to an AI and it builds real, working software — start to finish.
 - Why that's thrilling: one person can now do what used to take a whole team.
-- The catch in one sentence: the AI does the work, but you carry the risk.
+- The catch in one sentence: the AI does the work, but you carry the risk — and every one of the things this career gave you can be *accelerated* by AI or *annihilated* by it. Which way it goes is on you.
 - Why mistakes cost more now: building got fast and cheap, so aiming at the wrong thing wastes time you can't get back.
 - What this book promises: win the opportunity *and* keep it.
 ---

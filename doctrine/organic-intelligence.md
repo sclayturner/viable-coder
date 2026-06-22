@@ -30,6 +30,8 @@ So the first question in the Playbook comes before any prompt:
 > **Did I choose this — or did it choose me?**
  
 The failure here isn't that an agent seizes your origination. It can't. The failure is that you quietly abdicate it — responding only to what the tool, the feed, or the agent's next suggestion happens to surface, until choosing what to aim at is a muscle you no longer use. Origination atrophies from disuse, not from seizure.
+
+Abdication has a second face. Origination dilutes from over-distribution: the muscle is in use across more concurrent works than one mind can hold answerable, and your name sits on choices you did not have the mind to make. AI does not raise this ceiling; it makes it easier to walk past.
  
 ## The three splits
  
@@ -61,6 +63,12 @@ Origination first, then the split — on every task worth the name:
 > **What's the producible half — and have I actually kept the answerable half?**
  
 Two questions, one at each end of the loop. The middle belongs to the agent. Both ends belong to you.
+ 
+## The middle belongs to the agent — but you are not absent from it
+ 
+The two ends are jobs. The middle is the agent's column. *What you do while the middle runs* is the in-flight form of holding the two ends, and it is what makes the ends real instead of ceremonial. Read the agent's reasoning as it produces. Redirect when the trajectory drifts off the *why* you set at the front. Interrupt when the path turns into a path you cannot stand behind at the back. The interrupt key on every major coding agent today is the most primitive version of this; the more elaborate version is configuring the agent to produce *and explain* in any column whose substitution risk is the human's, so the reasoning is exposed in flight, not summarized after.
+ 
+That motion is **steering**, and it is not a third job. The two jobs at the ends do not multiply. Steering is what holding them looks like while the work is running. Its structural precondition is **observability of the middle** — the same instrument-don't-introspect principle from `observability.md`, applied at a second scale: the work emits signals the human can read as it runs, not only when it lands. Without observability there is no steering, and without steering both ends collapse — origination atrophies into drift, answerability collapses into rubber-stamp. The full treatment lives in `steering.md`; the part that belongs in this piece is the geometry: **origination at the front, steering through the middle, answerability at the back. Two jobs. One in-flight motion. Same human, the whole way through.**
  
 ## Why this sits at the front
  

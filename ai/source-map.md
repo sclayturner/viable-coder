@@ -46,7 +46,9 @@ Use this file to route context loads. Prefer canonical files over `archive/`.
 - Audiences (canonical six): `doctrine/audiences.md`
 - Organic Intelligence: `doctrine/organic-intelligence.md`
 - Human condition: `doctrine/human-condition.md`
-- Observability: `doctrine/observability.md`
+- Observability (self-observability — the human reads themselves): `doctrine/observability.md`
+- Steering and observability of the middle (the human reads the agent in flight; the in-flight motion that holds the two jobs): `doctrine/steering.md`
+- Right-sized models (classify, route, refuse the frontier-on-every-task default; open-source / self-hosted as a first-class option): `doctrine/right-sized-models.md`
 - Upkeep: `doctrine/upkeep.md`
 - Nine dimensions: `doctrine/nine-dimensions-model.md`
 - Reader orientation pattern: `doctrine/reader-orientation-pattern.md`

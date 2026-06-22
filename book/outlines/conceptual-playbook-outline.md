@@ -10,7 +10,7 @@ The whole book runs on a single claim and refuses to let go of it: **you bear al
  
 From it follow the two horizons the site is named for. *Becoming viable* is the asymmetry on the short clock — convert the AI opportunity into owned capability now, without the missteps that are more expensive than they have ever been. *Remaining viable* is the identical asymmetry on the long clock — never stop asking what is under threat across a career. These are not two activities in sequence. They are **one stance held at two horizons.** The faculties that let you seize the opportunity are the same faculties you must keep in form to keep it.
  
-The reader is the instrument. The agent takes the producible middle; the human holds the two ends — **origination at the front, answerability at the back.** *Becoming* points that instrument at this build. *Remaining* keeps it fit across every build.
+The reader is the instrument. The agent takes the producible middle; the human holds the two ends — **origination at the front, answerability at the back.** The two ends are jobs the human keeps; they are held *in flight* by **steering** (reading the agent's reasoning while the work runs), and they are protected *operationally* by **right-sized routing** (refusing the agent's default of frontier-on-every-task). Two jobs at the ends, one in-flight motion connecting them, two structural disciplines that refuse the agent's silent defaults. *Becoming* points that instrument at this build. *Remaining* keeps it fit across every build.
  
 **Vigilance is the opportunity's bodyguard.** The reason to instrument and maintain yourself is not caution. It is that you finally have something rare to win, and you are the component most likely to lose it. The same engineering seriousness the reader wants to point at the product, the book asks them to also point at the builder — from the first build — *because the upside is real, not because it is fragile.* This is the mindset the book installs.
  
@@ -32,6 +32,8 @@ Consequence for Part 1: it only plants. No maintenance regimen, no observability
 4. **Teaching agents are pointed at the human.** An agent may *transfer* a faculty or frame back to its human counterpart, but it must never *substitute* for it. Transfer builds the reader up to hold the end; substitution deepens abdication. Same knife-edge as the watchdog.
 5. **Condition is the binding constraint.** With the agent consistent and the volume gone, the human's condition flows almost undiluted into the few judgment-dense calls that decide everything. Time is no longer the startup's scarce input; condition is.
 6. **Self-report lies; instrument the trailing signal.** The gauge inside degrades together with the faculty that would read it. The only honest reading is the trailing one, taken off the human/agent interaction over time — at the scale of one person (the dashboard) or a population (the inquiry).
+7. **Steering through the middle.** The two ends are not held at the boundaries alone — they are held in flight, by reading the agent's reasoning as the work runs (`doctrine/steering.md`). Steering is not a third job; it is the active form of holding the two jobs while the middle runs. Its structural precondition is *observability of the middle* — the same instrument-don't-introspect principle, applied at a second scale: the human reads the *agent* in flight, not only the *self*.
+8. **Refuse the agent's defaults.** The agent has two silent defaults that, left running, hollow the practice: *opacity in the middle* (mitigated by steering above) and *frontier-on-every-task* (mitigated by **right-sized routing** — classify the work, route it to the right-sized model, treat open-source / self-hosted as a first-class option). Both defaults look like progress while they fail; both are met by explicit structural discipline configured at the shop, not by exhortation. See `doctrine/right-sized-models.md`.
 ---
  
 ## Part 1 — [working title: Eyes Wide Open / The Stance]
@@ -103,7 +105,7 @@ What AI changed. Agile's sprints collapse into continuous flow. The **Iron Trian
 Origination → producible middle → answerable back, walked through a single cycle so the reader has the shape before the phases. Names where each of the two ends lives inside one pass.
  
 ### 3.3 The phases
-Each phase treated identically — **where origination lives, where the answerable half sits, where the human's condition hits the call, which agent/skill does the producible work, and what the agent teaches its human counterpart.**
+Each phase treated identically — **where origination lives, where the answerable half sits, where the human's condition hits the call, which agent/skill does the producible work, what the agent teaches its human counterpart, what steering looks like at this phase (the in-flight read), and which model fills the column (the routing policy's per-phase decision).**
  
 - Discovery & origination — the PRD informed by the whole repo, customer feedback channels, stakeholder transcripts.
 - Design & architecture.
@@ -116,13 +118,23 @@ Each phase treated identically — **where origination lives, where the answerab
 - Deploy & product observability.
 ### 3.4 Observability blooms — instrument the builder, not just the build
 The self-dashboard over the one system the reader left dark. Readings you can't fake: answerable from outside your head, taken off the decision, aimed at your specific failure. The five dimensions as instruments rather than a wellness list. This is the full bloom of the 1.3 seed.
+
+**One principle, three scales** (doctrine extension): the same *instrument-don't-introspect* logic now operates at three scales — **self-observability** (the human reads themselves; the original bloom), **work-observability of the middle** (the human reads the *agent* in flight; the precondition for steering — see 3.7 below and `doctrine/steering.md`), and the **work-system reading the human** (the board's trailing signals — reframes-vs-accepts, review depth, self-spec flag; see 3.8). One substrate (*one place the work lives*), three readings off it.
  
 ### 3.5 Upkeep blooms — maintain the faculty and build the page you can't send yourself
 Keep the faculty the dashboard measures in form (externalize the frame, protect the dense calls, keep the muscle that matters in use, offload the lookup not the judgment). Then build the **watchdog** — the agent-run pager that reads the trailing telemetry and interrupts the productive trance, pointed at your judgment, not your output. The heeding stays organic.
  
 ### 3.6 Teaching agents, in full
 The thread that closes the framework. An agent that explains *why* a pattern or principle applies is reaching toward the human's answerable half — allowed only as **transfer, never substitution.** Calibrated by Part 2's diagnostic: for the career-changer developing the engineering faculty, transfer fully; for the founder who won't learn engineering, teach just enough frame to stay answerable while transferring the startup faculty fully. Subagents and skills mapped to each audience. The knife-edge named, not hidden: the same agent that teaches can deepen abdication if built to substitute.
- 
+
+**Same knob, second job (doctrine extension).** The produce-and-explain register that makes teaching honest is *also* the primary **steering instrument** (see 3.7) — it exposes the agent's reasoning in flight so the human can read it, redirect, and interrupt. The register choice is therefore two decisions in one: what the work does *to* the human (sharpen vs. hollow) and what the human can *do to the work* in flight (steer vs. wait).
+
+### 3.7 Steering blooms — what the human does while the middle runs
+The chapter that turns the geometry honest in flight. The two ends are jobs the human can't hand off; **steering** is what holding them looks like *while the middle runs* — reading the agent's reasoning as it produces, redirecting when the trajectory drifts off the *why-now*, interrupting when the path turns into one the human can't stand behind. The interrupt key on every major coding agent is the primitive; the discipline is configuring produce-and-explain in any column whose answerable half is the human's, so the reasoning is exposed in flight rather than summarized after. *Opacity in the middle is now a configuration choice, not a property of the work; rubber-stamp at the back is what the wrong choice produces.* Steering is the in-flight motion that makes the two gates real instead of ceremonial. (Canonical: `doctrine/steering.md`. Pairs with 3.8.)
+
+### 3.8 Right-sized routing blooms — refusing the agent's economic default
+The chapter that turns the geometry economically honest. The agent has a second silent default that hollows the practice the same way opacity does: it reaches for the frontier model on every task by default, unless explicitly configured otherwise. The discipline that meets it is **classify and route** — a **classifier** reads the complexity of the incoming task, a **router** assigns it to a right-sized model under the practitioner's explicit policy, and **open-source / self-hosted models** are a first-class option rather than a last resort. Right-sizing does two jobs at once: cost control and the *concentration-of-power* register from Part 4's Ethical dimension. The failure mode is *default escalation* — the agent reaches up the model stack without being told to. The discipline isn't "always go cheap"; it is "stop defaulting upward." (Canonical: `doctrine/right-sized-models.md`. Pairs with 3.7.)
+
 ---
  
 ## Part 4 — [working title: Remaining Viable / The Nine Dimensions]
@@ -163,6 +175,8 @@ Every dimension presupposes the self Part 1 planted, the profile Part 2 sorted, 
 | Teaching agents | 1.5 seed | 2.4 module pairing; 3.6 in full | abdication measured across runs |
 | Condition as constraint | 1.3 | 3.4–3.5 dashboard + watchdog | cognitive/temporal dimensions over time |
 | Self-report lies | (implicit) | 3.4 readings you can't fake | 4.1 trend not snapshot |
+| **Steering through the middle** | implicit in 1.2 | 3.6 (register as steering instrument); 3.7 full bloom | reframe-vs-accept rate, override rate, self-spec incidence on the long clock (Cognitive · Epistemic · Identity) |
+| **Right-sized routing / refuse the defaults** | implicit in 1.4 (notice one number) | 2.4 module pairing (per-audience routing posture); 3.8 full bloom | frontier-share of output, cost-per-unit-per-tier, rate-limit incidence, self-hosted utilization on the long clock (Economic · Ethical) |
  
 ---
  

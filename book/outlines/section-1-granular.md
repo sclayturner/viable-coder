@@ -11,20 +11,21 @@ For each chapter: the promise (lifted), the doctrine it draws on, a one-line fel
 
 ## Ch 1 — Why This Is the Best Time to Build (and Why It's on You)
 
-**Promise:** See the opportunity clearly; understand why you're the one who wins or loses it.
-**Doctrine drawn on:** [value-proposition.md](doctrine/value-proposition.md); conceptual-playbook-outline.md §Part 1.1 (the wager).
-**Felt-need rhythm:** Scene (a goal handed to an agent, working software back) → Tension (the catch nobody states first) → Distinction (the wager) → Tool *(none here — Ch 7 holds the only practical move)* → Return (two clocks: Becoming + Remaining).
+**Promise:** See the opportunity clearly; understand why you're the one who wins it bigger or loses it all.
+**Doctrine drawn on:** [value-proposition.md](doctrine/value-proposition.md); [voice/lived-answerability.md](doctrine/voice/lived-answerability.md) (the personal stake as structural evidence); conceptual-playbook-outline.md §Part 1.1 (the wager).
+**Felt-need rhythm:** Scene (the life this work has given — six reasons, in first person) → Tension (every one of those is in play; each can be accelerated or annihilated by what just happened) → Distinction (the wager + two clocks: one stance, two horizons) → Tool *(none here — Ch 7 holds the only practical move)* → Return (vigilance reframed as the opportunity's bodyguard).
 
-- **1.1 What just changed.** Hand an agent a goal and it builds real, working software, start to finish. State it plainly — pretending otherwise loses the reader in the first paragraph.
-- **1.2 The thrill.** One person can now do what used to take a whole team. *Concept:* the opportunity, named as excitement, not warning.
-- **1.3 The wager.** The asymmetry stated as the keystone. *Key phrase:* "**you bear all the risk; the machine bears none.**"
-- **1.4 Why mistakes cost more now.** Building got fast and cheap, so aiming at the wrong thing wastes time you can't get back. *(Sets up why origination matters — Ch 3.)*
-- **1.5 The promise — and the two clocks.** Win the opportunity *and* keep it. *Becoming* (short clock) and *Remaining* (long clock) introduced as **one stance held at two horizons.**
-- **1.6 Vigilance reframed.** Not caution. *Key phrase:* "**Vigilance is the opportunity's bodyguard.**" Seriousness reads as pride in a system you intend to keep winning with.
+- **1.1 The life this work gave.** Six reasons, in first person and compressed: *a canvas, a discipline that travels, a life I could shape, a living, a world, a way to give some of it back.* *Why this opens the section:* the "on you" argument lands hardest when the reader (and Clay) can name what is actually on the line. *Key phrase:* "**Every one of those is in play right now. Each one can be accelerated by what just happened — or annihilated by it. Which way it goes is on you.**" *Source:* personal life experience as the binding layer per [lived-answerability.md](doctrine/voice/lived-answerability.md); not memoir, but the lived stakes that make the wager felt.
+- **1.2 What just changed.** Hand an agent a goal and it builds real, working software, start to finish. State it plainly — pretending otherwise loses the reader in the first paragraph. *(Read now as the mechanism of why 1.1 is in play.)*
+- **1.3 The thrill.** One person can now do what used to take a whole team. *Concept:* the opportunity, named as excitement, not warning.
+- **1.4 The wager.** The asymmetry stated as the keystone. *Key phrase:* "**you bear all the risk; the machine bears none.**" Risk list extended to land a soft echo of the personal opening: "*Your time, your money, your reputation, your nights — and quietly, over enough builds, the life you built this work around.*"
+- **1.5 Why mistakes cost more now.** Building got fast and cheap, so aiming at the wrong thing wastes time you can't get back. *(Sets up why origination matters — Ch 3.)*
+- **1.6 The promise — and the two clocks.** Win the opportunity *and* keep it. *Becoming* (short clock) and *Remaining* (long clock) introduced as **one stance held at two horizons.**
+- **1.7 Vigilance reframed.** Not caution. *Key phrase:* "**Vigilance is the opportunity's bodyguard.**" Seriousness reads as pride in a system you intend to keep winning with — and in the six things that system makes possible.
 
-**Narrative anchor activated:** *Vision or blind ambition* (Section 1 / Section 4 owner per the [ledger](book/narrative-ledger.md)).
-**Seeds forward:** Section 2 (different people hold different ends badly); Section 4 (the long clock).
-**Editorial note:** Ch 1 plants only. No maintenance regimen, no observability argued in the abstract, no nine dimensions.
+**Narrative anchors activated:** *Vision or blind ambition* (Section 1 / Section 4 owner per the [ledger](book/narrative-ledger.md)); *Amplified or annihilated* (newly tracked — the six reasons as the structural content of the "on you" argument; returns in Section 3 Ch 5 and across Section 4).
+**Seeds forward:** Section 2 (different people hold different ends badly); Section 3 Ch 5 (teaching the agent — the generative dimension of the six); Section 4 (the six map to long-clock dimensions for harvest callbacks).
+**Editorial note:** Ch 1 plants only. No maintenance regimen, no observability argued in the abstract, no nine dimensions. The personal opening is structural evidence, not memoir — it names the stakes the rest of the section is going to defend.
 
 ---
 
@@ -67,7 +68,7 @@ For each chapter: the promise (lifted), the doctrine it draws on, a one-line fel
 ### Job 1 — Origination (the front)
 
 - **3.3 Picking the right thing to build.** Before anything is thought, decided, or created, something chooses what's worth thinking about. *Key phrase:* "**Did I choose this — or did it choose me?**" — the first question of the book.
-- **3.4 The failure mode.** Not seizure. Abdication. *Key phrase:* "**Origination atrophies from disuse, not from seizure.**"
+- **3.4 The failure mode.** Not seizure. Two faces of abdication: atrophy from disuse, dilution from over-distribution. *Key phrase (first face):* "**Origination atrophies from disuse, not from seizure.**" *Key phrase (second face):* "**The number you can run is bounded by what you can stand behind, and that ceiling is lower than the enthusiasm hopes.**" The 10x temptation named directly: AI does not raise the ceiling; it makes it easy to walk past.
 
 ### Job 2 — Accountability (the back)
 
@@ -84,8 +85,8 @@ For each chapter: the promise (lifted), the doctrine it draws on, a one-line fel
 **Narrative anchor activated:** *The two gates* (returns through ADLC gates G1/G7); *Prototype-to-production wall* (foreshadowed by "working is not the same as right").
 **Seeds forward:**
 - Section 2 Ch 2 (producible/answerable as the sorting key)
-- Section 3 Ch 3 + Ch 4 (the two jobs as ADLC gates G1, G7)
-- Section 4 Ch 3 (Identity, Judgment, Differential, Vocational all presuppose a self holding both ends)
+- Section 3 Ch 3 + Ch 4 (the two jobs as ADLC gates G1, G7; Ch 4 also names the in-flight motion that *holds* them — **steering** — and Ch 5 names the cost-axis sibling discipline — **right-sized routing** — that refuses the agent's second silent default)
+- Section 4 Ch 3 (Identity, Judgment, Differential, Vocational all presuppose a self holding both ends; Cognitive, Economic, Ethical also read the trailing signals from Section 3's two structural disciplines)
 
 ---
 
@@ -207,7 +208,7 @@ These are observations the sub-beat view makes visible. Not decisions — things
 
 4. **Ch 6 is the densest chapter in the section.** Four practices + the watchdog architecture + the heeding question is a lot of new material for a chapter that, per the conceptual outline, should only seed. The watchdog *idea* and the watchdog *build* may want to live in different sections.
 
-5. **"Two clocks" is named in Ch 1 and doesn't return explicitly until Section 4.** That's a six-section gap for a load-bearing framing device. Check whether Ch 7 carries it forward strongly enough, or whether one of Section 2-3's bridges needs to.
+5. **"Two clocks" is named in Ch 1 and doesn't return explicitly until Section 4.** That's a six-section gap for a load-bearing framing device. Check whether Ch 7 carries it forward strongly enough, or whether one of Section 2-3's bridges needs to. *(The new Ch 1.1 anchor — the six reasons — partially mitigates this: those return in Section 4 as dimension callbacks, giving the long clock a second bridge in addition to "two clocks" proper.)*
 
 6. **The chapter count.** Section 1 has 7 chapters currently. The conceptual outline has 5 sub-beats. The granular view suggests Section 1 could plausibly be 5, 6, or 7 chapters depending on how the compressions in #2, #3, and #4 above resolve. The 4×7 symmetry is not load-bearing.
 
