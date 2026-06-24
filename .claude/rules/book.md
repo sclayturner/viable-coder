@@ -27,6 +27,10 @@ The playbook currently has four major sections:
 3. Running the Day-to-Day: ADLC, gates, agents, skills, review capacity, documentation, deploy and observe.
 4. Playing the Long Game: nine dimensions, long-term viability, dashboards, longitudinal inquiry.
 
+## Kit Awareness
+
+The playbook is delivered as a **kit** — manuscript paired with a working reference application the reader installs in Section 1, configures in Section 2, runs in Section 3, and reads as a longitudinal dashboard in Section 4. See `ai/viable-coder-kit-concept-manifest.md` for the canonical concept and the section-by-section handoffs. Manuscript work should know which kit moment the prose hands the reader to. Do not write Section 1 as if the reader will leave with concepts only — they install on day one. Do not write Section 2 as a taxonomy — it configures the reader's own kit. Do not write Section 3 as advice — it is the day-to-day of a configured harness the reader is running.
+
 ## Editorial Test
 
 Before finishing book work, ask:
@@ -36,3 +40,4 @@ Before finishing book work, ask:
 - Does the passage know which section it belongs to?
 - Is the reader being given a practical move, a diagnostic, or a governing distinction?
 - Does the major unit create felt need before exposition, then return to its opening scene or situation with changed understanding?
+- Does the passage know the playbook is a kit, and does it hand the reader to the right kit moment for its section?

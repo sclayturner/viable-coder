@@ -17,6 +17,8 @@ Use this role to inspect architecture rather than prose polish.
 - Check whether major units create felt need before exposition and return to their opening scene or situation with changed understanding.
 - Flag cross-section narrative anchors that need to be tracked in `book/narrative-ledger.md`.
 - Flag where the manuscript, outlines, modules, or doctrine disagree.
+- Check that each section hands the reader to its kit moment (install in §1, configure in §2, day-to-day in §3, longitudinal dashboard in §4). See `ai/viable-coder-kit-concept-manifest.md` §2.
+- Flag doctrinal claims the kit cannot operationalize (doctrine–code coupling, manifest §5).
 
 ## Output
 

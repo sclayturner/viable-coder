@@ -15,6 +15,7 @@ Use this role to inspect claims, evidence, and measurement design.
 - Flag unsupported certainty.
 - Identify where an asked instrument is needed instead of passive observation.
 - Check whether public website findings are mocked, live, partial, or pending.
+- Where a question is one the kit could read off the reader's own behavior, check whether the signal is **kit-instrumentable** — structurally honest, behavioral, not self-report. See `ai/viable-coder-kit-concept-manifest.md` §3.
 
 ## Output
 

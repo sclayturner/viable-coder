@@ -15,6 +15,16 @@ The reader is the instrument. The agent takes the producible middle; the human h
 **Vigilance is the opportunity's bodyguard.** The reason to instrument and maintain yourself is not caution. It is that you finally have something rare to win, and you are the component most likely to lose it. The same engineering seriousness the reader wants to point at the product, the book asks them to also point at the builder — from the first build — *because the upside is real, not because it is fragile.* This is the mindset the book installs.
  
 ---
+
+## The kit: delivery, not metaphor
+
+The playbook is delivered as a **kit** — manuscript paired with a working reference application the reader installs in Section 1, configures to their situation in Section 2, runs as their day-to-day harness through Section 3, and reads as a longitudinal dashboard in Section 4. The book is the build instructions; the kit is the airframe. The same kit is what Clay uses in every mentorship engagement and is sold separately at $495 for builders who choose the self-directed path; cost reflects access to Clay, not access to the doctrine.
+
+The dual-judgement value the kit embodies — **founder judgement** (the *should I build it* gate, at origination) and **engineering judgement** (the *will it scale* gate, across the day-to-day) — is exercised on the kit itself as the reader adapts it, in the proportion Section 2's configuration calibrates per situation. The manuscript names the gates; the kit makes the reader pass through them.
+
+Canonical design surface: `ai/viable-coder-kit-concept-manifest.md`. The kit shapes what every part of the book does on the page — most directly Part 1's install moment, Part 2's configuration moment, Part 3's day-to-day, and Part 4's longitudinal data — but it does not replace the spine above, the teaching architecture below, or the design principles that follow. It is *how* the stance is operationalized, not *what* the stance is.
+
+---
  
 ## How the book teaches: seed → bloom → harvest
  
@@ -55,6 +65,8 @@ Stated as a thrilling fact about leverage, not a warning. A compressed seed of t
  
 ### 1.4 The first-build rung
 The one thing a beginner can stand up on day one: **externalize the frame before you prompt** — write the *why* down where the agent's first suggestion cannot quietly overwrite it — and **notice one number**: how many of the agent's outputs you accepted without really reading. A self-instrument simple enough for build one, and the seed of the dashboard built properly in Part 3.
+
+*Kit moment.* In the kit-delivered playbook, the reader's first build is the kit itself — installed in Section 1, organized with agents and skills they can see and adapt. The externalized frame and the accept-without-read number are not exhortations; they are the kit's first instrumented behaviors, running on day one against the reader's own work with the kit. The kit-defeat posture is named at install; defaults are honest, defeats are logged. See `ai/viable-coder-kit-concept-manifest.md` §2 and §4.
  
 ### 1.5 Three bridges forward
 - **To Part 2:** different people hold different ends badly. (Audience seed.)
@@ -186,5 +198,15 @@ Every dimension presupposes the self Part 1 planted, the profile Part 2 sorted, 
 2. **Situations vs. personas (Part 2)** — confirm the six canonical situations as the spine with personas as instances and the producible/answerable split as overlay, or restructure around personas.
 3. **Transfer-vs-substitute danger** — seed it in Part 1 (1.5) or hold it until the audience mapping in Part 2 surfaces it naturally.
 4. **The nine questions** — finalize exact phrasings; several in 4.2 are representative drafts, not yet authored.
-5. **Module/agent visibility** — how much of the module ↔ agent-skill pairing is shown to the reader vs. kept as internal authoring structure.
+5. **Module/agent visibility** — how much of the module ↔ agent-skill pairing is shown to the reader vs. kept as internal authoring structure. *Kit implication:* if the kit ships configured agents and skills, the reader sees the pairing whether or not the manuscript names it; manuscript visibility becomes a teaching choice, not an architectural one.
 6. **Where the maintenance trilogy formally "lives"** — confirmed plan is plant-in-1, bloom-in-3; flag if you want any of it promoted into Part 1 proper.
+
+## Kit-resolved decisions (carried in `ai/viable-coder-kit-concept-manifest.md`)
+
+The following were open in earlier drafts and are now settled by the kit framing; named here so the manuscript does not silently re-litigate them.
+
+- **Audience scope (non-builder path).** Non-builders are in. They are seeking to become builders; the same kit shows them how. No separate SKU.
+- **Pricing tier structure.** $4,000/month mentorship is the upper tier; equity-in-lieu is the alternative for early-stage; $495 self-directed kit is the lower tier. See `website/public/mentorship.html`.
+- **Harness stack.** Both Claude Code and Codex, as this repo already practices.
+- **Teaching-agent posture (principle level).** There will be a teaching agent, or at minimum a set of audience-targeted skills, shipped in the kit. Specifics deferred to build time.
+- **Distribution mechanic, maintenance window, exercise design.** Build-time decisions, not doctrinal ones. See concept manifest §8.

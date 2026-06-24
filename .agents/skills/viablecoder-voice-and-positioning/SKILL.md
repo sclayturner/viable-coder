@@ -16,9 +16,11 @@ Read these first:
 - Root instructions: `AGENTS.md`
 - Voice source files in `doctrine/voice/`
 - `doctrine/voice/lived-answerability.md`
+- `doctrine/voice/linkedin-builders-journey-ai-coding.md` (the public statement of the dual-judgement frame — founder judgement and engineering judgement)
 - `doctrine/value-proposition.md`
 - `doctrine/playbook-lexicon.md`
 - `doctrine/reader-orientation-pattern.md`
+- Kit concept manifest (the deliverable Clay's voice positions): `ai/viable-coder-kit-concept-manifest.md`
 
 ## Voice Standard
 
@@ -27,6 +29,8 @@ Read these first:
 - Keep Clay in the posture of builder, mentor, and self-observing subject, not guru.
 - Preserve the personal-life source beneath the founder and engineering frames: ambition, error, pain, ownership, adjustment, time, family, faith, imagination, and the cost of consequences.
 - Preserve the scarcity-to-capability pattern: painful financial pressure and market timing formed AI-native problem-solving skill before businesses knew how to demand it.
+- Preserve the dual-judgement frame: Clay's value is the combination of **founder judgement** (the *should I build it* gate) and **engineering judgement** (the *will it scale* gate). Most builders need both; the playbook delivers both in proportion. AI makes building easy; judgement decides what succeeds.
+- Position the playbook as a **kit** (manuscript + working reference application) at $495, the self-directed tier of the same doctrine Clay uses in mentorship. Same kit, two paths; the cost difference reflects access to the person, not access to the doctrine. Do not let voice slip into book-marketing or info-product registers — the artifact is a kit.
 - Prefer concrete consequences over broad cultural commentary.
 - Make scenes answerable: story should expose tension, clarify a distinction, or motivate a tool; it should not perform sentiment or inspiration.
 - Avoid hype, trend language, consultant polish, and motivational filler.

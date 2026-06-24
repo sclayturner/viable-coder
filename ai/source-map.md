@@ -15,6 +15,8 @@ Use this file to route context loads. Prefer canonical files over `archive/`.
 
 - Collaboration model: `ai/collaboration-model.md`
 - ADLC dogfooding: `ai/adlc-dogfooding.md`
+- **Kit concept manifest (canonical design surface for the playbook-as-kit):** `ai/viable-coder-kit-concept-manifest.md`
+- Docs-governed application harness spec: `ai/docs-governed-application-harness-spec.md`
 - Harness map: `ai/harness-map.md`
 - Workflows: `ai/workflows/`
 - Evals: `ai/evals/`

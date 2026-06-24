@@ -18,6 +18,7 @@ Read these first:
 - Source routing: `ai/source-map.md`
 - Lived answerability: `doctrine/voice/lived-answerability.md`
 - Reader orientation pattern: `doctrine/reader-orientation-pattern.md`
+- Kit concept manifest (the section-by-section handoffs the structure has to support): `ai/viable-coder-kit-concept-manifest.md`
 - Structure eval: `ai/evals/structure-checklist.md`
 - Doctrine drift eval: `ai/evals/doctrine-drift-checklist.md`
 
@@ -33,6 +34,8 @@ Read these first:
 - Has structural material lost the lived human reason that makes the doctrine matter?
 - Does each major reader-facing unit create felt need before exposition, then return to its opening scene or situation with changed understanding?
 - Are recurring scenes and callbacks tracked or aligned with `book/narrative-ledger.md` when they cross sections?
+- Does the section hand the reader to its kit moment (install in §1, configure in §2, day-to-day in §3, longitudinal dashboard in §4), or has it lost the kit handoff? See `ai/viable-coder-kit-concept-manifest.md` §2.
+- Does any doctrinal claim being audited need to be operationalizable in the kit (per the doctrine–code coupling contract, manifest §5)? If it can't be, flag the gap.
 
 ## Output Standard
 

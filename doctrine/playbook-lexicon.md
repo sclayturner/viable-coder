@@ -23,7 +23,25 @@
 **Reader-orientation pattern / Scene -> Tension -> Distinction -> Tool -> Return ◆** — The chapter- and module-level teaching rhythm inside *seed -> bloom -> harvest*. A major unit opens from a concrete human situation, names the pressure that makes it matter, introduces the Viable Coder distinction that clarifies it, gives the reader a usable move, and returns to the opening situation with changed understanding. *Compared with:* explanation order. The book should usually teach in felt-need order, not by defining concepts before the reader knows why they matter.
 
 ---
- 
+
+## The kit (delivery, not metaphor)
+
+**The playbook is a kit ◆** — The playbook is delivered as a **kit**, not as a book alone: manuscript paired with a working reference application the reader installs in Section 1, configures to their situation in Section 2, runs as their day-to-day harness through Section 3, and reads as a longitudinal dashboard in Section 4. *Reader-facing:* "the kit." *Compared with:* a book that ends and leaves the reader with a blank repo; the kit ends each section by handing the reader to something running on their machine. *Canonical design surface:* `ai/viable-coder-kit-concept-manifest.md`.
+
+**The airframe metaphor ◆** — Used to explain what a $495 kit is and is not: the book is the build instructions; the kit is the airframe; the reader builds the airplane in their garage and drives it away. The metaphor honors origination — the reader assembles, adapts, owns; the kit is not a SaaS where someone else runs their judgment infrastructure.
+
+**Same doctrine, two paths ◆** — The kit is what Clay uses in every mentorship engagement. It is also sold separately at $495 for builders who prefer to work from it alone. *Compared:* mentorship ($4,000/month, quarterly billing, 3–5 engagements at a time, per `website/public/mentorship.html`) includes weekly sessions, between-session access, community, and handoff; the self-directed tier is same kit, no Clay. The cost difference reflects access to the person, not access to the artifact.
+
+**Founder judgement / Engineering judgement ◆** — The dual-judgement value the kit embodies. *Founder judgement* is the *can build vs. should build* gate, at origination — what the agent cannot decide for you, because the definition of *worth* came from you. *Engineering judgement* is the *won't scale vs. will scale* gate, across the day-to-day — what the prototype-to-production wall exposes when it is skipped. The reader is not told about the gates and asked to honor them on their own work; the reader passes through them on the kit itself as they install, configure, and adapt it. *Reader-facing source:* `doctrine/voice/linkedin-builders-journey-ai-coding.md`.
+
+**Doctrine–code coupling ◆** — Once the kit ships, doctrine and code are joined. A doctrinal claim the kit cannot operationalize is a doctrinal claim not yet ready to ratify. Refining the nine dimensions, the ADLC gates, the audience model, the maintenance trilogy, or the signal set implies a kit revision. *Compared with:* doctrine changes the kit does not have to track — voice, lexicon refinements that do not change behavior, narrative reorderings within a section. See the concept manifest §5 for the coupling contract.
+
+**Structural honesty (of the kit's signals) ◆** — The kit's signal set's hardest design problem and primary moat: the kit reads behavior, not opinion; the only path to a good number must be doing the work the number measures. *Compared with:* introspective wellness scores, self-rated focus, periodic check-ins answered by the reader about themselves — mirrors with databases behind them, deliberately excluded. *Reader-facing analogue:* the same *instrument-don't-introspect* doctrine from `observability.md`, applied to the kit's design.
+
+**Kit-defeat posture ◆** — The kit's stated stance on the reader's ability to disable its honesty: defaults are honest; defeats are visible (logged); the reader is told this directly during install; the kit does not lock the reader out. *Doctrine:* origination at the front, accountability at the back, the kit in the middle. *Why it matters:* Ch 5's whole point is that the operator most motivated to fudge the reading is the reader; the kit's design must make the disabling itself a logged event, not a hidden setting, or it inherits the original disease.
+
+---
+
 ## The two intelligences & the two ends (the geometry)
  
 **Organic Intelligence (OI) / Artificial Intelligence (AI) ◆** — You vs. the machine. *OI:* alive, finite in time, consequences land on real people, can care, answers for the outcome. *AI:* tireless and consistent, decides *how* but never *why*, bears no risk, cannot care. *Compared:* the smart move isn't you-vs-the-machine; it's giving each side the half it's built for.

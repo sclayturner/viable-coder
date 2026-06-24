@@ -26,6 +26,23 @@ Clay Turner is the author and subject-matter owner. Treat the repository as a bo
 - `ai/` contains collaboration workflows, source maps, harness maps, and evaluation checklists.
 - `archive/` contains imported historical material that should not be edited as the canonical source.
 
+## The Playbook Is a Kit
+
+The Viable Coder playbook is delivered as a **kit**, not as a book alone. The reader pays $495 for the manuscript plus a working reference application they install, configure to their situation, and run as their own AI-coding harness. The same kit is what Clay uses in every mentorship engagement; the $495 self-directed tier and the $4,000/month mentorship engagement (see `website/public/mentorship.html`) share one kit. The cost difference reflects access to Clay, not access to the doctrine.
+
+The canonical design surface for the kit is `ai/viable-coder-kit-concept-manifest.md`. Read it before making changes that touch:
+
+- doctrine the kit must operationalize (the nine dimensions, the ADLC gates, the audience model, the maintenance trilogy, the signal set)
+- Section 1's install moment, Section 2's configuration moment, Section 3's day-to-day harness, Section 4's longitudinal dashboard
+- the website's playbook positioning or pricing
+- any harness artifact (skill, agent, instruction surface) that will eventually ship inside the kit
+
+**Doctrine–code coupling.** A doctrinal claim the kit cannot operationalize is a doctrinal claim not yet ready to ratify. Changes to load-bearing doctrine should flag the kit implication. See the concept manifest §5 for the coupling contract.
+
+**Dual-judgement framing.** The playbook delivers both **founder judgement** (the *should I build it* gate) at origination and **engineering judgement** (the *will it scale* gate) across the day-to-day, in the proportion Section 2's configuration calibrates per situation. The LinkedIn essay at `doctrine/voice/linkedin-builders-journey-ai-coding.md` is the public statement of this frame.
+
+**Realignment order for any project-wide change.** Harness-facing instructions and doctrine surfaces first; outlines, narratives, modules, and website pages second — and only to reorganize and re-present, not to rewrite from scratch. Source content is plentiful; the kit concept does not require new writing, it requires new organization and presentation.
+
 ## Harness Artifact Sync
 
 This repo privileges coding-harness capability over a single human-readable source layout.

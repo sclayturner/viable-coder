@@ -20,4 +20,4 @@ Use this folder for the public website and its supporting documentation.
 - Becoming Viable is the practical and commercial side.
 - Remaining Viable is the inquiry and credibility side.
 - The data surface should not become a sales surface.
-- The playbook page may describe the product direction, but should stay honest about its development status.
+- The playbook page should position the playbook as a **kit** (manuscript + working reference application) at $495, the self-directed tier of the same doctrine Clay uses in mentorship at $4,000/month. See `ai/viable-coder-kit-concept-manifest.md` for the canonical concept and `website/public/mentorship.html` for the pricing tier structure already published. The page should stay honest about kit development status — do not promise install-ready material the kit cannot yet deliver.

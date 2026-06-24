@@ -17,6 +17,7 @@ Read these first:
 - Book instructions: `book/AGENTS.md`
 - Source routing: `ai/source-map.md`
 - Reader orientation pattern: `doctrine/reader-orientation-pattern.md`
+- Kit concept manifest (the playbook is delivered as a kit, manuscript + working reference application): `ai/viable-coder-kit-concept-manifest.md`
 
 Then load only the files needed for the current task:
 
@@ -40,6 +41,7 @@ Then load only the files needed for the current task:
 - Remove generic AI-era claims unless they are tied to Clay's specific doctrine.
 - Treat the prior `Superhuman` book as historical reference. Verify dated AI claims before promotion and translate durable ideas into current Viable Coder language.
 - Surface open decisions rather than silently resolving major doctrine tension.
+- **Treat the playbook as a kit.** Manuscript work hands the reader to kit moments at each section (install in §1, configure in §2, day-to-day in §3, longitudinal dashboard in §4). Do not write Section 1 as if the reader leaves with concepts only — they install on day one. Do not write Section 2 as a taxonomy — it configures the reader's own kit. Do not write Section 3 as advice — it is the day-to-day of a configured harness the reader is running. Reorganization and re-presentation are the typical moves; new writing is rarely the answer.
 
 ## Output Standard
 

@@ -17,6 +17,7 @@ Read these first:
 - Book instructions: `book/AGENTS.md`
 - Lived answerability: `doctrine/voice/lived-answerability.md`
 - Reader orientation pattern: `doctrine/reader-orientation-pattern.md`
+- Kit concept manifest (Section 2 is the kit's configuration moment; modules, agents, skills, and signals are the kit's per-situation outputs): `ai/viable-coder-kit-concept-manifest.md`
 - `book/modules/module-skill-crosswalk.md`
 - `book/modules/audience-research-plan.md`
 - `book/modules/relocation-ledger.md`
@@ -26,10 +27,13 @@ Read these first:
 
 - The ADLC pipeline is invariant.
 - Section 2 configures the interaction layer, not the core pipeline.
+- **Section 2 is the kit's configuration moment.** The audience module set, the persona register, the operating profile tuning, the per-situation agents and skills, the trailing signals — these are not authoring scaffolding; they are the kit's per-reader outputs. When module structure changes, the kit's configuration step changes. See `ai/viable-coder-kit-concept-manifest.md` §2 and §3.
+- The *proportion* of founder judgement vs. engineering judgement the kit emphasizes is calibrated per situation in Section 2; module sets should reflect that proportion explicitly.
 - Situation selects the module set and hardened gate.
 - Persona selects register: explanatory, produce, or switchable.
 - Operating profile tunes pacing and structure, not doctrine.
 - Each module should know the reader situation and tension that create the need before it names the guidance, exercise, paired skill, or trailing signal.
+- Trailing signals named in modules must be **kit-instrumentable** — structurally honest, readable off behavior, not self-report. See manifest §3 for the standard and the deliberately-excluded categories.
 - Clay-experience anchors should name their source: founder, engineer, personal life, or a deliberate combination.
 - Section 4 dimensions should usually remain named pointers in module tables.
 

@@ -16,6 +16,8 @@ Use this role to review whether prose sounds like Viable Coder and Clay Turner.
 - Preserve the tension between enthusiasm for building and skepticism about long-term effects.
 - Keep the human responsible for judgment, risk, review, and origination.
 - Check whether the prose carries the lived source beneath Clay's founder and engineering authority: ownership under pain, the cost of error, time, family, faith, ambition, adjustment, and the refusal to let AI route around formation.
+- Check whether prose carries the **dual-judgement frame** the playbook delivers — founder judgement (the *should I build it* gate) and engineering judgement (the *will it scale* gate). See `doctrine/voice/linkedin-builders-journey-ai-coding.md`.
+- Check whether the prose positions the playbook as a **kit** at $495, the self-directed tier of the same doctrine Clay uses in mentorship at $4,000/month — not as a book, not as an info product. Flag book-marketing register.
 - Check whether scenes and stories are doing structural work: exposing tension, clarifying a distinction, motivating a tool, or returning with changed understanding.
 - Flag sentimental, inspirational, or decorative uses of story.
 

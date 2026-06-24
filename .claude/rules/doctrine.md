@@ -26,3 +26,4 @@ Use this folder for durable concepts that govern the playbook and website.
 - Keep doctrine reusable. If a passage is chapter prose, move it to `book/`.
 - When using personal source material, keep it structurally relevant. It should explain why a doctrine, gate, module, or discipline matters; it should not become decorative memoir.
 - When changing how the book teaches, check `reader-orientation-pattern.md` and decide whether `playbook-lexicon.md`, `book/AGENTS.md`, skills, agents, or evals need matching updates.
+- **Kit operationalizability.** The playbook ships as a kit (manuscript + working reference application). A doctrinal claim the kit cannot operationalize is a doctrinal claim not yet ready to ratify. When changing load-bearing doctrine (nine dimensions, ADLC gates, audience model, maintenance trilogy, signal set), flag the kit implication and consult `ai/viable-coder-kit-concept-manifest.md` for the coupling contract.

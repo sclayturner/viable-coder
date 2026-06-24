@@ -32,6 +32,8 @@ This repository privileges coding-harness capability over a single human-readabl
 
 The reader-orientation pattern lives in `doctrine/reader-orientation-pattern.md` and is enforced through book instructions, evals, skills, and editorial/structure/voice/module agents. When changing that pattern, update every active Codex and Claude harness copy that applies it.
 
+The playbook is delivered as a **kit** (manuscript + working reference application). The canonical design surface for the kit is `ai/viable-coder-kit-concept-manifest.md`. Root project instructions (`AGENTS.md` and `CLAUDE.md`) carry the kit framing in their *The Playbook Is a Kit* section. When the kit concept evolves, update the manifest first, then both root project instructions, then any downstream surface affected.
+
 ## Sync Rule
 
 When changing a reusable AI workflow, skill, agent, or instruction surface, update every active harness copy in the same change. Do not update only one harness location unless the change is intentionally harness-specific. If a divergence is intentional, document the reason in the changed file or here.
@@ -40,3 +42,12 @@ When changing a reusable AI workflow, skill, agent, or instruction surface, upda
 
 - 2026-06-20: Added narrative validation guidance for major reader-facing playbook structure work across `book/AGENTS.md`, `.claude/rules/book.md`, both `viablecoder-playbook-editor` skill copies, `ai/evals/structure-checklist.md`, and `book/outlines/README.md`.
 - 2026-06-20: Established `doctrine/audiences.md` as the canonical six-audience source of truth; registered in `doctrine/AGENTS.md`, `.claude/rules/doctrine.md`, and `ai/source-map.md`. Downstream propagation across `book/modules/`, `book/outlines/`, and `website/` follows.
+- 2026-06-24: **Kit realignment.** Established `ai/viable-coder-kit-concept-manifest.md` as the canonical design surface for the playbook-as-kit (manuscript + working reference application at $495, same kit Clay uses in mentorship). Propagated the kit framing in a single pass across both harnesses:
+  - Root project instructions: new *The Playbook Is a Kit* section in `CLAUDE.md` and `AGENTS.md`.
+  - AI orchestration: kit manifest registered in `ai/source-map.md` and `ai/harness-map.md` (this file, Shared Editorial Doctrine).
+  - `.claude/rules/*`: kit-awareness additions in `book.md`, `doctrine.md`, `website.md`, `research.md`, and `harness-artifacts.md` (each path-scoped to its surface).
+  - Doctrine: dual-judgement framing added to `doctrine/value-proposition.md` (+ new Delivery section); new "The kit (delivery, not metaphor)" lexicon section in `doctrine/playbook-lexicon.md`; new "The kit: delivery, not metaphor" section in `book/outlines/conceptual-playbook-outline.md` plus updated 1.4 first-build rung and a new "Kit-resolved decisions" subsection.
+  - Skill pairs (both copies kept equivalent): `viablecoder-playbook-editor`, `viablecoder-voice-and-positioning` (now reads the LinkedIn essay), `viablecoder-structure-auditor`, `viablecoder-module-architect`.
+  - Agent pairs (both copies kept equivalent in purpose; markdown frontmatter vs TOML format): `editor`, `voice-reviewer`, `structure-auditor`, `module-architect`, `research-reviewer`.
+  - Doctrine surfaces deliberately **not touched** in this pass: `doctrine/reader-orientation-pattern.md` (chapter-level rhythm, kit-invariant), the maintenance trilogy (`human-condition.md`, `observability.md`, `upkeep.md`), `doctrine/organic-intelligence.md`, `doctrine/steering.md`, `doctrine/right-sized-models.md`, `doctrine/nine-dimensions-model.md`, and `doctrine/audiences.md` (which already implicitly carries the kit concept via the "routes the kit" / "delivered kit" / "this audience realizes the kit is real" language).
+  - **Realignment order locked.** Harness and doctrine first; outlines, narratives, modules, and website pages second, and only to reorganize and re-present, not to rewrite. Source content is plentiful. See `CLAUDE.md` / `AGENTS.md` *The Playbook Is a Kit* section, last paragraph.
