@@ -20,16 +20,16 @@ Use this folder for the saleable playbook: manuscript chapters, outlines, module
 
 ## Section Architecture
 
-The playbook currently has four major sections:
+The playbook has four major sections. Each is named in **pair form** — kit-moment verb first (what the reader does with the kit), conceptual title second (what the book teaches). The four verbs — **Install. Configure. Use. Watch.** — are canonical (see `doctrine/playbook-lexicon.md`).
 
-1. Knowing Who Does What: human and machine roles, risk, Organic Intelligence, condition, observability, upkeep.
-2. Finding Your Situation: audience types, modules, develop-vs-borrow, relocation, operating profile.
-3. Running the Day-to-Day: ADLC, gates, agents, skills, review capacity, documentation, deploy and observe.
-4. Playing the Long Game: nine dimensions, long-term viability, dashboards, longitudinal inquiry.
+1. **Install: Knowing Who Does What** — human and machine roles, risk, Organic Intelligence, condition, observability, upkeep.
+2. **Configure: Finding Your Situation** — audience types, modules, develop-vs-borrow, relocation, operating profile.
+3. **Use: Running the Day-to-Day** — ADLC, gates, agents, skills, review capacity, documentation, deploy and observe.
+4. **Watch: Playing the Long Game** — nine dimensions, long-term viability, dashboards, longitudinal inquiry.
 
 ## Kit Awareness
 
-The playbook is delivered as a **kit** — manuscript paired with a working reference application the reader installs in Section 1, configures in Section 2, runs in Section 3, and reads as a longitudinal dashboard in Section 4. See `ai/viable-coder-kit-concept-manifest.md` for the canonical concept and the section-by-section handoffs. Manuscript work should know which kit moment the prose hands the reader to. Do not write Section 1 as if the reader will leave with concepts only — they install on day one. Do not write Section 2 as a taxonomy — it configures the reader's own kit. Do not write Section 3 as advice — it is the day-to-day of a configured harness the reader is running.
+The playbook is delivered as a **kit** — manuscript paired with a working reference application the reader **Installs** in Section 1, **Configures** in Section 2, **Uses** in Section 3, and **Watches** as a longitudinal dashboard in Section 4. See `ai/viable-coder-kit-concept-manifest.md` §2 for the canonical concept and the section-by-section handoffs. Manuscript work should know which kit moment the prose hands the reader to. Do not write Section 1 as if the reader will leave with concepts only — they install on day one. Do not write Section 2 as a taxonomy — it configures the reader's own kit. Do not write Section 3 as advice — it is the day-to-day of a configured harness the reader is running.
 
 ## Editorial Test
 

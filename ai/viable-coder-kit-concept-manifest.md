@@ -14,14 +14,14 @@ The kit is the $495 deliverable that pairs the Viable Coder manuscript with a wo
 
 **The third source of authority.** The kit also carries the binding layer named in `doctrine/voice/lived-answerability.md` — the personal life experience of owning consequences, of being wrong, of adjusting under pain. The kit reads the reader's behavior. What the reader does with what the kit shows them is where lived answerability is exercised. The kit does not deliver the formation; it preserves the conditions under which formation can still happen. That is the third reason the kit is more than a productivity harness, and the third reason the $495 is honest.
 
-## 2. The four section handoffs
+## 2. The four kit moments — Install. Configure. Use. Watch.
 
-Each section produces a concrete kit moment that the prose alone could not produce.
+Each section produces one of the four canonical kit moments. Section titles use the **pair form** — verb first (what the reader does with the kit), conceptual title second (what the book teaches them about) — across the manuscript, harness instructions, and website.
 
-- **Section 1 — Knowing Who Does What.** *Install.* The first build is the kit. The reader gets acquainted with the source tree, runs the included exercises against it, and begins emitting telemetry — every prompt, every accept, every reframe, every commit, every PR, every diff merge. Self-observability stops being argued and becomes a process running on the reader's own machine.
-- **Section 2 — Finding Your Situation.** *Configure.* The kit walks the reader through their situation and produces their configured modules, agents, skills, exercises, ADLC gates, and dashboard signals as outputs. The audience model becomes operative, not taxonomic.
-- **Section 3 — Running the Day-to-Day.** *Use.* The configured kit is the harness the reader runs against real work. ADLC gates fire; agents and skills do their assigned halves; review capacity is respected by configuration rather than by discipline; documentation and observability are produced as artifacts rather than prescribed as habits.
-- **Section 4 — Playing the Long Game.** *Watch.* The kit's accumulated database is the nine-dimensions dashboard. The longitudinal reading is rendered from real behavioral data, not from periodic self-rating.
+- **Section 1 — Install: Knowing Who Does What.** The first build is the kit. The reader gets acquainted with the source tree, runs the included exercises against it, and begins emitting telemetry — every prompt, every accept, every reframe, every commit, every PR, every diff merge. Self-observability stops being argued and becomes a process running on the reader's own machine.
+- **Section 2 — Configure: Finding Your Situation.** The kit walks the reader through their situation and produces their configured modules, agents, skills, exercises, ADLC gates, and dashboard signals as outputs. The audience model becomes operative, not taxonomic.
+- **Section 3 — Use: Running the Day-to-Day.** The configured kit is the harness the reader runs against real work. ADLC gates fire; agents and skills do their assigned halves; review capacity is respected by configuration rather than by discipline; documentation and observability are produced as artifacts rather than prescribed as habits.
+- **Section 4 — Watch: Playing the Long Game.** The kit's accumulated database is the nine-dimensions dashboard. The longitudinal reading is rendered from real behavioral data, not from periodic self-rating.
 
 ## 3. The honesty-by-design signal set
 

@@ -41,7 +41,7 @@ Then load only the files needed for the current task:
 - Remove generic AI-era claims unless they are tied to Clay's specific doctrine.
 - Treat the prior `Superhuman` book as historical reference. Verify dated AI claims before promotion and translate durable ideas into current Viable Coder language.
 - Surface open decisions rather than silently resolving major doctrine tension.
-- **Treat the playbook as a kit.** Manuscript work hands the reader to kit moments at each section (install in §1, configure in §2, day-to-day in §3, longitudinal dashboard in §4). Do not write Section 1 as if the reader leaves with concepts only — they install on day one. Do not write Section 2 as a taxonomy — it configures the reader's own kit. Do not write Section 3 as advice — it is the day-to-day of a configured harness the reader is running. Reorganization and re-presentation are the typical moves; new writing is rarely the answer.
+- **Treat the playbook as a kit.** Manuscript work hands the reader to the four canonical kit moments — **Install** (§1), **Configure** (§2), **Use** (§3), **Watch** (§4) — paired with the conceptual section titles (Section 1 — Install: Knowing Who Does What, and so on; see `doctrine/playbook-lexicon.md`). Do not write Section 1 as if the reader leaves with concepts only — they install on day one. Do not write Section 2 as a taxonomy — it configures the reader's own kit. Do not write Section 3 as advice — it is the day-to-day of a configured harness the reader is running. Reorganization and re-presentation are the typical moves; new writing is rarely the answer.
 
 ## Output Standard
 

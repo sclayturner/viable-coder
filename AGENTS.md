@@ -33,7 +33,7 @@ The Viable Coder playbook is delivered as a **kit**, not as a book alone. The re
 The canonical design surface for the kit is `ai/viable-coder-kit-concept-manifest.md`. Read it before making changes that touch:
 
 - doctrine the kit must operationalize (the nine dimensions, the ADLC gates, the audience model, the maintenance trilogy, the signal set)
-- Section 1's install moment, Section 2's configuration moment, Section 3's day-to-day harness, Section 4's longitudinal dashboard
+- the four canonical kit moments — **Install** (Section 1), **Configure** (Section 2), **Use** (Section 3), **Watch** (Section 4) — and the section handoffs to each (see `doctrine/playbook-lexicon.md` for the pair form: Section 1 — Install: Knowing Who Does What, and so on)
 - the website's playbook positioning or pricing
 - any harness artifact (skill, agent, instruction surface) that will eventually ship inside the kit
 
