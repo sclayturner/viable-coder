@@ -2,7 +2,7 @@
 
 *A sequenced ledger of what each chapter puts on the page, in book order. Read top-to-bottom to see what the playbook is introducing and building toward; scan the **Open** lines to find the holes worth filling next.*
 
-*Companion to the four section outlines and narratives ([section-1-narrative.md](book/outlines/section-1-narrative.md), [section-2-narrative.md](book/outlines/section-2-narrative.md), [section-3-narrative.md](book/outlines/section-3-narrative.md), [section-4-narrative.md](book/outlines/section-4-narrative.md)) and the [playbook-lexicon.md](doctrine/playbook-lexicon.md). Not manuscript.*
+*Companion to the four section outlines and narratives ([section-1.md](book/manuscript/section-1.md) — graduated to manuscript, [section-2-narrative.md](book/outlines/section-2-narrative.md), [section-3-narrative.md](book/outlines/section-3-narrative.md), [section-4-narrative.md](book/outlines/section-4-narrative.md)) and the [playbook-lexicon.md](doctrine/playbook-lexicon.md). Not manuscript.*
 
 ---
 

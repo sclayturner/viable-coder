@@ -67,8 +67,8 @@ nav.top {
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 nav.top.scrolled {
-  border-bottom-color: var(--rule);
-  box-shadow: 0 1px 0 rgba(15, 22, 32, 0.02);
+  border-bottom-color: transparent;
+  box-shadow: none;
 }
 nav.top .wrap {
   padding-top: 1rem;
@@ -86,15 +86,25 @@ nav.top .wrap {
   font-size: 0.95rem;
   letter-spacing: 0.04em;
   color: var(--ink);
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 0.55rem;
   padding-top: 0.15rem;
+  flex: 1 1 auto;
+  min-width: 0;
 }
 .nav-row .wordmark .bar {
   display: inline-block;
   width: 4px; height: 16px;
   background: var(--steel);
+}
+.nav-row .wordmark img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 110px;
+  object-fit: contain;
+  object-position: left center;
 }
 .nav-links {
   display: flex;

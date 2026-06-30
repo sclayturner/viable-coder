@@ -10,8 +10,8 @@ In a single conversation, we worked through how to develop the Viable Coder play
 
 1. **A matrix outline** for Section 3, Chapter 3 — [book/outlines/section-3-chapter-3-matrix.md](book/outlines/section-3-chapter-3-matrix.md). Exposes the linear spine and the modular audience configuration side-by-side, in the form of a per-gate configuration manifest.
 2. **An end-to-end view** of the full playbook — [book/outlines/playbook-end-to-end.md](book/outlines/playbook-end-to-end.md) plus a rendered Mermaid flowchart at [book/outlines/playbook-end-to-end.png](book/outlines/playbook-end-to-end.png). Chapter-level ToC with cross-cutting threads.
-3. **A granular ToC** for Section 1, all chapters — [book/outlines/section-1-granular.md](book/outlines/section-1-granular.md). Sub-beat granularity with load-bearing phrases pulled verbatim from doctrine.
-4. **A narrative prose draft** of Section 1, end to end — [book/outlines/section-1-narrative.md](book/outlines/section-1-narrative.md). The granular ToC rewritten as one continuous lecture in the voice of a builder addressing a builder.
+3. **A granular ToC** for Section 1, all chapters — original pilot draft, since absorbed into the polished [book/outlines/section-1-outline.md](book/outlines/section-1-outline.md). Sub-beat granularity with load-bearing phrases pulled verbatim from doctrine.
+4. **A narrative prose draft** of Section 1, end to end — original pilot draft, since polished and promoted to [book/manuscript/section-1.md](book/manuscript/section-1.md). The granular ToC rewritten as one continuous lecture in the voice of a builder addressing a builder.
 
 ## What we found
 
@@ -30,8 +30,8 @@ That is a non-trivial finding. It means the prose form is not the polish step at
 When developing the structure of a major reader-facing unit (a section, a chapter, a major module), the default working sequence is:
 
 1. **Conceptual frame.** What the unit is doing and why; what doctrine it draws on; how it relates to other units. *(Existing outline-level artifact — `section-N-outline.md` and `conceptual-playbook-outline.md` already do this.)*
-2. **Granular sub-beats.** The unit at sub-beat granularity, with concepts named and key phrases identified. Phrases lifted from doctrine are marked; invented ones are flagged as proposed. *(New artifact type, piloted with [section-1-granular.md](book/outlines/section-1-granular.md).)*
-3. **Narrative prose draft.** The unit as continuous prose, in the appropriate voice, end to end. Chapter headings preserved so the spine stays legible. *(New artifact type, piloted with [section-1-narrative.md](book/outlines/section-1-narrative.md).)*
+2. **Granular sub-beats.** The unit at sub-beat granularity, with concepts named and key phrases identified. Phrases lifted from doctrine are marked; invented ones are flagged as proposed. *(New artifact type, originally piloted as `section-1-granular.md`; since absorbed into the polished [section-1-outline.md](book/outlines/section-1-outline.md).)*
+3. **Narrative prose draft.** The unit as continuous prose, in the appropriate voice, end to end. Chapter headings preserved so the spine stays legible. *(New artifact type, originally piloted as `section-1-narrative.md`; since polished and promoted to [section-1.md](book/manuscript/section-1.md).)*
 
 The narrative is treated as the **evaluation step**, not polish. It is how the author confirms the structure earns the reader's forward motion.
 

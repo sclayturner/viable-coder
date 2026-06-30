@@ -1,8 +1,4 @@
-# Section 1 Narrative — Install
-
-*Validation artifact for `section-1-outline.kit.md`. Prose draft, not manuscript polish. Voice tuned against `doctrine/voice/vision-or-blind-ambition.md` and its analysis — scene-grounded, self-questioning, willing to hold tension without resolving it, with periodic returns to a thematic anchor. Doctrinal substance preserved; the change is register.*
-
----
+# Section 1 — Install: Knowing Who Does What
 
 ## Chapter 1 — What's at Stake
 
@@ -240,4 +236,4 @@ For me, I had given up trying to integrate certain personal *wants* into my day.
 
 Four questions sit underneath whatever carrot you dangle in front of yourself, and AI has not changed any of them. Where do I want to go? Do I have a plan? Am I willing to keep putting my next best foot forward to get there, even when that foot hurts like hell? And will I adjust the plan when the pain turns out to be the consequence of abdication of will? Setting the destination, holding the plan, being willing to change it when the pain reveals you've dropped one of the two ends — none of your humanity gets handed to the agent. The agent pursues a goal because you assign it. What compels you comes from somewhere more mysterious. The kit can keep you honest about whether you are pursuing what you said you wanted in a healthy way. It cannot pursue it for you. Remember: *It doesn't care. It risks nothing.*.
 
-I want to do what I want to do, damn it. You do too. That's why you're here. Hold that. Section 2 starts right there.
+I want to do what I want to do, damn it. You do too. Section 2 begins there.
