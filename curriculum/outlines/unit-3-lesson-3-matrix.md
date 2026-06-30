@@ -1,19 +1,19 @@
-# Section 3, Chapter 3 — "One Job, Start to Finish"
+# Unit 3, Lesson 3 — "One Job, Start to Finish"
 ## Granular Matrix Outline (pilot)
 
-*Working title; pilot of the matrix outline form. The chapter ships as a single linear walk for every reader. This artifact exposes the spine and the configurable columns side-by-side so the spine never drifts from the audience kits ([book/modules/audience-research-plan.md](book/modules/audience-research-plan.md)) or the crosswalk ([book/modules/module-skill-crosswalk.md](book/modules/module-skill-crosswalk.md)).*
+*Working title; pilot of the matrix outline form. The lesson ships as a single linear walk for every builder. This artifact exposes the spine and the configurable columns side-by-side so the spine never drifts from the audience kits ([curriculum/modules/audience-research-plan.md](curriculum/modules/audience-research-plan.md)) or the crosswalk ([curriculum/modules/module-skill-crosswalk.md](curriculum/modules/module-skill-crosswalk.md)).*
 
-This is an **authoring artifact**, not a reader artifact. The reader gets one linear chapter; the author writes that chapter through this matrix so that universals, situations, registers, gates, and signals are configured at the same moment the prose is.
+This is an **authoring artifact**, not a builder artifact. The builder gets one linear lesson; the author writes that lesson through this matrix so that universals, situations, registers, gates, and signals are configured at the same moment the prose is.
 
 ---
 
-## Chapter-level rhythm (Scene -> Tension -> Distinction -> Tool -> Return)
+## Lesson-level rhythm (Scene -> Tension -> Distinction -> Tool -> Return)
 
 - **Scene:** one piece of work — a single ticket — moves left to right across a board with ten columns. Every column has an agent in it. The human is standing between the columns.
 - **Tension:** if every column is staffed, what is the human still doing here?
-- **Distinction:** the agent fills the column; the human owns the *gate between* the columns — and holds that gate by reading the agent's reasoning *across the column,* not only at its boundary. Two of those gates (G1 originate, G7 review) are the two jobs from Section 1, now living at specific spots on the board; the in-flight motion that connects them is **steering** ([doctrine/steering.md](doctrine/steering.md), named as doctrine in Ch. 4).
+- **Distinction:** the agent fills the column; the human owns the *gate between* the columns — and holds that gate by reading the agent's reasoning *across the column,* not only at its boundary. Two of those gates (G1 originate, G7 review) are the two jobs from Unit 1, now living at specific spots on the board; the in-flight motion that connects them is **steering** ([doctrine/steering.md](doctrine/steering.md), named as doctrine in Lesson 4).
 - **Tool:** the gate-by-gate rhythm — for each gate, name where origination lives, where the answerable half sits, where the human's condition hits the call, which agent/skill does the producible work, what the agent teaches its human counterpart, what signal the gate emits, **and what steering looks like at this gate** (the in-flight moves: the explain-mode read, the deliberate interrupt, the redirection on exposed reasoning).
-- **Return:** the chapter ends back at the same ticket, now shipped and observed. The reader feels the rhythm. Bridge to Ch. 4 (gates that don't transfer; steering as what makes them holdable), Ch. 5 (right-sized routing — *which model* filled each column, refusing the agent's default of frontier-on-every-task), and Ch. 7 (the board reading the reader; most of what it reads is steering depth, alongside the routing signals from Ch. 5).
+- **Return:** the lesson ends back at the same ticket, now shipped and observed. The builder feels the rhythm. Bridge to Lesson 4 (gates that don't transfer; steering as what makes them holdable), Lesson 5 (right-sized routing — *which model* filled each column, refusing the agent's default of frontier-on-every-task), and Lesson 7 (the board reading the builder; most of what it reads is steering depth, alongside the routing signals from Lesson 5).
 
 ---
 
@@ -21,17 +21,17 @@ This is an **authoring artifact**, not a reader artifact. The reader gets one li
 
 Each card carries:
 
-- **Universal Beat** — what every reader gets in the body text.
+- **Universal Beat** — what every builder gets in the body text.
 - **Scene Anchor** — a concrete image to write the prose into.
 - **Distinction** — which doctrine fires at this gate.
 - **Producing Subagent** — the column staffer; pulled from the crosswalk.
 - **Register** — E / P / E⇄P at this gate (per the register-switch standard).
 - **The Configurable Column** — how each of the six situations changes the gate. "**Gate hardened**" means this is *the* gate this audience tends to rubber-stamp and is instrumented hardest for.
-- **Trailing Signal** — what the board emits for the Section 4 dashboard.
+- **Trailing Signal** — what the board emits for the Unit 4 dashboard.
 - **Substitution Risk** — how the agent creeps onto the human's end at this gate, and how to police it.
-- **Exercise Slot** — where a reader exercise hangs (later moved to `book/exercises/` or kept inline).
+- **Exercise Slot** — where a builder exercise hangs (later moved to `curriculum/exercises/` or kept inline).
 
-Audience codes follow the Section 2 grid: **ITW** (Internal Talent Worth Developing), **SVD** (SaaS Vendor Dependency), **EDD** (External Dev Dependency), **LSD** (Legacy Software Debt), **AID** (AI Development Gap), **PPW** (Prototype-to-Production Wall).
+Audience codes follow the Unit 2 grid: **ITW** (Internal Talent Worth Developing), **SVD** (SaaS Vendor Dependency), **EDD** (External Dev Dependency), **LSD** (Legacy Software Debt), **AID** (AI Development Gap), **PPW** (Prototype-to-Production Wall).
 
 ---
 
@@ -41,17 +41,17 @@ Audience codes follow the Section 2 grid: **ITW** (Internal Talent Worth Develop
 
 - **Universal Beat.** You decide it's worth doing. Agents surface what the company already knows about it from the MCP-fed surfaces (support, calls, threads). You own the "why now."
 - **Scene Anchor.** The ticket has a name on top. The name is yours, not the agent's — even if the agent surfaced the idea first.
-- **Distinction.** *"Did I choose this, or did it choose me?"* — the first question of the book, hardened into a gate.
+- **Distinction.** *"Did I choose this, or did it choose me?"* — the first question of the kit, hardened into a gate.
 - **Producing Subagent.** MCP-fed discovery / research subagent (Module 1 — Founder Faculty; Module 7 — Modernize-vs-Replace where the audience is LSD).
 - **Register.** E⇄P. First-time founder gets E (transfer the founder faculty). Repeat founder in the same situation gets P (just produce the discovery brief; they don't need to be taught it).
 - **The Configurable Column.**
   - **ITW:** universal only — origination is the lead's job already; the configurable bite happens at G7 and in the teaching loop.
-  - **SVD: gate hardened.** Module 2 (Build-vs-Buy & Dependency Economics) loads in P, plus Module 7 if the question is modernize-vs-replace. The reader runs the Relocation Lens here — *what risk am I trading for what risk?*
-  - **EDD: gate hardened.** Module 4 (Directing Technical Work) loads in P. The reader writes the why-now in plain language *before* the agency-replacement agents brief options.
+  - **SVD: gate hardened.** Module 2 (Build-vs-Buy & Dependency Economics) loads in P, plus Module 7 if the question is modernize-vs-replace. The builder runs the Relocation Lens here — *what risk am I trading for what risk?*
+  - **EDD: gate hardened.** Module 4 (Directing Technical Work) loads in P. The builder writes the why-now in plain language *before* the agency-replacement agents brief options.
   - **LSD:** Module 7 in P + Module 5 (Code Comprehension) in E enter here. Originating any change requires reading what's already there.
   - **AID:** universal only at G1; the bite is G7.
   - **PPW:** Module 11 (Production-Readiness Hardening) enters in E. The prototype's origination is re-evaluated against production-grade NFRs.
-- **Trailing Signal.** **Origination ratio** — fraction of tickets the human originated vs. accepted from the agent. The board emits this for the Section 4 dashboard.
+- **Trailing Signal.** **Origination ratio** — fraction of tickets the human originated vs. accepted from the agent. The board emits this for the Unit 4 dashboard.
 - **Substitution Risk.** The agent quietly originates by recommending its own next ticket. **Police:** every ticket carries a human-authored "why now" line, or it doesn't enter the board.
 - **Exercise Slot.** *Write the why-now in twelve words.* Run for the next five tickets you would have rubber-stamped. Compare against the agent's framing.
 
@@ -63,7 +63,7 @@ Audience codes follow the Section 2 grid: **ITW** (Internal Talent Worth Develop
 - **Scene Anchor.** A PRD lands in your inbox at 9:04 a.m. for a ticket you originated at 9:02. It's three pages. You have to decide whether to read it or wave it.
 - **Distinction.** Producible / answerable at the spec layer — the artifact is producible (and arrives fast); the trade-offs encoded in it are answerable and cannot be handed off.
 - **Producing Subagent.** PRD-author subagent, configured by Module 8 (Spec-Driven Development).
-- **Register.** E⇄P. Persona tag at intake decides. Develop-the-faculty readers get E — the PRD-author narrates each trade-off as it makes it and leaves a deliberate blank.
+- **Register.** E⇄P. Persona tag at intake decides. Develop-the-faculty builders get E — the PRD-author narrates each trade-off as it makes it and leaves a deliberate blank.
 - **The Configurable Column.**
   - **ITW:** E — the team is developing the spec faculty. The lead also reviews what the agent leaves blank for the bench.
   - **SVD:** P — borrow the spec; the founder isn't building the spec muscle.
@@ -131,9 +131,9 @@ Audience codes follow the Section 2 grid: **ITW** (Internal Talent Worth Develop
   - **AID: gate hardened upstream by Module 6 (Characterization-Test-First) and downstream by G7.** Implementer runs only after characterization tests pin behavior.
   - **PPW:** P, with NFRs from G2 enforced as build-time constraints.
 - **Trailing Signal.** **Rework rate** and **structure signals** (Module 10) — does the same area keep getting rewritten? Is the structure decaying?
-- **Substitution Risk.** Implementer is genuinely the agent's column. The risk isn't *in* G5; it's that you treat G5 as a *waiting room* until G7, instead of as the column where steering most concretely lives. *(Name this explicitly — the chapter's honesty depends on it.)*
-- **Steering note.** G5 is the column where the interrupt key actually gets pressed. The deliberate-interrupt-as-calibration move from [doctrine/steering.md](doctrine/steering.md) is most naturally exercised here: while the implementer is producing, the human reads the explained reasoning in flight and presses interrupt once on purpose — not in panic, as calibration — to confirm they are still inside the work. The chapter's claim that G5 is the agent's column is preserved; the addition is that *being in the column without producing it* is the human's posture.
-- **Routing note.** G5 is also the column where the routing question lands most directly — *which model is writing this code, at what cost, against what dependency posture?* Ch. 5 carries the doctrine ([doctrine/right-sized-models.md](doctrine/right-sized-models.md)); the per-gate practical move is that the implementer-subagent's model is configured by the practitioner's policy at intake — not left to whatever the harness defaults to. Boilerplate refactors, deterministic transforms, and well-defined feature scaffolds are prime candidates for mid-tier or open-source/self-hosted models; novel architecture or judgment-dense implementation work escalates to frontier under the policy's *escalate-when* rule.
+- **Substitution Risk.** Implementer is genuinely the agent's column. The risk isn't *in* G5; it's that you treat G5 as a *waiting room* until G7, instead of as the column where steering most concretely lives. *(Name this explicitly — the lesson's honesty depends on it.)*
+- **Steering note.** G5 is the column where the interrupt key actually gets pressed. The deliberate-interrupt-as-calibration move from [doctrine/steering.md](doctrine/steering.md) is most naturally exercised here: while the implementer is producing, the human reads the explained reasoning in flight and presses interrupt once on purpose — not in panic, as calibration — to confirm they are still inside the work. The lesson's claim that G5 is the agent's column is preserved; the addition is that *being in the column without producing it* is the human's posture.
+- **Routing note.** G5 is also the column where the routing question lands most directly — *which model is writing this code, at what cost, against what dependency posture?* Lesson 5 carries the doctrine ([doctrine/right-sized-models.md](doctrine/right-sized-models.md)); the per-gate practical move is that the implementer-subagent's model is configured by the practitioner's policy at intake — not left to whatever the harness defaults to. Boilerplate refactors, deterministic transforms, and well-defined feature scaffolds are prime candidates for mid-tier or open-source/self-hosted models; novel architecture or judgment-dense implementation work escalates to frontier under the policy's *escalate-when* rule.
 - **Exercise Slot.** *Press the interrupt key once during your next implementation column, on purpose, even if the trajectory looks fine.* The deliberate-interrupt-as-calibration exercise from `doctrine/steering.md`; complements (does not replace) the G7 exercise.
 
 ---
@@ -150,7 +150,7 @@ Audience codes follow the Section 2 grid: **ITW** (Internal Talent Worth Develop
   - **SVD / EDD:** P, with a one-page summary the founder can sign.
   - **LSD: gate inverted.** Module 6 runs *before* G5 (characterization tests first). This is the LSD-specific shape change to the board geometry.
   - **AID: gate hardened.** Modules 6 + 12 in E. The bench is learning to read its own test reports.
-  - **PPW: gate hardened.** Modules 11 + 12. This is most of why PPW readers are here.
+  - **PPW: gate hardened.** Modules 11 + 12. This is most of why PPW builders are here.
 - **Trailing Signal.** **Coverage**, **change-failure rate**, **vulns-per-changeset**, **deploy discipline** — the most signal-rich gate on the board.
 - **Substitution Risk.** The security-reviewer flags; the human approves the flag without reading. **Police:** override rate on security flags is itself a signal.
 - **Exercise Slot.** *Read one security finding all the way through this week.* Then ask the security-reviewer to explain it back to you. Compare.
@@ -161,19 +161,19 @@ Audience codes follow the Section 2 grid: **ITW** (Internal Talent Worth Develop
 
 - **Universal Beat.** You read what was built and stand behind it. This one never transfers.
 - **Scene Anchor.** The PR is green. The CI is green. The agent's summary is fluent. Your finger is over Approve. *Did you read the diff?*
-- **Distinction.** Answerability — the back end of the two jobs. The chapter's emotional center.
+- **Distinction.** Answerability — the back end of the two jobs. The lesson's emotional center.
 - **Producing Subagent.** Code-review subagent (Module 9 — Review Capacity, assist-only — flags, never decides) + review-explainer (Module 3 — Minimum Frame, for non-authors).
-- **Register.** E universal. Review is where teaching has to happen even for borrow-the-frame readers, because they have to be answerable at this gate.
+- **Register.** E universal. Review is where teaching has to happen even for borrow-the-frame builders, because they have to be answerable at this gate.
 - **The Configurable Column.**
   - **ITW: gate hardened.** Modules 9 + 14 (Develop-the-Faculty Teaching Protocol). Lead reviews the reviewer; the bench's reviews are themselves a teaching artifact.
   - **SVD: gate hardened.** Module 3 — minimum frame to stay answerable for a system the founder won't author.
   - **EDD: gate hardened.** Modules 3 + 9. The founder rejects agency-produced code on substance, not vibes.
   - **LSD: gate hardened.** Module 5 governs review depth on inherited code. *Net-first* review — what does this change to the system, in the smallest possible diff terms.
-  - **AID: gate hardened — the whole reason this audience exists.** Module 9. Review capacity is the binding constraint named in Ch. 7.
+  - **AID: gate hardened — the whole reason this audience exists.** Module 9. Review capacity is the binding constraint named in Lesson 7.
   - **PPW:** Modules 9 + 11 (NFRs back-checked in review).
-- **Trailing Signal.** **PR / diff review depth** (load-bearing), **override rate** on agent flags, **inquiry-vs-delegation ratio** (Module 13). This is the gate the Section 4 dashboard reads hardest.
+- **Trailing Signal.** **PR / diff review depth** (load-bearing), **override rate** on agent flags, **inquiry-vs-delegation ratio** (Module 13). This is the gate the Unit 4 dashboard reads hardest.
 - **Substitution Risk.** **Rubber-stamp.** Automation complacency. The single most dangerous gate on the board for everyone. **Police:** review depth is structurally instrumented, not just exhorted.
-- **Exercise Slot.** *Run the assist-only review subagent on your last five approved PRs.* Count how many you would still approve after reading what it flags. That number is your review-capacity baseline. *(Anchors Ch. 7.)*
+- **Exercise Slot.** *Run the assist-only review subagent on your last five approved PRs.* Count how many you would still approve after reading what it flags. That number is your review-capacity baseline. *(Anchors Lesson 7.)*
 
 ---
 
@@ -199,7 +199,7 @@ Audience codes follow the Section 2 grid: **ITW** (Internal Talent Worth Develop
 
 - **Universal Beat.** It goes live behind your say-so. You own what happens to real people on the other side.
 - **Scene Anchor.** The deploy button. Then: the dashboards. Then: the first user.
-- **Distinction.** Product observability — the build now talks back. *And the build is silently observing you, too.* (Bridge to Ch. 7.)
+- **Distinction.** Product observability — the build now talks back. *And the build is silently observing you, too.* (Bridge to Lesson 7.)
 - **Producing Subagent.** Observability subagent (Module 11).
 - **Register.** E for NFRs and incident posture.
 - **The Configurable Column.**
@@ -216,23 +216,23 @@ Audience codes follow the Section 2 grid: **ITW** (Internal Talent Worth Develop
 
 ### The Loop — back to G1
 
-- **Universal Beat.** What you learn out in the world feeds the next "start it." The board doesn't end; it cycles. The *same* board has been quietly emitting the signals Section 4 will read on the long clock. *(Bridge to Ch. 7.)*
+- **Universal Beat.** What you learn out in the world feeds the next "start it." The board doesn't end; it cycles. The *same* board has been quietly emitting the signals Unit 4 will read on the long clock. *(Bridge to Lesson 7.)*
 - **Scene Anchor.** The ticket is closed. The next ticket is named — by you, again, with a why-now you can defend. The shop runs.
-- **Return.** The chapter's opening promise — "the agent fills the column; you own the gate" — has now been walked through nine times. The reader has felt the rhythm.
+- **Return.** The lesson's opening promise — "the agent fills the column; you own the gate" — has now been walked through nine times. The builder has felt the rhythm.
 
 ---
 
 ## Cross-cutting columns (carried across every gate, not repeated per gate)
 
-| Cross-cut | Where it lives in this chapter | S4 dimension(s) fed |
+| Cross-cut | Where it lives in this lesson | S4 dimension(s) fed |
 |---|---|---|
-| Universals (Two-Ends Diagnostic, Operating Profile, Relocation Lens, You-Are-Infrastructure, Can-vs-Should) | Configure the chapter's entry conditions — assumed loaded before G1 | all |
+| Universals (Two-Ends Diagnostic, Operating Profile, Relocation Lens, You-Are-Infrastructure, Can-vs-Should) | Configure the lesson's entry conditions — assumed loaded before G1 | all |
 | Register-switch standard (E / P / E⇄P) | Per-gate cards; persona tag at intake decides | Identity, Differential, Judgment |
 | **Steering through the middle ([doctrine/steering.md](doctrine/steering.md))** | The in-flight motion that connects G1 to G7 across every column; loudest at G2 (explain-mode catches self-spec before the gate), G4 (steering between three options on exposed reasoning, not after), G5 (the agent's column — interrupt key is the primitive; deliberate-interrupt is the calibration), G7 (review depth is informed by readings taken *across* G5/G6, not only at G7's boundary). The substitution risk row of every card is now also a *steering's-absence* risk. | Cognitive, Epistemic, Identity, Judgment |
 | Maintenance trilogy bites (condition / observability / upkeep) | Surface at G2 self-spec, G3 Ready-by-drift, G7 rubber-stamp, G9 deploy-substitution | Cognitive, Epistemic, Vocational, Judgment |
-| Watchdog (Section 1, Ch. 6) | Wired against the trailing signals this chapter emits; argued in Ch. 7 of this section, not here | all |
-| **Right-sized routing ([doctrine/right-sized-models.md](doctrine/right-sized-models.md))** | *Which model* fills each column at what price — the routing question runs through every gate, not only G5. Loudest at G5 (implementer fleet decision), G6 (test/security/IaC subagents — high-volume work, prime candidates for mid-tier or open-source), G8 (documentation generation — almost always over-routed today). The substitution-risk row of every card now also has a *default-escalation* risk: the agent reached up the model stack without being told to. The chapter argues this in Ch. 5; the matrix surfaces the per-gate question. | Economic, Ethical |
-| Narrative anchors ([book/narrative-ledger.md](book/narrative-ledger.md)) | "Two gates" returns at G1/G7; **"Steering through the middle" runs through every column** (paired anchor — named as doctrine in Ch. 4); **"Right-sized routing" runs through every column too** (paired-discipline sibling — named as doctrine in Ch. 5); "Prototype-to-production wall" returns at G6/G9; "Dashboard / watchdog" seeded at G7 for Ch. 7 bloom | Section 4 |
+| Watchdog (Unit 1, Lesson 6) | Wired against the trailing signals this lesson emits; argued in Lesson 7 of this unit, not here | all |
+| **Right-sized routing ([doctrine/right-sized-models.md](doctrine/right-sized-models.md))** | *Which model* fills each column at what price — the routing question runs through every gate, not only G5. Loudest at G5 (implementer fleet decision), G6 (test/security/IaC subagents — high-volume work, prime candidates for mid-tier or open-source), G8 (documentation generation — almost always over-routed today). The substitution-risk row of every card now also has a *default-escalation* risk: the agent reached up the model stack without being told to. The lesson argues this in Lesson 5; the matrix surfaces the per-gate question. | Economic, Ethical |
+| Narrative anchors ([curriculum/narrative-ledger.md](curriculum/narrative-ledger.md)) | "Two gates" returns at G1/G7; **"Steering through the middle" runs through every column** (paired anchor — named as doctrine in Lesson 4); **"Right-sized routing" runs through every column too** (paired-discipline sibling — named as doctrine in Lesson 5); "Prototype-to-production wall" returns at G6/G9; "Dashboard / watchdog" seeded at G7 for Lesson 7 bloom | Unit 4 |
 
 ---
 
@@ -253,9 +253,9 @@ Which gate is the *hardened* one for each audience — useful as a single-glance
 
 ## Open decisions this matrix forces
 
-1. **The chapter as written today is universal-only.** This matrix says each audience experiences a *different* chapter even though the spine is the same. **Decision:** does the book deliver the universal walk in body text and the configurable layer as inline call-outs / module pointers, or are there genuinely six different versions of Chapter 3 bound into different print kits?
-2. **The signal density.** This matrix surfaces ~12 trailing signals across nine gates *(plus the ~6 routing signals Ch. 5 adds — frontier-share, cost-per-unit-per-tier, override-up rate, override-down rate, rate-limit incidence, self-hosted utilization)*. **Decision:** which become explicit reader-facing measurements in Ch. 7, and which stay author-side (named for Section 4 only)?
-3. **The exercise count.** Eight gate exercises plus the cross-cuts is too many for one chapter. **Decision:** which exercises live in-chapter and which move to [book/exercises/](book/exercises/).
-4. **G5's deliberate silence.** This matrix leaves G5 (implement) without an exercise on purpose — the chapter celebrates that this column is genuinely the agent's. Confirm we're comfortable with that asymmetry; the alternative is a "watch one PR get built" exercise.
-5. **LSD's inverted G6.** Characterization-tests-before-implement is the only audience-specific *shape change* to the board geometry in this chapter. **Decision:** surface it in the reader-facing chapter (most truthful) vs. handle it in LSD-specific module material only (cleaner spine).
-6. **Whether this form propagates.** If this matrix holds for Ch. 3, the next candidates are Section 2 Ch. 5 (the six situations) and Section 4 Ch. 3 (the nine questions) — both are similarly modular. Decide whether to pilot the form on those next or stay linear there.
+1. **The lesson as written today is universal-only.** This matrix says each audience experiences a *different* lesson even though the spine is the same. **Decision:** does the book deliver the universal walk in body text and the configurable layer as inline call-outs / module pointers, or are there genuinely six different versions of Lesson 3 bound into different print kits?
+2. **The signal density.** This matrix surfaces ~12 trailing signals across nine gates *(plus the ~6 routing signals Lesson 5 adds — frontier-share, cost-per-unit-per-tier, override-up rate, override-down rate, rate-limit incidence, self-hosted utilization)*. **Decision:** which become explicit builder-facing measurements in Lesson 7, and which stay author-side (named for Unit 4 only)?
+3. **The exercise count.** Eight gate exercises plus the cross-cuts is too many for one lesson. **Decision:** which exercises live in-lesson and which move to [curriculum/exercises/](curriculum/exercises/).
+4. **G5's deliberate silence.** This matrix leaves G5 (implement) without an exercise on purpose — the lesson celebrates that this column is genuinely the agent's. Confirm we're comfortable with that asymmetry; the alternative is a "watch one PR get built" exercise.
+5. **LSD's inverted G6.** Characterization-tests-before-implement is the only audience-specific *shape change* to the board geometry in this lesson. **Decision:** surface it in the builder-facing lesson (most truthful) vs. handle it in LSD-specific module material only (cleaner spine).
+6. **Whether this form propagates.** If this matrix holds for Lesson 3, the next candidates are Unit 2 Lesson 5 (the six situations) and Unit 4 Lesson 3 (the nine questions) — both are similarly modular. Decide whether to pilot the form on those next or stay linear there.

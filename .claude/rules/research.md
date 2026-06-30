@@ -25,4 +25,4 @@ Research material should help answer one of these questions:
 - What is measured now?
 - What still requires an asked instrument, passive data source, or analysis-time enrichment?
 - How does the evidence change the playbook's practical guidance?
-- Where the question is one the kit could read off the reader's own behavior, is the signal **kit-instrumentable** (structurally honest — the only path to a good number is doing the work the number measures)? See `ai/viable-coder-kit-concept-manifest.md` §3 for the signal-honesty standard.
+- Where the question is one the kit could read off the builder's own behavior, is the signal **kit-instrumentable** (structurally honest — the only path to a good number is doing the work the number measures)? See `ai/viable-coder-kit-concept-manifest.md` §3 for the signal-honesty standard.

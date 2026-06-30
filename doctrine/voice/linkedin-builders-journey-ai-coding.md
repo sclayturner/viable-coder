@@ -1,7 +1,7 @@
 # LinkedIn Post — The Builder's Journey into AI Coding
  
 **Companion image:** `ai-builder-gates.png` (two-gate flowchart)
-**Theme tie-in:** Section 1 (Founder Judgement / "can build vs. should build") and the Prototype-to-Production Wall (engineering judgement)
+**Theme tie-in:** Unit 1 (Founder Judgement / "can build vs. should build") and the Prototype-to-Production Wall (engineering judgement)
  
 ---
  

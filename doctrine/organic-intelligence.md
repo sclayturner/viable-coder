@@ -1,8 +1,8 @@
 # Organic intelligence: the half that doesn't transfer
  
-*A foundational section of the Playbook. Everything downstream — when to accept an agent's suggestion, when to override it, how to review what it produced — is this one principle applied to a moment.*
+*A foundational unit of the Playbook. Everything downstream — when to accept an agent's suggestion, when to override it, how to review what it produced — is this one principle applied to a moment.*
  
-An agentic harness can think, decide, and create. Say it plainly, because pretending otherwise is how this section loses you in the first paragraph. Hand an agent a goal and it will decompose it, reason through options, choose its next step, write working software, and decide when it's done. That is real autonomy, and it is getting better, not worse.
+An agentic harness can think, decide, and create. Say it plainly, because pretending otherwise is how this unit loses you in the first paragraph. Hand an agent a goal and it will decompose it, reason through options, choose its next step, write working software, and decide when it's done. That is real autonomy, and it is getting better, not worse.
  
 So the line between you and the machine can't be drawn where most people draw it — along the list of tasks the machine supposedly can't do. That line moves every model release, and your value moves with it. The durable line isn't about capability at all. It's about **origination at the front** and **accountability at the back**, with everything the agent is good at sitting in between.
  
@@ -72,7 +72,7 @@ That motion is **steering**, and it is not a third job. The two jobs at the ends
  
 ## Why this sits at the front
  
-This isn't a sidebar. It's the principle the rest of the Playbook is built on, and it's the same thing the inquiry is measuring under nine different names.
+This isn't a sidebar. It's the principle the rest of the Playkit is built on, and it's the same thing the inquiry is measuring under nine different names.
  
 *Am I getting sharper, or duller?* assumes there's still a you doing the thinking to sharpen. *What happens when models exercise my judgment?* is the answerable half of Decide, asked across a career. *What is my value in this arrangement?* is what's left when the producible half is fully automated — and the answer is the two ends of the loop. *Does the time I save actually accrue to me?* only makes sense for someone whose time is finite and whose own.
  

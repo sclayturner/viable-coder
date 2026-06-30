@@ -1,20 +1,20 @@
 # Viable Coder
 
-Viable Coder is the working source for Clay Turner's playbook, doctrine, research inquiry, public website, and AI collaboration machinery.
+Viable Coder is the working source for Clay Turner's private kit app, integrated curriculum, doctrine, research inquiry, public website, and AI collaboration machinery.
 
 The project teaches a move from AI-assisted "vibe coding" to durable AI-native product ownership. It has two clocks:
 
-- **Becoming Viable**: practical mentorship, resources, and playbook material for people and companies trying to build real software capability with AI now.
+- **Becoming Viable**: practical mentorship, resources, and a private kit app for people and companies trying to build real software capability with AI now.
 - **Remaining Viable**: a public inquiry into whether that way of working holds up over time across cognition, judgment, identity, economics, ethics, and other long-term viability dimensions.
 
-This is a book and doctrine repository first. Code exists mainly to support the website, research instruments, and collaboration workflows.
+This is a curriculum, doctrine, and product-design repository first. Code exists mainly to support the public website, private kit app, research instruments, and collaboration workflows.
 
 ## Project Status
 
 The repository is a live working source, not a finished publication package.
 
 - The public website is a static HTML/CSS/JS site under `website/public/`.
-- The playbook structure and modules are active working material under `book/`.
+- The kit curriculum, unit structure, lessons, modules, and exercises are active working material under `curriculum/`.
 - Doctrine is canonical under `doctrine/` and should be changed deliberately.
 - Research streams and measurement thinking are in progress under `research/`.
 - Some website pages intentionally contain placeholder or future-facing material. See `website/docs/page-manifest.md` before treating any page as launch-ready.
@@ -23,7 +23,7 @@ The repository is a live working source, not a finished publication package.
 
 | Path | Purpose |
 | --- | --- |
-| `book/` | Saleable playbook source: manuscript, outlines, modules, exercises. |
+| `curriculum/` | Saleable kit curriculum source: lesson content, unit outlines, modules, exercises. |
 | `doctrine/` | Governing concepts: value proposition, lexicon, Organic Intelligence, condition, upkeep, observability, nine dimensions, voice anchors. |
 | `research/` | Research streams, evidence ledgers, instruments, and measurement design. |
 | `website/` | Static public site and website documentation. |
@@ -54,7 +54,7 @@ The governing vocabulary lives in `doctrine/playbook-lexicon.md`. Important spin
 
 Before changing a surface, read the nearest `AGENTS.md`. For Claude Code sessions, also apply `CLAUDE.md` and the relevant `.claude/rules/` file.
 
-1. Identify the surface: book, doctrine, research, website, harness configuration, or AI workflow.
+1. Identify the surface: curriculum, doctrine, research, website, kit application, harness configuration, or AI workflow.
 2. Read the relevant folder guidance.
 3. Load only the necessary context from `ai/source-map.md`.
 4. Make the smallest coherent change.
@@ -62,7 +62,7 @@ Before changing a surface, read the nearest `AGENTS.md`. For Claude Code session
 
 Keep these boundaries intact:
 
-- Do not turn a book chapter into a research memo.
+- Do not turn a lesson into a research memo.
 - Do not turn doctrine into promotional website copy.
 - Do not treat website copy as canonical doctrine unless it has also been promoted to `doctrine/`.
 - Do not overstate mocked or planned research data as live evidence.
@@ -93,23 +93,23 @@ Before public-facing website work, read:
 - `website/docs/page-manifest.md`
 - `website/docs/data-collection-alignment.md` when working near research data or measurement claims
 
-## Book Work
+## Curriculum Work
 
-Book material belongs in `book/`.
+Curriculum material belongs in `curriculum/`.
 
-- `book/outlines/` contains the current four-section structure.
-- `book/modules/` maps audience situations to guidance, exercises, ADLC gates, skill pairings, and signals.
-- `book/manuscript/` is reserved for publishable text.
-- `book/exercises/` is reserved for reader exercises.
+- `curriculum/outlines/` contains the current four-unit structure.
+- `curriculum/modules/` maps audience situations to guidance, exercises, ADLC gates, skill pairings, and signals.
+- `curriculum/lessons/` contains current lesson content.
+- `curriculum/exercises/` is reserved for builder exercises.
 
-The playbook currently runs through four major sections:
+The kit curriculum currently runs through four major units:
 
 1. Knowing Who Does What
 2. Finding Your Situation
 3. Running the Day-to-Day
 4. Playing the Long Game
 
-Before finishing book work, ask whether the change makes the reader more answerable, preserves Clay's earned point of view, belongs in the section where it was placed, and gives the reader a practical move, diagnostic, or governing distinction.
+Before finishing curriculum work, ask whether the change makes the builder more answerable, preserves Clay's earned point of view, belongs in the unit or lesson where it was placed, and gives the builder a practical move, diagnostic, or governing distinction.
 
 ## Research Work
 

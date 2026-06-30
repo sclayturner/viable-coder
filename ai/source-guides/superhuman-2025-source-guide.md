@@ -7,7 +7,7 @@ This guide indexes Clay Turner's prior book, `Superhuman: Mastering AI Agents to
 - **Archived source**: `archive/prior-books/superhuman-2025.md`
 - **Approximate size**: 61,700 words
 - **Original frame**: early-2025 AI mastery and personal reinvention
-- **Current project frame**: mid-2026 Viable Coder doctrine, book, research, website, and agent harness work
+- **Current project frame**: mid-2026 Viable Coder doctrine, curriculum, research, website, and agent harness work
 - **Canonical status**: historical reference only
 
 The source file is archived as provenance. Do not edit it as a canonical source. Do not promote it wholesale. Use it to recover foundations, voice, and source experience that can be routed into the current project with proper context.
@@ -23,7 +23,7 @@ This book predates the current Viable Coder frame. It was written before the pro
 - the nine-dimension public inquiry in its current form;
 - the explicit "from vibe coding to viable coding" positioning.
 
-Because of that, its technology claims and market predictions belong to early 2025. In 2026 use, they require verification before becoming research, doctrine, website copy, or manuscript claims.
+Because of that, its technology claims and market predictions belong to early 2025. In 2026 use, they require verification before becoming research, doctrine, website copy, or lesson content claims.
 
 ## Best Uses
 
@@ -43,18 +43,18 @@ Do not use it as:
 - a replacement for the current Viable Coder architecture;
 - a source of current model/provider/tool claims unless independently checked.
 
-## Chapter Map
+## Source Map
 
-| Section | Likely Use In Viable Coder |
+| Unit | Likely Use In Viable Coder |
 | --- | --- |
 | `Preface` | Personal reinvention, family, time, AI pivot, founder aftermath, lived stakes. |
 | `Getting Oriented` | Historical AI context; verify before using as current research. |
 | `Seeing Our Human Limitations` | Strong source for human condition, personal motivation, time, and relatability. |
 | `The Three Stages of Superhuman Formation` | Precursor model; compare carefully with current audience/persona/module system. |
-| `The Seeker` | Curiosity, learning, wonder, and early formation. Potential Section 1 and Section 4 support. |
-| `The Maker` | Work, mistakes, contribution, skill, and practical use. Potential Section 3 support. |
+| `The Seeker` | Curiosity, learning, wonder, and early formation. Potential Unit 1 and Unit 4 support. |
+| `The Maker` | Work, mistakes, contribution, skill, and practical use. Potential Unit 3 support. |
 | `The Orchestrator` | Early agent orchestration philosophy; map cautiously into ADLC and teaching-agent doctrine. |
-| `A Call to Reinvention` | Public stakes, social consequences, education, identity, economic pressure. Potential Section 4 and research support. |
+| `A Call to Reinvention` | Public stakes, social consequences, education, identity, economic pressure. Potential Unit 4 and research support. |
 | `A Personal Mandate` | Durable personal-life source: time, imagination, hope, thinking, creating, family, and human meaning. |
 | `Philosophy of the Soaring Titan` | Historical precursor to current voice and posture; use sparingly and reframe away from "superhuman" branding. |
 
@@ -64,9 +64,9 @@ When using this source, classify each extract before promoting it:
 
 | Classification | Destination | Rule |
 | --- | --- | --- |
-| Durable personal foundation | `doctrine/voice/` or book prose | Preserve the lived human source, but frame it inside Viable Coder's answerability doctrine. |
+| Durable personal foundation | `doctrine/voice/` or curriculum prose | Preserve the lived human source, but frame it inside Viable Coder's answerability doctrine. |
 | Durable doctrine precursor | `doctrine/` | Promote only after reconciling terms with `doctrine/playbook-lexicon.md`. |
-| Playbook example or story | `book/` | Use only when it helps the reader make a diagnostic, gate, exercise, or decision. |
+| Playbook example or story | `curriculum/` | Use only when it helps the builder make a diagnostic, gate, exercise, or decision. |
 | Research or AI history claim | `research/` | Verify against 2026 sources first and mark evidence status. |
 | Website positioning | `website/` | Translate into current Becoming / Remaining language and avoid old product promises. |
 | AI collaboration pattern | `ai/` or harness-native files under `.agents/`, `.claude/`, and `.codex/` | Convert into operational guidance; do not import old metaphor as-is. |
@@ -95,7 +95,7 @@ Treat "personal limits" language as a precursor to current condition, observabil
 
 ## Open Questions
 
-- Which personal stories should become recurring book anchors, and which should stay private reference?
-- Should Seeker / Maker / Orchestrator remain only historical, or become a light internal lens for reader formation?
+- Which personal stories should become recurring curriculum anchors, and which should stay private reference?
+- Should Seeker / Maker / Orchestrator remain only historical, or become a light internal lens for builder formation?
 - Does "time" become the main personal-life bridge into the Temporal and Vocational dimensions?
 - Which early agent-orchestration language can survive once translated into the current ADLC gate model?

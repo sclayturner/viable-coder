@@ -1,4 +1,4 @@
 interface:
-  display_name: "Viable Coder Playbook Editor"
-  short_description: "Draft, revise, and organize the Viable Coder playbook."
-  default_prompt: "Help me work on the Viable Coder playbook."
+  display_name: "Viable Coder Curriculum Editor"
+  short_description: "Draft, revise, and organize the Viable Coder kit curriculum."
+  default_prompt: "Help me work on the Viable Coder kit curriculum."

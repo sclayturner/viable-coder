@@ -1,4 +1,4 @@
 interface:
   display_name: "Viable Coder Structure Auditor"
-  short_description: "Audit playbook structure, section flow, and doctrine drift."
+  short_description: "Audit kit curriculum structure, unit flow, and doctrine drift."
   default_prompt: "Audit the structure of this Viable Coder material."

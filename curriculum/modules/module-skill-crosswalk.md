@@ -1,18 +1,18 @@
 # The Module ↔ Skill Crosswalk
  
-*Section 2 ⇄ Section 3 bridge artifact — the single source of truth for how an audience's kit configures the ADLC's agents. Section 2 hands the human a **module** (guidance + exercise); the same act loads the agent a **Skill** (executable `SKILL.md`). This document books the join so the two sections share one truth instead of drifting.*
+*Unit 2 ⇄ Unit 3 bridge artifact — the single source of truth for how an audience's kit configures the ADLC's agents. Unit 2 hands the human a **module** (guidance + exercise); the same act loads the agent a **Skill** (executable `SKILL.md`). This document books the join so the two units share one truth instead of drifting.*
 
 *Canonical audience definitions live in [doctrine/audiences.md](doctrine/audiences.md). The audience codes used throughout this crosswalk (ITW · SVD · EDD · LSD · AID · PPW) point back to those definitions. AID covers both pre-adoption (Shape A) and post-adoption-blind (Shape B); the gate hardened (G7) and the load-bearing signals are the same for both shapes — the kit gets there by different roads.*
  
-> **What this artifact does and doesn't carry.** It owns the *new* information: each module's paired Skill, its **register**, the ADLC **gate** it hardens, the **subagent** it configures, and the **trailing signal** it feeds. It does **not** reproduce audience membership — that lives in the module-to-audience grid in `section-2-audience-research-plan.md`, and pointing back to it (rather than copying it) is what keeps the two from drifting. Section 4's nine dimensions appear here only as **named pointers**, never defined — the harvest stays Section 4's.
+> **What this artifact does and doesn't carry.** It owns the *new* information: each module's paired Skill, its **register**, the ADLC **gate** it hardens, the **subagent** it configures, and the **trailing signal** it feeds. It does **not** reproduce audience membership — that lives in the module-to-audience grid in `unit-2-audience-research-plan.md`, and pointing back to it (rather than copying it) is what keeps the two from drifting. Unit 4's nine dimensions appear here only as **named pointers**, never defined — the harvest stays Unit 4's.
  
 ---
  
 ## The governing idea (one line)
  
-**The ADLC pipeline is invariant; Section 2 configures only the interaction layer.** The board geometry, the ten steps, the deliverables, and the *existence* of every gate are fixed doctrine for everyone. What an audience's kit tunes is the narrow band where AI meets the human — and that band has exactly **four knobs**, the first three of which map to layers Section 2 already composes from, with the fourth added by `doctrine/right-sized-models.md`:
+**The ADLC pipeline is invariant; Unit 2 configures only the interaction layer.** The board geometry, the ten steps, the deliverables, and the *existence* of every gate are fixed doctrine for everyone. What an audience's kit tunes is the narrow band where AI meets the human — and that band has exactly **four knobs**, the first three of which map to layers Unit 2 already composes from, with the fourth added by `doctrine/right-sized-models.md`:
  
-| Section 2 layer | What it selects in the ADLC |
+| Unit 2 layer | What it selects in the ADLC |
 |---|---|
 | **Situation** picks the module set | which subagents/Skills are *foregrounded*, and **which gate is hardened** (the one this person tends to rubber-stamp) |
 | **Persona** sets develop-vs-borrow | the Skill's **register** — produce-and-explain vs. produce (also doubles as the *steering instrument:* produce-and-explain exposes the agent's reasoning in flight, per `doctrine/steering.md`) |
@@ -27,10 +27,10 @@
 - **E** — *Explanatory / Socratic.* Produce-and-explain; narrates the *why* like a senior to a junior; deliberately leaves blanks. **Develops the faculty.**
 - **P** — *Produce.* Delivers the artifact fully; transfers only *enough frame to stay answerable* for a call the human will never author. **Borrows the frame.**
 - **E⇄P** — *Switchable by persona tag at intake.* Same Skill, mode selected by develop-vs-borrow (see the register-switch standard below).
-**ADLC gate** (from the canonical pipeline, Section 3 B.2):
+**ADLC gate** (from the canonical pipeline, Unit 3 B.2):
 G1 ORIGINATE · G2 SPECIFY (PRD) · G3 GROOM / `Ready` · G4 DESIGN & ARCHITECT · G5 IMPLEMENT · G6 TEST·SEC·INFRA·CICD · G7 REVIEW · G8 DOCUMENT · G9 DEPLOY & OBSERVE
  
-**Trailing signal** — the board-emitted measure the gate produces (B.6), which doubles as the Section 4 self-dashboard input. Each points, by gate, at the dimension(s) the relocation ledger names for that audience.
+**Trailing signal** — the board-emitted measure the gate produces (B.6), which doubles as the Unit 4 self-dashboard input. Each points, by gate, at the dimension(s) the relocation ledger names for that audience.
  
 ---
  
@@ -50,7 +50,7 @@ These sit in every audience's default set. They don't load a producing subagent 
  
 ## The sixteen audience modules — they configure the *agent-side* middle
  
-Home audiences per the Section 2 grid (ITW · SVD · EDD · LSD · AID · PPW). Read a row as: *this module installs this Skill, in this register, which hardens this gate by configuring this subagent, and emits this signal.*
+Home audiences per the Unit 2 grid (ITW · SVD · EDD · LSD · AID · PPW). Read a row as: *this module installs this Skill, in this register, which hardens this gate by configuring this subagent, and emits this signal.*
  
 | # | Module | Paired Skill (`SKILL.md`) | Reg. | Gate(s) | Subagent it configures | Trailing signal fed |
 |:--:|---|---|:--:|:--:|---|---|
@@ -72,7 +72,7 @@ Home audiences per the Section 2 grid (ITW · SVD · EDD · LSD · AID · PPW). 
 | 16 | **Right-Sized Routing & Model-Fleet Policy** | `right-sized-routing` (`classifier` + `router` + escalate-when rules) | P (with E layered for AID/ITW where the bench is learning to *read* complexity) | meta (every gate where a subagent runs, loudest at G5; per-Skill model tier set at intake) | classifier + router + every producing subagent (the routing policy binds at the seam where each subagent loads its model fleet) | **frontier-share of output**; cost-per-unit-per-tier; override-up rate; override-down rate; rate-limit incidence; self-hosted utilization |
  
 **Three notes that fall out of the grid:**
-- **Promotion candidates.** Rows 8, 9, and 16 (Spec-Driven, Verification & Review Capacity, Right-Sized Routing) harden the load-bearing gates (G2, G7, G5) and apply across *every* audience — consistent with the Section 2 note that the first two may belong with the universals, and the same case can be made for Module 16. If promoted, they move into the universals table above.
+- **Promotion candidates.** Rows 8, 9, and 16 (Spec-Driven, Verification & Review Capacity, Right-Sized Routing) harden the load-bearing gates (G2, G7, G5) and apply across *every* audience — consistent with the Unit 2 note that the first two may belong with the universals, and the same case can be made for Module 16. If promoted, they move into the universals table above.
 - **The persona-sensitive row.** Row 1 (Founder Faculty) is the clearest case of persona overriding situation: **E** (default, full transfer) for a first-time founder, **P** (borrow) for a repeat founder *in the same situation*. Its `E⇄P` is set by the persona tag, not the situation.
 - **The cross-cutting row.** Row 16 (Right-Sized Routing) is the second module without a single hardened gate — it sets a *per-Skill* model-tier policy that binds wherever a subagent runs. The audience kit selects the *posture* (which gate's subagent gets which tier by default, which escalate-when rules fire); the persona tag does not change the routing posture, but the wiring (operating profile) can tune the threshold for the policy-override rules. The new fourth knob in the governing table above.
 ---
@@ -90,7 +90,7 @@ Because the Anthropic skill-formation RCT shows the *same* Skill builds a person
  
 ## Gates where the agent creeps onto the human's end — police these
  
-Substitution doesn't announce itself; it leaks in at specific gates. Each is a place the maintenance trilogy (condition, observability, upkeep) — extended by **steering** (Ch 4) and **right-sized routing** (Ch 5) — has to bite.
+Substitution doesn't announce itself; it leaks in at specific gates. Each is a place the maintenance trilogy (condition, observability, upkeep) — extended by **steering** (Lesson 4) and **right-sized routing** (Lesson 5) — has to bite.
  
 - **G2 — self-spec.** When the agent writes its own spec, it edges into *origination* — the spec is where the ends live. The human must own or rigorously review it. *(Signal: self-spec flag. Steering-instrument fix: produce-and-explain at G2 exposes the agent's drafting reasoning in flight so the human can edit before the spec is finished.)*
 - **G3 — `Ready` by drift.** Agent-surfaced Issues that the human merely approves are the agent choosing what's worth building. *(Signal: origination ratio — originated vs. approved.)*
@@ -112,15 +112,15 @@ The gate you *harden* for an audience is the gate you *instrument hardest* for t
 | AID | G7 | PR review depth; vulns-per-changeset | classifier-readability is a teaching surface — the bench learns to *read* complexity before being asked to configure routing | Epistemic · Cognitive |
 | PPW | G6 + G9 | deploy discipline; change-failure | deploy-tier and observability-tier routing rules that the prototype never had | Ethical |
  
-The same artifact that runs the work measures the human running it, and routes that measure to Section 4 — which is the bridge B.6 promised.
+The same artifact that runs the work measures the human running it, and routes that measure to Unit 4 — which is the bridge B.6 promised.
  
 ---
  
 ## Open decisions this crosswalk forces
  
 1. **Visibility of the pairing** *(S2 open question #2).* Show develop-the-faculty audiences the Skill behind their module (the transparency is part of the transfer); keep it quieter for borrow-the-frame audiences (they want the frame, not the plumbing). Note this is just the register knob applied to the documentation itself.
-2. **Promote rows 8, 9, and 16 to universals?** Spec-Driven, Verification & Review Capacity, and Right-Sized Routing each harden a gate that *every* audience touches (G2, G7, G5 respectively) and each carries a load-bearing signal the Section 4 dashboard reads. Decide before the library hardens, or the three most portable Skills will be authored twice.
+2. **Promote rows 8, 9, and 16 to universals?** Spec-Driven, Verification & Review Capacity, and Right-Sized Routing each harden a gate that *every* audience touches (G2, G7, G5 respectively) and each carries a load-bearing signal the Unit 4 dashboard reads. Decide before the library hardens, or the three most portable Skills will be authored twice.
 3. **Where review capacity lives** *(S3 open question; S2 open question #4).* This crosswalk places it on *both* sides — `review-capacity` (agent) at G7 and You-Are-Infrastructure (human condition) as G7's precondition. Confirm that dual placement is the intended resolution.
 4. **`Ready`-gate and self-spec instrumentation have no off-the-shelf tool.** Origination ratio, reframes-vs-accepts, and the self-spec flag are the playbook's own inventions; the GitHub Project board is their most plausible substrate. Treat as build, not buy.
-5. **The routing-policy substrate** *(new — S3 Ch 5 open question).* Frontier-share, cost-per-unit-per-tier, override-up/down, rate-limit incidence, and self-hosted utilization all need a substrate too. Most plausible candidate: the harness logs (per-agent invocation metadata) joined to provider billing exports. Treat as build, not buy — the same shape as #4. *(Section 3 Ch 5's "tips and tricks the harness doesn't ship with" beat is the natural home for the build pattern.)*
+5. **The routing-policy substrate** *(new — S3 Lesson 5 open question).* Frontier-share, cost-per-unit-per-tier, override-up/down, rate-limit incidence, and self-hosted utilization all need a substrate too. Most plausible candidate: the harness logs (per-agent invocation metadata) joined to provider billing exports. Treat as build, not buy — the same shape as #4. *(Unit 3 Lesson 5's "tips and tricks the harness doesn't ship with" beat is the natural home for the build pattern.)*
 6. **Module 16's universal-promotion question** *(new).* Right-Sized Routing affects every gate where a producing subagent runs; it has no single hardened gate. The crosswalk currently keeps it as a numbered module for symmetry with the others, but its structural role is closer to a *universal* — the same "set once at intake, binds everywhere" shape as You-Are-Infrastructure or Can-vs-Should. If promoted to the universals table, Module 16 moves up and the count drops from 16 to 15 again (with the universals growing from 5 to 6). Decide at the same time as #2.

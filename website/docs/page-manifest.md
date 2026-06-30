@@ -76,7 +76,7 @@ The site has two primary halves:
 
 **Role in the site:** The credibility anchor for the claim that Viable Coder is not only selling AI-native adoption, but also measuring its long-term effects honestly.
 
-**Caveats:** The page depends on the findings data and visualization layer, and some methodology language is still future-facing. It references a PhD collaborator as pending and describes protocol/version/consent materials that may need to exist as real linked artifacts before a public launch. Footer links also reference section anchors such as methodology, cohort, and commitment; confirm those anchors resolve as intended.
+**Caveats:** The page depends on the findings data and visualization layer, and some methodology language is still future-facing. It references a PhD collaborator as pending and describes protocol/version/consent materials that may need to exist as real linked artifacts before a public launch. Footer links also reference unit anchors such as methodology, cohort, and commitment; confirm those anchors resolve as intended.
 
 ### `next-steps.html` — Next Steps
 
@@ -88,7 +88,7 @@ The site has two primary halves:
 
 ### `playbook.html` — The Playbook
 
-**Purpose:** Present the self-directed doctrine behind the mentorship: written guidance, recorded workshops, working agents, and exercises for AI-native enterprise viability.
+**Purpose:** Present the self-directed doctrine behind the mentorship as a private kit app: integrated curriculum, exercises, working agents, telemetry, and dashboards for AI-native product ownership.
 
 **Role in the site:** The lower-touch product path for people who want the operating doctrine without a mentorship engagement.
 

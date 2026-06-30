@@ -45,14 +45,14 @@ Before finalizing major content, ask:
 - If this is structural doctrine, where is the lived human reason the structure matters?
 - Does the passage preserve the cost of error, or does it imply AI can route around formation?
 - Does the passage preserve the scarcity-to-capability pattern without romanticizing pain or turning it into triumphalism?
-- Does the reader meet Clay only as an expert, or also as someone who has had to own consequences?
+- Does the builder meet Clay only as an expert, or also as someone who has had to own consequences?
 - Is the personal material framed as structural evidence rather than decorative memoir?
 
 ## Relationship To Voice Anchors
 
 `vision-or-blind-ambition.md` is the primary voice anchor for this layer. Its structural contribution is ownership under pain: ambition, blindness, faith, foolishness, error, wrestling, adjustment, and the refusal to let a machine remove the formative value of being wrong.
 
-`essay-analysis-vision-or-blind-ambition.md` explains why that essay is not adjacent to the playbook. It is the lived source Section 1 later generalizes.
+`essay-analysis-vision-or-blind-ambition.md` explains why that essay is not adjacent to the playbook. It is the lived source Unit 1 later generalizes.
 
 The prior book, `Superhuman: Mastering AI Agents to Exceed Personal Limits`, should be treated as a historical source for this layer. Its durable contribution is not its early-2025 AI market framing. Its durable contribution is the personal mandate beneath the technology: time, family, reinvention, imagination, fear, faith, human limits, and the desire to use AI without losing what makes human life worth amplifying.
 

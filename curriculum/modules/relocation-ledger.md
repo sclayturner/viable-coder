@@ -1,6 +1,6 @@
 # The Relocation Ledger & Dimension Pointers
  
-*Section 2 → Section 4 bridge artifact. Every escape is a trade: each situation's fix relocates risk rather than removing it. This artifact books both columns of that trade (the ledger) and names which of Section 4's nine dimensions each trade lights up (the pointer) — **named only, never defined here.** Definitions and instrumentation are Section 4's harvest.*
+*Unit 2 → Unit 4 bridge artifact. Every escape is a trade: each situation's fix relocates risk rather than removing it. This artifact books both columns of that trade (the ledger) and names which of Unit 4's nine dimensions each trade lights up (the pointer) — **named only, never defined here.** Definitions and instrumentation are Unit 4's harvest.*
 
 *Canonical audience definitions live in [doctrine/audiences.md](doctrine/audiences.md). The ledger entries below assume those definitions; if they drift, update the doctrine first, then the ledger.*
  
@@ -103,6 +103,6 @@ Each carries a one-line routing header (which end held badly / develop-or-borrow
  
 **The discipline is the whole point.** The teaching move is mechanical: force at least three entries into the Adopted column, then sign one residual-risk statement. That signature is *Did I choose this, or did it choose me?* pointed at the dependency rather than the product — origination applied to the trade itself. An empty Adopted column means the trade wasn't decided, just made.
  
-**Keep it a seed.** Name the dimension, never define it here; the definition and the instrumentation are Section 4's harvest. The handoff is clean: each Adopted dependency in this table *is* the thing Section 4 later measures, and each residual-risk statement is meant to become a trailing signal you re-read on the board (origination ratio, reframe-vs-accept rate) rather than a cost discovered late — the same instrument as the intake's re-administration, at process scale.
+**Keep it a seed.** Name the dimension, never define it here; the definition and the instrumentation are Unit 4's harvest. The handoff is clean: each Adopted dependency in this table *is* the thing Unit 4 later measures, and each residual-risk statement is meant to become a trailing signal you re-read on the board (origination ratio, reframe-vs-accept rate) rather than a cost discovered late — the same instrument as the intake's re-administration, at process scale.
  
-**Coverage note.** The six situations collectively point at **eight** of Section 4's nine dimensions — Identity, Cognitive, Temporal, Economic, Differential, Judgment, Epistemic, Ethical — with Economic and Cognitive each lit twice. That leaves **one of the nine (Vocational) with no Section 2 seed.** A deliberate call for Section 4: does Vocational need a situation pointer back here, or is it genuinely a harvest-only axis that no single relocation trade surfaces?
+**Coverage note.** The six situations collectively point at **eight** of Unit 4's nine dimensions — Identity, Cognitive, Temporal, Economic, Differential, Judgment, Epistemic, Ethical — with Economic and Cognitive each lit twice. That leaves **one of the nine (Vocational) with no Unit 2 seed.** A deliberate call for Unit 4: does Vocational need a situation pointer back here, or is it genuinely a harvest-only axis that no single relocation trade surfaces?

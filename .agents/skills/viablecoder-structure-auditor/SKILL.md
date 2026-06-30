@@ -1,42 +1,42 @@
 ---
 name: viablecoder-structure-auditor
-description: Audit the Viable Coder playbook for structural coherence, section boundaries, duplicated concepts, missing bridges, and doctrine drift. Use when reorganizing outlines, reviewing chapters, reconciling book modules with doctrine, or checking whether material belongs in book, doctrine, research, website, or archive.
+description: Audit the Viable Coder kit curriculum for structural coherence, unit boundaries, duplicated concepts, missing bridges, and doctrine drift. Use when reorganizing outlines, reviewing lessons, reconciling curriculum modules with doctrine, or checking whether material belongs in curriculum, doctrine, research, website, kit application, or archive.
 ---
 
 # Viable Coder Structure Auditor
 
 ## Overview
 
-Use this skill to inspect architecture before rewriting prose. The goal is to keep the playbook coherent as a book and as a system of doctrine, modules, ADLC guidance, and long-game measurement.
+Use this skill to inspect architecture before rewriting prose. The goal is to keep the playbook coherent as a private kit app with integrated curriculum, doctrine, modules, ADLC guidance, and long-game measurement.
 
 ## Required Orientation
 
 Read these first:
 
 - Root instructions: `AGENTS.md`
-- Book instructions: `book/AGENTS.md`
+- Curriculum instructions: `curriculum/AGENTS.md`
 - Source routing: `ai/source-map.md`
 - Lived answerability: `doctrine/voice/lived-answerability.md`
 - Reader orientation pattern: `doctrine/reader-orientation-pattern.md`
-- Kit concept manifest (the section-by-section handoffs the structure has to support): `ai/viable-coder-kit-concept-manifest.md`
+- Kit concept manifest (the unit-to-kit handoffs the structure has to support): `ai/viable-coder-kit-concept-manifest.md`
 - Structure eval: `ai/evals/structure-checklist.md`
 - Doctrine drift eval: `ai/evals/doctrine-drift-checklist.md`
 
 ## Audit Questions
 
-- Which section owns this idea?
-- Is this doctrine, manuscript, research, module architecture, or website copy?
+- Which unit owns this idea?
+- Is this doctrine, lesson content, research, module architecture, website copy, or kit behavior?
 - Does the idea appear in more than one place without a clear reason?
-- Is a bridge missing between audience, module, ADLC gate, and Section 4 signal?
+- Is a bridge missing between audience, module, ADLC gate, and Unit 4 signal?
 - Has a term drifted from `doctrine/playbook-lexicon.md`?
 - Has the human-machine role distinction blurred?
-- Has personal source material been framed as structural evidence, or has it drifted into memoir disconnected from the reader's path?
+- Has personal source material been framed as structural evidence, or has it drifted into memoir disconnected from the builder's path?
 - Has structural material lost the lived human reason that makes the doctrine matter?
-- Does each major reader-facing unit create felt need before exposition, then return to its opening scene or situation with changed understanding?
-- Are recurring scenes and callbacks tracked or aligned with `book/narrative-ledger.md` when they cross sections?
-- Does the section hand the reader to its kit moment (install in §1, configure in §2, day-to-day in §3, longitudinal dashboard in §4), or has it lost the kit handoff? See `ai/viable-coder-kit-concept-manifest.md` §2.
+- Does each major builder-facing unit create felt need before exposition, then return to its opening scene or situation with changed understanding?
+- Are recurring scenes and callbacks tracked or aligned with `curriculum/narrative-ledger.md` when they cross units?
+- Does the unit hand the builder to its kit moment (install in Unit 1, configure in Unit 2, day-to-day use in Unit 3, longitudinal dashboard in Unit 4), or has it lost the kit handoff? See `ai/viable-coder-kit-concept-manifest.md` §2.
 - Does any doctrinal claim being audited need to be operationalizable in the kit (per the doctrine–code coupling contract, manifest §5)? If it can't be, flag the gap.
 
 ## Output Standard
 
-Lead with structural findings ordered by severity. Include recommended moves and the files affected. Do not rewrite large sections unless asked.
+Lead with structural findings ordered by severity. Include recommended moves and the files affected. Do not rewrite large units unless asked.

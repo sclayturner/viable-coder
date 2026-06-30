@@ -11,13 +11,13 @@ Use this role to inspect architecture rather than prose polish.
 
 ## Lens
 
-- Check whether material belongs in the right section.
-- Identify duplicated concepts across sections.
+- Check whether material belongs in the right unit or lesson.
+- Identify duplicated concepts across units.
 - Identify missing bridges between doctrine, module, ADLC, and long-game measurement.
 - Check whether major units create felt need before exposition and return to their opening scene or situation with changed understanding.
-- Flag cross-section narrative anchors that need to be tracked in `book/narrative-ledger.md`.
-- Flag where the manuscript, outlines, modules, or doctrine disagree.
-- Check that each section hands the reader to its kit moment (install in §1, configure in §2, day-to-day in §3, longitudinal dashboard in §4). See `ai/viable-coder-kit-concept-manifest.md` §2.
+- Flag cross-unit narrative anchors that need to be tracked in `curriculum/narrative-ledger.md`.
+- Flag where lesson content, outlines, modules, or doctrine disagree.
+- Check that each unit hands the builder to its kit moment (install in Unit 1, configure in Unit 2, day-to-day use in Unit 3, longitudinal dashboard in Unit 4). See `ai/viable-coder-kit-concept-manifest.md` §2.
 - Flag doctrinal claims the kit cannot operationalize (doctrine–code coupling, manifest §5).
 
 ## Output

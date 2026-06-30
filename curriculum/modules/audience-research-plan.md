@@ -1,4 +1,4 @@
-# Section 2 Research Plan: Mapping Audiences to Valuable Insights
+# Unit 2 Research Plan: Mapping Audiences to Valuable Insights
  
 *A research **plan**, not the research itself. This document outlines, for each audience, the guiding principles to fetch depth on later — one audience at a time. It is built to feed the **module library** (guidance + exercise + paired agent skill) that Part 2 of the playbook hands to each audience as a default set, borrowable across types.*
 
@@ -8,13 +8,13 @@
  
 ## How this plan is organized (and the three choices behind it)
  
-**Choice 1 — six situations as the spine, personas as the overlay.** Per the `[DECISION]` flagged in the working outline, the six canonical site situations remain the organizing unit. The three personas from the brief (repeat non-technical founder; first-time technical founder; non-technical career-changer) are treated as *how those situations show up in a person*, and the **producible/answerable split** is the cross-cutting diagnostic. If you'd rather invert this — personas as spine, situations as instances — the per-section research topics below mostly survive the reshuffle; only the grouping changes. There is a third read on top of these two — the **operating profile** (Stream F), the instrument's stable wiring — giving a clean composition: **situation picks the module set; persona sets develop-vs-borrow; wiring tunes the delivery.**
+**Choice 1 — six situations as the spine, personas as the overlay.** Per the `[DECISION]` flagged in the working outline, the six canonical site situations remain the organizing unit. The three personas from the brief (repeat non-technical founder; first-time technical founder; non-technical career-changer) are treated as *how those situations show up in a person*, and the **producible/answerable split** is the cross-cutting diagnostic. If you'd rather invert this — personas as spine, situations as instances — the per-unit research topics below mostly survive the reshuffle; only the grouping changes. There is a third read on top of these two — the **operating profile** (Stream F), the instrument's stable wiring — giving a clean composition: **situation picks the module set; persona sets develop-vs-borrow; wiring tunes the delivery.**
  
 **Choice 2 — shared research is hoisted into cross-cutting streams.** Several topics feed three or more audiences (adult skill acquisition, the founder faculty, the diagnostic instrument itself, review capacity, the relocation lens, the operating profile). Researching these once as reusable blocks, before the per-audience passes, prevents you from re-deriving the same module six times. Do the cross-cutting streams first.
  
-**Choice 3 — the relocation lens blooms here; the nine dimensions stay seeds.** Every situation's "fix" relocates risk rather than removing it: insource the agency to agents and you trade relationship-and-contract risk for model-capability and lock-in risk, but the risk never leaves you, because per the spine it can't. This dynamic is **bloomed fully in Section 2** (Stream E below), since Section 2 is where those trades are actually chosen — insource, replace, modernize. But the **nine dimensions** that measure each trade's cost appear only as **named pointers** per situation, not as definitions, to protect the seed→bloom→harvest pedagogy that reserves the dimensions as Section 4's harvest. A one-line version of the idea also belongs back in Section 1's stance — *you can't escape risk, only choose its shape* — so that Section 2 blooms something already planted rather than introducing it cold.
+**Choice 3 — the relocation lens blooms here; the nine dimensions stay seeds.** Every situation's "fix" relocates risk rather than removing it: insource the agency to agents and you trade relationship-and-contract risk for model-capability and lock-in risk, but the risk never leaves you, because per the spine it can't. This dynamic is **bloomed fully in Unit 2** (Stream E below), since Unit 2 is where those trades are actually chosen — insource, replace, modernize. But the **nine dimensions** that measure each trade's cost appear only as **named pointers** per situation, not as definitions, to protect the seed→bloom→harvest pedagogy that reserves the dimensions as Unit 4's harvest. A one-line version of the idea also belongs back in Unit 1's stance — *you can't escape risk, only choose its shape* — so that Unit 2 blooms something already planted rather than introducing it cold.
  
-**The load-bearing diagnostic for every audience** is the one your outline calls the sharpest tool in the part: **develop the faculty** (the person wants this end as a real, owned capability) vs. **borrow the frame** (the person needs just enough to stay *answerable* for a call they will never author). Each situation below is tagged with its default position on that spectrum, plus **which of the two ends it holds badly** — origination at the front, answerability at the back. That tag is what later calibrates the teaching agents in Section 3 (transfer fully vs. teach just enough frame).
+**The load-bearing diagnostic for every audience** is the one your outline calls the sharpest tool in the part: **develop the faculty** (the person wants this end as a real, owned capability) vs. **borrow the frame** (the person needs just enough to stay *answerable* for a call they will never author). Each situation below is tagged with its default position on that spectrum, plus **which of the two ends it holds badly** — origination at the front, answerability at the back. That tag is what later calibrates the teaching agents in Unit 3 (transfer fully vs. teach just enough frame).
  
 A note on your own material: throughout, I flag **"Clay-experience anchors to capture."** These are prompts for *you* to mine three wells of experience: founder judgment, engineering judgment, and the personal life experience beneath both. The modules become yours when they carry the right source: what you learned building companies, what you learned building systems, and what you learned by owning consequences in ordinary human life. I can't research those; I can only mark where the playbook needs one.
  
@@ -32,7 +32,7 @@ This is the "what *should* be built" research, and it is squarely the **originat
 - Founder-market fit: what it actually predicts, how to assess it honestly, the failure mode of building from capability rather than conviction.
 - Timing and market entry: "why now" frameworks, the cost of being early vs. late, technology-adoption windows.
 - The "can vs. should" gate as origination made explicit — connecting business acumen directly to your *Did I choose this, or did it choose me?* test.
-- How AI changes the founder calculus: when cheap building tempts you to build the wrong thing fast (the "missteps cost more now" claim from Section 1).
+- How AI changes the founder calculus: when cheap building tempts you to build the wrong thing fast (the "missteps cost more now" claim from Unit 1).
 - **Clay-experience anchor to capture:** your own PMF/FMF/timing calls — the ones that worked and the ones that didn't, told as a founder-to-founder module.
 ### Stream B — Adult skill acquisition, transfer, and de-skilling
  
@@ -52,7 +52,7 @@ The producible/answerable split has to become a *usable sorting tool*, not just 
 - Maturity/readiness models as precedent (DORA's AI Capabilities Model, the seven team archetypes) for structuring audience defaults.
 ### Stream D — Review capacity as part of condition
  
-Flagged in the Section 3 open questions as possibly *the* binding constraint. It cuts across SaaS, External Dev, Legacy, and AI Gap audiences — all of whom must hold an answerable end over work they didn't produce.
+Flagged in the Unit 3 open questions as possibly *the* binding constraint. It cuts across SaaS, External Dev, Legacy, and AI Gap audiences — all of whom must hold an answerable end over work they didn't produce.
  
 - "Verification debt" (Sonar) and "acceleration whiplash" (Augment Code): the mechanics of output outrunning review.
 - What review capacity actually consists of (mental models, the frame, the threat model) and whether it can be built quickly or must be developed slowly.
@@ -64,11 +64,11 @@ The dynamic that cuts across all six situations: no move sheds risk, it only cha
 - Risk-relocation framing: how each situation's fix manufactures a new dependency, and how to make that trade a deliberate origination act rather than a hidden cost discovered later.
 - Model and vendor dependency mechanics for the agent era — capability drift, pricing, deprecation, lock-in — researched specifically as the *agency-to-agents* trade.
 - How to price a dependency you're taking on (maintenance burden, capability risk) against the one you're shedding, so the trade is legible before it's made.
-- Which of the nine dimensions each common relocation lights up — enough depth to *name the axis* per situation, deliberately not enough to pre-empt Section 4.
+- Which of the nine dimensions each common relocation lights up — enough depth to *name the axis* per situation, deliberately not enough to pre-empt Unit 4.
 - **Clay-experience anchor:** a time you traded one dependency for another and only saw the new one later.
 ### Stream F — The operating profile (the instrument's wiring)
  
-Section 1 already makes "you are the instrument" load-bearing, and the condition arc is about the instrument's *state* — its **weather**, the day-to-day variance you instrument precisely because it lies. This stream is about the instrument's standing *configuration* — its **climate**, the stable traits the weather happens on top of. An ADHD creative and a methodical sequential thinker have different climates, and the same bad night degrades each differently. So this isn't a new concept bolted on; it's the baseline the whole condition/observability arc was implicitly assuming a generic version of. It is **not a tenth dimension** — it's the baseline the *Cognitive* dimension is read *against*. A one-line seed belongs back in Section 1's stance (*the instrument came with a factory configuration; know it before you tune it*), so Section 2 blooms something already planted.
+Unit 1 already makes "you are the instrument" load-bearing, and the condition arc is about the instrument's *state* — its **weather**, the day-to-day variance you instrument precisely because it lies. This stream is about the instrument's standing *configuration* — its **climate**, the stable traits the weather happens on top of. An ADHD creative and a methodical sequential thinker have different climates, and the same bad night degrades each differently. So this isn't a new concept bolted on; it's the baseline the whole condition/observability arc was implicitly assuming a generic version of. It is **not a tenth dimension** — it's the baseline the *Cognitive* dimension is read *against*. A one-line seed belongs back in Unit 1's stance (*the instrument came with a factory configuration; know it before you tune it*), so Unit 2 blooms something already planted.
  
 This read is administered **together with the Two Ends Diagnostic (Stream C) as one intake**, and it feeds the **teaching-protocol modules** (delivery, not content). The composition it completes: **situation picks the module set; persona sets develop-vs-borrow; wiring tunes the delivery** — same modules, different pacing, scaffolding, novelty, and how aggressively the frame gets externalized.
  
@@ -78,13 +78,13 @@ The methodological spine here is non-negotiable, because *Remaining Viable* woul
 - Neurodivergence and cognitive variation as **engineering constraints**, not identities: ADHD, working-memory limits, need for novelty, nonlinear/associative thinking — and specifically how each interacts with the two ends (origination, the answerable half) and with agentic workflows.
 - Functional self-assessment that reads configuration off **behavior** rather than a self-flattering quiz — the observability principle (Stream C) pointed at climate instead of weather.
 - How delivery actually changes by wiring: pacing, scaffolding density, novelty load, how hard to externalize the frame, single-threading the dense calls — the same module delivered differently.
-- Personalized dashboard baselines: why an ADHD creative's "normal" origination ratio isn't the generic norm, so Section 4 thresholds are read against the individual's climate rather than a population default.
+- Personalized dashboard baselines: why an ADHD creative's "normal" origination ratio isn't the generic norm, so Unit 4 thresholds are read against the individual's climate rather than a population default.
 - **Clay-experience anchor:** discovering your own configuration late, and what about the standard path never fit how you learn — which is itself the argument for why the instrument's climate belongs in the intake.
 ---
  
 ## The six situations
  
-Each profile gives: a **snapshot** (dominant risk, which end held badly, develop-or-borrow default, the persona(s) that land here, the Clay-experience anchor to capture), the **research topics** to fetch depth on, the **module(s)** the research should produce, and the **dimension pointers** — which of Section 4's nine dimensions this situation's relocation trade lights up, named only, as a Section 4 seed.
+Each profile gives: a **snapshot** (dominant risk, which end held badly, develop-or-borrow default, the persona(s) that land here, the Clay-experience anchor to capture), the **research topics** to fetch depth on, the **module(s)** the research should produce, and the **dimension pointers** — which of Unit 4's nine dimensions this situation's relocation trade lights up, named only, as a Unit 4 seed.
  
 ---
  
@@ -101,7 +101,7 @@ Each profile gives: a **snapshot** (dominant risk, which end held badly, develop
 - The specific failure of teaching with AI: how to detect a delegator early and convert them.
 **Modules to produce.** A "develop-the-faculty" teaching protocol; an inquiry-vs-delegation diagnostic for learners; a manager's module on sponsoring development without smothering it.
  
-**Dimension pointers (Section 4 seed).** **Identity** and **Cognitive** — developing people into delegators relocates the de-skilling risk straight onto your own bench; the trade for an internal capability is the bench's long-run sharpness.
+**Dimension pointers (Unit 4 seed).** **Identity** and **Cognitive** — developing people into delegators relocates the de-skilling risk straight onto your own bench; the trade for an internal capability is the bench's long-run sharpness.
  
 ---
  
@@ -118,7 +118,7 @@ Each profile gives: a **snapshot** (dominant risk, which end held badly, develop
 - The minimum engineering frame an owner needs to stay answerable for a tool they now run.
 **Modules to produce.** A build-vs-buy decision module; a "minimum frame to own" checklist; a SaaS-replacement feasibility exercise.
  
-**Dimension pointers (Section 4 seed).** **Temporal** and **Economic** — replacing rented capability with an owned tool trades a subscription for a maintenance burden; the question Section 4 measures is whether the time and money saved actually accrue or get eaten by the upkeep you just took on.
+**Dimension pointers (Unit 4 seed).** **Temporal** and **Economic** — replacing rented capability with an owned tool trades a subscription for a maintenance burden; the question Unit 4 measures is whether the time and money saved actually accrue or get eaten by the upkeep you just took on.
  
 ---
  
@@ -135,7 +135,7 @@ Each profile gives: a **snapshot** (dominant risk, which end held badly, develop
 - Reading and auditing code you didn't commission (shared with Legacy, #4).
 **Modules to produce.** An insourcing transition module; a "directing technical work without being technical" frame; a vendor-handover audit exercise.
  
-**Dimension pointers (Section 4 seed).** **Differential** and **Economic** — once the agency margin is gone and the same agents are available to everyone, the trade surfaces the question of what distinguishes you from the next founder with the identical stack, and whether what you uniquely add still pays.
+**Dimension pointers (Unit 4 seed).** **Differential** and **Economic** — once the agency margin is gone and the same agents are available to everyone, the trade surfaces the question of what distinguishes you from the next founder with the identical stack, and whether what you uniquely add still pays.
  
 ---
  
@@ -152,7 +152,7 @@ Each profile gives: a **snapshot** (dominant risk, which end held badly, develop
 - When to modernize vs. leave alone vs. replace (links to Stream A's "should" gate).
 **Modules to produce.** A legacy-comprehension protocol (AI-assisted, with its limits stated); a characterization-test-first exercise; a modernize-vs-replace decision module.
  
-**Dimension pointers (Section 4 seed).** **Judgment** — modernizing with AI trades a system you couldn't see for one whose change decisions a model now makes on your behalf; the trade buys comprehension at the cost of how much of the judgment is still yours.
+**Dimension pointers (Unit 4 seed).** **Judgment** — modernizing with AI trades a system you couldn't see for one whose change decisions a model now makes on your behalf; the trade buys comprehension at the cost of how much of the judgment is still yours.
  
 ---
  
@@ -170,7 +170,7 @@ Each profile gives: a **snapshot** (dominant risk, which end held badly, develop
 - Automation complacency as the thing that *keeps* the Shape B gap invisible.
 **Modules to produce.** A spec-driven-development onboarding module; a "can you verify what you shipped?" diagnostic (Shape B); an honest-evaluation first-move pathway (Shape A); a vibe-to-engineering progression ladder.
  
-**Dimension pointers (Section 4 seed).** **Epistemic** and **Cognitive** — closing the gap with generated output trades raw speed for the standing burden of telling true from merely plausible; the dimension measures whether you can still make that call as the volume grows.
+**Dimension pointers (Unit 4 seed).** **Epistemic** and **Cognitive** — closing the gap with generated output trades raw speed for the standing burden of telling true from merely plausible; the dimension measures whether you can still make that call as the volume grows.
  
 ---
  
@@ -182,12 +182,12 @@ Each profile gives: a **snapshot** (dominant risk, which end held badly, develop
 - What "production-ready" concretely means: the non-functional requirements a prototype skips (reliability, scale, data integrity, compliance, SLAs).
 - The AI-generated-code security data in depth: Veracode (~45% OWASP Top 10), CodeRabbit (~2.7× more issues), Black Duck OSSRA (vulnerabilities up ~107% YoY), and the Claude Code Action prompt-injection pathway — agents expand the threat model even as they help.
 - Observability as a *release requirement* (Microsoft's position): if you can't reconstruct a run from logs/traces, it isn't production-ready.
-- The "luxuries now standard" set — IaC, CI/CD, granular security, real testing — researched as the answerable deliverables the wall demands (this is the densest overlap with Section 3).
+- The "luxuries now standard" set — IaC, CI/CD, granular security, real testing — researched as the answerable deliverables the wall demands (this is the densest overlap with Unit 3).
 - The prototype mindset vs. the production mindset as a cognitive shift, not just a checklist.
 - A hardening definition-of-done that makes the answerable half explicit.
 **Modules to produce.** A production-readiness hardening module; a security-for-AI-generated-code module (flagship of this audience); a prototype-vs-production mindset exercise.
  
-**Dimension pointers (Section 4 seed).** **Ethical** — crossing the wall means answering, for the first time, in registers the prototype never had to: real user data, security, the consequences that land on people once the thing is live. The trade for "it ships" is accountability in registers you didn't previously owe.
+**Dimension pointers (Unit 4 seed).** **Ethical** — crossing the wall means answering, for the first time, in registers the prototype never had to: real user data, security, the consequences that land on people once the thing is live. The trade for "it ships" is accountability in registers you didn't previously owe.
  
 ---
  
@@ -195,7 +195,7 @@ Each profile gives: a **snapshot** (dominant risk, which end held badly, develop
  
 A condensed view of the module library against the six situations. **●** = default (in this audience's starter collection); **○** = borrowable (commonly pulled in where it fits); blank = not typically needed.
  
-**Five universal modules sit in every audience's default set** and are left out of the grid to keep it readable: the **Two Ends Diagnostic** and the **Operating Profile read** (Streams C and F, administered together as one intake), the **Relocation Lens** (Stream E), **You-Are-Infrastructure** (the condition seed from Section 1), and the **Can-vs-Should Gate** (origination, from Stream A).
+**Five universal modules sit in every audience's default set** and are left out of the grid to keep it readable: the **Two Ends Diagnostic** and the **Operating Profile read** (Streams C and F, administered together as one intake), the **Relocation Lens** (Stream E), **You-Are-Infrastructure** (the condition seed from Unit 1), and the **Can-vs-Should Gate** (origination, from Stream A).
  
 Columns: **ITW** = Internal Talent Worth Developing · **SVD** = SaaS Vendor Dependency · **EDD** = External Dev Dependency · **LSD** = Legacy Software Debt · **AID** = AI Development Gap · **PPW** = Prototype-to-Production Wall.
  
@@ -230,7 +230,7 @@ You'll do these one at a time. Recommended order, and why:
 1. **Cross-cutting Stream A (founder faculty)**, **Stream B (skill acquisition)**, and **Stream E (the relocation lens)** first. A and B feed the most audiences and define the develop-vs-borrow poles; E threads the tradeoff mindset through all six and should be in place before the per-situation passes, so each profile's dimension pointers already have a home. Everything downstream reuses them.
 2. **Internal Talent (#1)** next — the purest *develop-the-faculty* exemplar. Researching it fully calibrates the "transfer" end of the spectrum.
 3. **SaaS Vendor Dependency (#2)** next — the purest *borrow-the-frame* exemplar, the opposite pole. With both poles done, the remaining four interpolate.
-4. **AI Development Gap (#5)** and **Prototype-to-Production Wall (#6)** — they have the richest existing evidence base in your Section 3 doc, so they're fast, and they're the most common entry points.
+4. **AI Development Gap (#5)** and **Prototype-to-Production Wall (#6)** — they have the richest existing evidence base in your Unit 3 doc, so they're fast, and they're the most common entry points.
 5. **Legacy Software Debt (#4)** and **External Dev Dependency (#3)** last — they lean heavily on code-comprehension and review-capacity research (Stream D), which the earlier passes will have already developed.
 Streams C and D can be folded into whichever pass first needs them rather than done standalone. **Stream F (operating profile) pairs with Stream C** as one intake, and is worth having in hand before the teaching-heavy passes (ITW, AID), where delivery calibration matters most.
  
@@ -239,7 +239,7 @@ Streams C and D can be folded into whichever pass first needs them rather than d
 ## Open questions to resolve as you go
  
 1. **Personas vs. situations** — confirm the spine choice above before the module library hardens around it.
-2. **How much of the module ↔ agent-skill pairing is visible to the reader** vs. kept as internal authoring structure (carried over from the working outline's open decisions).
+2. **How much of the module ↔ agent-skill pairing is visible to the builder** vs. kept as internal authoring structure (carried over from the working outline's open decisions).
 3. **Whether the founder faculty (Stream A) becomes its own audience-adjacent track** or stays a borrowable module set — first-time founders may need it as a full default collection, not a borrow.
-4. **Where "review capacity as condition" (Stream D) lives** — Section 2 as an audience trait, or Section 3 as an ADLC constraint, or both.
-5. **How much psychometric apparatus the operating profile (Stream F) carries** — a light functional read administered with the intake, or a more formal instrument, and how far its baselines feed the Section 4 dashboard thresholds. Keep it functional (instrument the constraint) rather than categorical (type the person), per the stream's methodological spine.
+4. **Where "review capacity as condition" (Stream D) lives** — Unit 2 as an audience trait, or Unit 3 as an ADLC constraint, or both.
+5. **How much psychometric apparatus the operating profile (Stream F) carries** — a light functional read administered with the intake, or a more formal instrument, and how far its baselines feed the Unit 4 dashboard thresholds. Keep it functional (instrument the constraint) rather than categorical (type the person), per the stream's methodological spine.

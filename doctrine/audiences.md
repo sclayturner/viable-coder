@@ -1,17 +1,17 @@
 # The Six Audiences (Canonical Definitions)
 
-*This file is the single source of truth for the six audiences the Viable Coder playbook and website serve. Every other artifact that names an audience — the website's mentorship page, the audience research plan, the relocation ledger, the module-skill crosswalk, the Section 2 outlines, the granular and narrative drafts, the research streams — defers to this file. If a definition here changes, the downstream artifacts named at the bottom must change with it.*
+*This file is the single source of truth for the six audiences the Viable Coder playbook and website serve. Every other artifact that names an audience — the website's mentorship page, the audience research plan, the relocation ledger, the module-skill crosswalk, the Unit 2 outlines, the granular and narrative drafts, the research streams — defers to this file. If a definition here changes, the downstream artifacts named at the bottom must change with it.*
 
-A note on naming: this project uses **"audience"** authorially (the readership the book is built for) and **"situation"** reader-facingly (what the reader recognizes as their own spot). They refer to the same six things. Codes — ITW, SVD, EDD, LSD, AID, PPW — are backstage shorthand for matrices, crosswalks, and module pairings; they do not appear in reader-facing prose.
+A note on naming: this project uses **"audience"** authorially (the buildership the kit is built for) and **"situation"** builder-facingly (what the builder recognizes as their own spot). They refer to the same six things. Codes — ITW, SVD, EDD, LSD, AID, PPW — are backstage shorthand for matrices, crosswalks, and module pairings; they do not appear in builder-facing prose.
 
 Each audience below carries:
-- **Canonical statement.** The one-paragraph definition that governs every other artifact. Written for the reader, in the second person where appropriate.
-- **Who recognizes themselves here.** The vivid identifying signals — names, tools, behaviors — that let a reader know this is their spot in the first paragraph.
+- **Canonical statement.** The one-paragraph definition that governs every other artifact. Written for the builder, in the second person where appropriate.
+- **Who recognizes themselves here.** The vivid identifying signals — names, tools, behaviors — that let a builder know this is their spot in the first paragraph.
 - **What this audience is *not*.** The boundary that prevents confusion with adjacent audiences.
 - **End held badly.** Origination, answerability, or both — the producible/answerable read that routes the kit.
 - **Default register.** *Develop the faculty* vs. *borrow the frame* — the persona-overridable default for the audience's modules.
 
-The persona overlay (first-time founder, repeat founder, career-changer, lead) and the wiring read (operating profile) compose with the audience to produce the delivered kit — **situation picks the module set; persona sets develop-vs-borrow; wiring tunes the delivery** — but those compositions are governed by separate artifacts (see [book/modules/audience-research-plan.md](book/modules/audience-research-plan.md) and [book/modules/module-skill-crosswalk.md](book/modules/module-skill-crosswalk.md)). This file fixes only the audiences.
+The persona overlay (first-time founder, repeat founder, career-changer, lead) and the wiring read (operating profile) compose with the audience to produce the delivered kit — **situation picks the module set; persona sets develop-vs-borrow; wiring tunes the delivery** — but those compositions are governed by separate artifacts (see [curriculum/modules/audience-research-plan.md](curriculum/modules/audience-research-plan.md) and [curriculum/modules/module-skill-crosswalk.md](curriculum/modules/module-skill-crosswalk.md)). This file fixes only the audiences.
 
 ---
 
@@ -103,15 +103,15 @@ The persona overlay (first-time founder, repeat founder, career-changer, lead) a
 
 When a definition above changes, audit and update each of these in the same pass per the [CLAUDE.md](CLAUDE.md) harness-sync principle:
 
-**Book and modules:**
-- [book/modules/audience-research-plan.md](book/modules/audience-research-plan.md) — research streams + per-audience profiles
-- [book/modules/relocation-ledger.md](book/modules/relocation-ledger.md) — the per-audience trade ledgers
-- [book/modules/module-skill-crosswalk.md](book/modules/module-skill-crosswalk.md) — module-to-Skill pairing per audience
-- [book/outlines/section-2-outline.md](book/outlines/section-2-outline.md) — Ch 5 ("Find Your Situation")
-- [book/outlines/section-2-granular.md](book/outlines/section-2-granular.md) — Ch 5 sub-beats per audience
-- [book/outlines/section-2-narrative.md](book/outlines/section-2-narrative.md) — Ch 5 prose per audience
-- [book/outlines/conceptual-playbook-outline.md](book/outlines/conceptual-playbook-outline.md) §Part 2.3
-- [book/outlines/playbook-end-to-end.md](book/outlines/playbook-end-to-end.md) — Section 2 chapter summaries
+**Curriculum and modules:**
+- [curriculum/modules/audience-research-plan.md](curriculum/modules/audience-research-plan.md) — research streams + per-audience profiles
+- [curriculum/modules/relocation-ledger.md](curriculum/modules/relocation-ledger.md) — the per-audience trade ledgers
+- [curriculum/modules/module-skill-crosswalk.md](curriculum/modules/module-skill-crosswalk.md) — module-to-Skill pairing per audience
+- [curriculum/outlines/unit-2-outline.md](curriculum/outlines/unit-2-outline.md) — Lesson 5 ("Find Your Situation")
+- [curriculum/outlines/unit-2-granular.md](curriculum/outlines/unit-2-granular.md) — Lesson 5 sub-beats per audience
+- [curriculum/outlines/unit-2-narrative.md](curriculum/outlines/unit-2-narrative.md) — Lesson 5 prose per audience
+- [curriculum/outlines/conceptual-playbook-outline.md](curriculum/outlines/conceptual-playbook-outline.md) §Part 2.3
+- [curriculum/outlines/playbook-end-to-end.md](curriculum/outlines/playbook-end-to-end.md) — Unit 2 lesson summaries
 
 **Website:**
 - `website/staged/mentorship.html` (and any successor canonical page) — the public statement of the six audiences

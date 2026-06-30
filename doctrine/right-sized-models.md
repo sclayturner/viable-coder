@@ -16,9 +16,9 @@ This is the **default escalation** trap, and like the steering traps in `steerin
 
 ## The two primitives
 
-**Classifier.** A small, fast model whose only job is to *read the complexity of the incoming task* and route accordingly. It reads the prompt, the surrounding context (which subagent, which column, which Skill is loading), and emits a complexity score and a routing decision. The classifier itself runs cheap, because reading complexity is not what frontier capability is for. *Reader-facing:* "the thing that decides which model gets this one."
+**Classifier.** A small, fast model whose only job is to *read the complexity of the incoming task* and route accordingly. It reads the prompt, the surrounding context (which subagent, which column, which Skill is loading), and emits a complexity score and a routing decision. The classifier itself runs cheap, because reading complexity is not what frontier capability is for. *Builder-facing:* "the thing that decides which model gets this one."
 
-**Router.** The component that takes the classifier's decision and assigns the work to a model in the practitioner's configured fleet — frontier when the work genuinely needs it, mid-tier when the work is between, small / open-source / self-hosted when the work is bounded and well-defined. The router is also the seam where the practitioner's *policy* lives: the rules that say *for this kind of work, even if the classifier thinks frontier is warranted, use mid-tier* (for cost) or *for this kind of work, even if the classifier thinks mid-tier is enough, use frontier* (for stakes). *Reader-facing:* "the thing that hands the task to the right-sized model."
+**Router.** The component that takes the classifier's decision and assigns the work to a model in the practitioner's configured fleet — frontier when the work genuinely needs it, mid-tier when the work is between, small / open-source / self-hosted when the work is bounded and well-defined. The router is also the seam where the practitioner's *policy* lives: the rules that say *for this kind of work, even if the classifier thinks frontier is warranted, use mid-tier* (for cost) or *for this kind of work, even if the classifier thinks mid-tier is enough, use frontier* (for stakes). *Builder-facing:* "the thing that hands the task to the right-sized model."
 
 Together, the two pieces refuse the default. The classifier reads the work. The router applies the policy. The frontier model runs only when the policy says it should.
 
@@ -34,11 +34,11 @@ What this looks like in practice:
 - **High-volume background work** — characterization tests, repository sweeps, doc-freshness checks, scheduled audits — runs that don't need to be fast or smart, just available and cheap.
 - **Genuinely judgment-dense or open-ended work** — the frontier model still runs this. Right-sizing is not "always go cheap." Right-sizing is "stop defaulting upward."
 
-The open-source / self-hosted option is doing two jobs at once, and the doctrine is honest about both. It is the cost-control option, and it is the *concentration-of-power* option — the Section 4 Ethical dimension's register on decision power pooling inside three or four labs. Same primitive, two registers. The practitioner who right-sizes is simultaneously controlling their token bill and refusing a dependency the broader field has not yet reckoned with.
+The open-source / self-hosted option is doing two jobs at once, and the doctrine is honest about both. It is the cost-control option, and it is the *concentration-of-power* option — the Unit 4 Ethical dimension's register on decision power pooling inside three or four labs. Same primitive, two registers. The practitioner who right-sizes is simultaneously controlling their token bill and refusing a dependency the broader field has not yet reckoned with.
 
 ## The honest catch (parallel to the Iron-Triangle qualification)
 
-The Iron-Triangle-dissolves claim in Section 3 Ch 4 is qualified inside the chapter that most celebrates it — for the inherited tangled system, the agent can speed the typing but not the *understanding.* This doctrine deserves the same honesty.
+The Iron-Triangle-dissolves claim in Unit 3 Lesson 4 is qualified inside the lesson that most celebrates it — for the inherited tangled system, the agent can speed the typing but not the *understanding.* This doctrine deserves the same honesty.
 
 **Right-sizing only works where the classifier can read complexity reliably.** For genuinely judgment-dense, open-ended, or first-of-its-kind work, the classifier will under-read the task — it will see surface complexity and miss the *judgment density* underneath. Frontier capability is still the right call for that work, and the discipline is not "always go cheap"; it is "stop defaulting upward." The same skepticism the practitioner brings to "self-spec at G2" applies here in mirror: a classifier that quietly down-routes work it didn't understand has stepped onto the practitioner's side of the line, the same way the agent that drafts the spec it then implements has.
 
@@ -48,12 +48,12 @@ The discipline against *that* failure mode is the same one used everywhere in th
 
 - **Not vendor advice.** The doctrine names the discipline, not the specific models. The list of open-source and self-hosted options will change every quarter; the discipline of right-sizing will not. Specific model recommendations belong in modules, not doctrine.
 - **Not a frontier-skeptic position.** Frontier capability is real, and there is work that genuinely needs it. The doctrine refuses *default* escalation, not escalation per se. The practitioner who runs a frontier model on a judgment-dense G2 spec is making a deliberate, named choice; the practitioner who runs the same model on a boilerplate G8 documentation pass is paying for a default they didn't configure.
-- **Not just a cost play.** As noted in the third primitive, right-sizing is also the practitioner's lever on the concentration-of-power register from the Section 4 Ethical dimension. Treating it as cost-only undersells the doctrine.
+- **Not just a cost play.** As noted in the third primitive, right-sizing is also the practitioner's lever on the concentration-of-power register from the Unit 4 Ethical dimension. Treating it as cost-only undersells the doctrine.
 - **Not optional infrastructure.** "We'll add classifier-router when we have scale" is the same shape as "we'll add tests when we have scale" — and the corpus has been clear that the pre-2020 startup compromise of *skip the discipline, pay the interest later* is structurally over for new work. The classifier-router is infrastructure; it gets stood up at the same time the shop does, not bolted on after the bill arrives.
 
 ## The trailing signals
 
-Most of the readings this doctrine produces are already named in the Section 4 Economic dimension (3.8) — token cost per unit of output, margin with AI tooling as its own line, dependencies' prices month over month, the signals providers send (rate limits, deprecations, new enterprise tiers). What Section 3 has to make explicit is which of those readings come from *configuration* and which from *the absence of it*.
+Most of the readings this doctrine produces are already named in the Unit 4 Economic dimension (3.8) — token cost per unit of output, margin with AI tooling as its own line, dependencies' prices month over month, the signals providers send (rate limits, deprecations, new enterprise tiers). What Unit 3 has to make explicit is which of those readings come from *configuration* and which from *the absence of it*.
 
 - **Cost per unit of output, broken down by model tier** — *Auto.* The board reads which model ran which column for each ticket and what it cost. A flat line dominated by frontier-model spend is the *default-escalation* signature, even when the absolute cost is acceptable today.
 - **Override-up rate (policy escalating above classifier)** — *Auto.* How often the practitioner's policy overrode the classifier's down-recommendation. High rate means the classifier is under-reading the work; low rate means the classifier and the policy are in agreement.
@@ -62,15 +62,15 @@ Most of the readings this doctrine produces are already named in the Section 4 E
 - **Rate-limit incidence** — *Auto.* How often the practitioner's work hit a provider rate limit, and on which columns. A leading indicator of the same dependency the cost line lags.
 - **Self-hosted utilization** — *Auto.* Hours of self-hosted-model time per week, broken down by column. Reads whether the open-source / self-hosted option is being used or only available on paper.
 
-Section 4 reads these on the long clock and rolls them into the Economic dimension's quarterly trend lines. Section 3 produces them by configuring the routing.
+Unit 4 reads these on the long clock and rolls them into the Economic dimension's quarterly trend lines. Unit 3 produces them by configuring the routing.
 
-## Where this lives in the book
+## Where this lives in the kit
 
-- **Planted implicitly in Section 1** — the *organic-intelligence* doctrine names that the human bears the cost and the machine bears none; the practitioner's bill is one register of that bearing.
-- **Planted in Section 2** — the SaaS Vendor Dependency situation lights this directly; the AI Development Gap situation lights it indirectly (a bench that ships fluent frontier work without classifying it is also a bench that doesn't know what it is buying). The audience kit pre-configures the default routing posture.
-- **Operationalized in Section 3 Ch 5 (this doctrine's home)** — paired with Ch 4's steering doctrine as the chapter's twin. Ch 4 = what you can't hand off. Ch 5 = what you can't leave to default settings.
-- **Configured in Section 3 Ch 6 (formerly Ch 5)** — the same Skill-level configuration that sets the produce-and-explain register also sets the routing policy. One persona tag at intake, two policies that follow.
-- **Read on the long clock in Section 4** — Economic dimension (3.8) primarily, Ethical dimension (3.9) on the concentration-of-power register.
+- **Planted implicitly in Unit 1** — the *organic-intelligence* doctrine names that the human bears the cost and the machine bears none; the practitioner's bill is one register of that bearing.
+- **Planted in Unit 2** — the SaaS Vendor Dependency situation lights this directly; the AI Development Gap situation lights it indirectly (a bench that ships fluent frontier work without classifying it is also a bench that doesn't know what it is buying). The audience kit pre-configures the default routing posture.
+- **Operationalized in Unit 3 Lesson 5 (this doctrine's home)** — paired with Lesson 4's steering doctrine as the lesson's twin. Lesson 4 = what you can't hand off. Lesson 5 = what you can't leave to default settings.
+- **Configured in Unit 3 Lesson 6 (formerly Lesson 5)** — the same Skill-level configuration that sets the produce-and-explain register also sets the routing policy. One persona tag at intake, two policies that follow.
+- **Read on the long clock in Unit 4** — Economic dimension (3.8) primarily, Ethical dimension (3.9) on the concentration-of-power register.
 
 ## The line to carry
 

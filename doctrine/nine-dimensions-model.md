@@ -1,6 +1,6 @@
 # The Nine Dimensions of Long-Term Viability — Model Reference
  
-*Canonical specification for Section 4 ("Playing the Long Game") and the* Remaining Viable *inquiry. This document is the single source of truth for the model: the three families, the nine dimensions, what each puts under threat, the questions that read them, and how those questions are answered. The Section 4 outline now defers to this document for the full signal detail it deliberately leaves out, and the lexicon's Section 4 entries should be reconciled to it.*
+*Canonical specification for Unit 4 ("Playing the Long Game") and the* Remaining Viable *inquiry. This document is the single source of truth for the model: the three families, the nine dimensions, what each puts under threat, the questions that read them, and how those questions are answered. The Unit 4 outline now defers to this document for the full signal detail it deliberately leaves out, and the lexicon's Unit 4 entries should be reconciled to it.*
  
 *Derived from the live staged surfaces — `remaining-viable.html` (the model), `research.html` (the naming surface), and `data.html` (the measurement surface) — which are treated as **canonical** wherever they differ from earlier corpus drafts. Where the page text is Clay's first-person prose, this document restructures it into reference form; the measurement questions and their labels are preserved verbatim, because they are the functional specification.*
  
@@ -24,7 +24,7 @@ Four structural facts define the model:
  
 The inquiry's first principle is that **Clay is the subject.** These are questions he is working to answer about his own practice — his day-to-day work as technical co-founder of Soaring Titan and Maximum Automotive Intelligence, the same corpus that feeds the site's Resources. The site's phrase for this is *one instrument, two directions:* the readings that sharpen his own practice are the ones he publishes.
  
-This framing is load-bearing for credibility. The Data surface states it bluntly: *"Not a dashboard. Not branding. I am running these measurements on myself."* The model is not a framework imposed on a reader; it is a working practitioner instrumenting himself, with the reader invited to do the same if they choose.
+This framing is load-bearing for credibility. The Data surface states it bluntly: *"Not a dashboard. Not branding. I am running these measurements on myself."* The model is not a framework imposed on a builder; it is a working practitioner instrumenting himself, with the builder invited to do the same if they choose.
  
 Two decoupling rules protect that invitation from becoming a sales funnel:
  
@@ -34,13 +34,13 @@ Two decoupling rules protect that invitation from becoming a sales funnel:
  
 ## 3. The measurement philosophy (the spine)
  
-The whole instrument is a response to one problem, carried forward from Section 1: **self-report lies at the moment you most need it to hold.** The drunk-driver problem — the impairment and your read on the impairment fail together — does not shrink over a career; it compounds. Ask yourself once a year whether you are still sharp and you will get the most flattering answer available every time.
+The whole instrument is a response to one problem, carried forward from Unit 1: **self-report lies at the moment you most need it to hold.** The drunk-driver problem — the impairment and your read on the impairment fail together — does not shrink over a career; it compounds. Ask yourself once a year whether you are still sharp and you will get the most flattering answer available every time.
  
 Three commitments follow:
  
 - **Trend, not snapshot.** The honest reading is the trailing one, taken off behavior over time, not a feeling on a given afternoon. A bad day is weather and is ignored; a line that bends the wrong way for two quarters is climate and is worth changing course over.
 - **Read against the individual's own baseline.** Signals are scored as deviation from the person's *own* established normal, not against a population norm — the idiographic principle developed in the Operating Profile stream (the climate read captured at intake is the zero-point the Cognitive dimension, and the rest, are later read against). A novelty-driven originator's healthy numbers look alarming on a generic chart and fine against his own baseline.
-- **An honesty ceiling, stated so the inquiry never has to apologize later.** This is a disciplined way to read yourself against your own past, and a public inquiry across a small cohort — *not* a validated psychometric battery. It tells you which way you are drifting; it does not stamp a number on your worth, and it does not claim a validated idiographic factor model. Every research stream in the corpus carries this humility note; the measurement section carries it most.
+- **An honesty ceiling, stated so the inquiry never has to apologize later.** This is a disciplined way to read yourself against your own past, and a public inquiry across a small cohort — *not* a validated psychometric battery. It tells you which way you are drifting; it does not stamp a number on your worth, and it does not claim a validated idiographic factor model. Every research stream in the corpus carries this humility note; the measurement unit carries it most.
 ---
  
 ## 4. How the questions are answered — the Auto / Asked mechanism
@@ -79,7 +79,7 @@ Every signal carries one of two labels and a cadence (`Auto · Weekly`, `Asked �
 - How many systems am I touching concurrently — commits, PRs, or transcript activity in the past 14 days? — `Auto · Weekly`
 - Of those concurrent systems, how many do I feel I actively own? — `Asked · Monthly`
 - Is my ability to stay focused — within a session and across a day — improving or eroding? — `Auto · Weekly`
-**Corpus cross-reference:** Section 1's "you are the infrastructure"; the personal dashboard of the maintenance trilogy (condition / observability / upkeep). Section 2's Internal-Talent situation asks the team-scale version (is the bench getting stronger or quietly dulling?). The relocation ledger lights Cognitive from both Internal Talent and the AI Development Gap. The flagship trailing signals here — *origination ratio* and *reframe-vs-accept rate* — are the playbook's own, with no off-the-shelf equivalent.
+**Corpus cross-reference:** Unit 1's "you are the infrastructure"; the personal dashboard of the maintenance trilogy (condition / observability / upkeep). Unit 2's Internal-Talent situation asks the team-scale version (is the bench getting stronger or quietly dulling?). The relocation ledger lights Cognitive from both Internal Talent and the AI Development Gap. The flagship trailing signals here — *origination ratio* and *reframe-vs-accept rate* — are the playbook's own, with no off-the-shelf equivalent.
  
 #### Epistemic Viability
 **Question:** Do I still know what I know?
@@ -91,7 +91,7 @@ Every signal carries one of two labels and a cadence (`Auto · Weekly`, `Asked �
 - How quickly can I debug a prior-built system without the agent's help? — `Asked · Quarterly`
 - How much of the documentation on my shipped systems was written by me versus by the agent? — `Auto · Monthly`
 - Can I draw the architecture of one of my systems from memory — and does it match ground truth? — `Asked · Quarterly`
-**Corpus cross-reference:** Section 2's "ships what it can't explain" situation (the AI Development Gap; verification debt); Section 3's human review gate, which is only honorable if the human has the condition to hold it. The relocation ledger lights Epistemic from the AI Development Gap. Closely tied to the Review-Capacity-as-condition stream (climate half: the owned situation model; weather half: finite attention).
+**Corpus cross-reference:** Unit 2's "ships what it can't explain" situation (the AI Development Gap; verification debt); Unit 3's human review gate, which is only honorable if the human has the condition to hold it. The relocation ledger lights Epistemic from the AI Development Gap. Closely tied to the Review-Capacity-as-condition stream (climate half: the owned situation model; weather half: finite attention).
  
 #### Vocational Viability
 **Question:** Does this work still feel like work I want to do?
@@ -105,7 +105,7 @@ Every signal carries one of two labels and a cadence (`Auto · Weekly`, `Asked �
 - Would I want to keep practicing exactly this way for another ten years? — `Asked · Annual`
 **Special handling:** This dimension carries a **separate, granular consent** requirement; not all mentees will opt in, which is appropriate given the personal nature of the data. The reflection journal underlying Vocational tracking is the one stream on the cohort's *separate, optional consent track*.
  
-**Corpus cross-reference:** The newest of the nine and the thinnest-seeded earlier — the relocation ledger's coverage note flags that no Section 2 situation points to it, making this dimension a harvest-forward axis rather than a situation-seeded one. Adjacent to the de-skilling / professional-identity material in the skill-acquisition stream. **This is the dimension most in need of a Clay-experience anchor** to carry it, since the corpus does not otherwise build toward it.
+**Corpus cross-reference:** The newest of the nine and the thinnest-seeded earlier — the relocation ledger's coverage note flags that no Unit 2 situation points to it, making this dimension a harvest-forward axis rather than a situation-seeded one. Adjacent to the de-skilling / professional-identity material in the skill-acquisition stream. **This is the dimension most in need of a Clay-experience anchor** to carry it, since the corpus does not otherwise build toward it.
  
 #### Identity Viability
 **Question:** What is my value in this arrangement?
@@ -117,7 +117,7 @@ Every signal carries one of two labels and a cadence (`Auto · Weekly`, `Asked �
 - How am I attributing ownership of my shipped work — "I built," "I orchestrated," "I shipped"? — `Auto · Monthly`
 - Which role-frames am I using in agent transcripts — "as a developer," "as a product owner," "as a builder"? — `Auto · Monthly`
 - What am I writing, annually, about the value of human contribution in AI-assisted practice? — `Asked · Annual`
-**Corpus cross-reference:** Section 1's two jobs (origination and accountability — "am I still a builder if the machine does the producing?"). Section 2's Internal-Talent trade lights Identity alongside Cognitive in the relocation ledger.
+**Corpus cross-reference:** Unit 1's two jobs (origination and accountability — "am I still a builder if the machine does the producing?"). Unit 2's Internal-Talent trade lights Identity alongside Cognitive in the relocation ledger.
  
 ### Family II — Viability of the Practice
  
@@ -133,7 +133,7 @@ Every signal carries one of two labels and a cadence (`Auto · Weekly`, `Asked �
 - What kind of questions are prospects bringing me — capability-acquisition asks, or next-order questions? — `Auto · Monthly`
 - How widely is my practice's distinctive vocabulary diffusing through public discourse? — `Auto · Monthly`
 - What can I do today that I couldn't two years ago — and what fraction is still rare? — `Asked · Annual`
-**Corpus cross-reference:** Section 2's External-Dev-Dependency situation — once the same agents are available to everyone, what distinguishes you from the next founder with the identical stack. The relocation ledger lights Differential (with Economic) from that situation.
+**Corpus cross-reference:** Unit 2's External-Dev-Dependency situation — once the same agents are available to everyone, what distinguishes you from the next founder with the identical stack. The relocation ledger lights Differential (with Economic) from that situation.
  
 #### Judgment Viability
 **Question:** What happens when the models exercise the judgment I currently sell?
@@ -146,7 +146,7 @@ Every signal carries one of two labels and a cadence (`Auto · Weekly`, `Asked �
 - How often am I pushing back on the agent in ways that materially improve the planned code? — `Auto · Weekly`
 - Each week, which three judgment calls did I make that the model wouldn't have? — `Asked · Weekly`
 - Which categories of judgment — architectural, strategic, design, operational — are moving into the model first? — `Auto · Quarterly`
-**Corpus cross-reference:** Section 2's Legacy-Software-Debt situation — modernizing with AI trades a system you couldn't see for one whose change decisions a model now makes on your behalf; how much of the judgment is still yours. The relocation ledger lights Judgment from that situation.
+**Corpus cross-reference:** Unit 2's Legacy-Software-Debt situation — modernizing with AI trades a system you couldn't see for one whose change decisions a model now makes on your behalf; how much of the judgment is still yours. The relocation ledger lights Judgment from that situation.
  
 #### Temporal Viability
 **Question:** Does the time I am supposedly saving actually accrue to me as time?
@@ -158,7 +158,7 @@ Every signal carries one of two labels and a cadence (`Auto · Weekly`, `Asked �
 - Is my total number of work hours per week rising, falling, or holding? — `Auto · Weekly`
 - How is my output-per-hour changing, on a defined output metric for the practice? — `Auto · Monthly`
 - How many hours did I actually take back this quarter — and what did I do with them? — `Asked · Quarterly`
-**Corpus cross-reference:** Section 2's SaaS-Vendor-Dependency situation — you trade a subscription for upkeep; the open question is whether the saved time actually accrues or gets eaten by the maintenance burden. The relocation ledger lights Temporal (with Economic) from that situation. Tied to the doctrine that *condition replaces time* as the binding constraint.
+**Corpus cross-reference:** Unit 2's SaaS-Vendor-Dependency situation — you trade a subscription for upkeep; the open question is whether the saved time actually accrues or gets eaten by the maintenance burden. The relocation ledger lights Temporal (with Economic) from that situation. Tied to the doctrine that *condition replaces time* as the binding constraint.
  
 ### Family III — Viability of the Conditions
  
@@ -174,7 +174,7 @@ Every signal carries one of two labels and a cadence (`Auto · Weekly`, `Asked �
 - What is my practice's gross margin, with AI tooling tracked as its own line item? — `Auto · Monthly`
 - How are list prices on my dependencies changing month over month? — `Auto · Monthly`
 - What signals — rate limits, deprecations, enterprise-tier introductions — are providers sending? — `Auto · Monthly`
-**Corpus cross-reference:** The cost side of every Section 2 trade, most directly the SaaS and External-Dev situations. The relocation ledger lights Economic twice (from External Dev and SaaS Vendor) — the most-pointed-to dimension after Cognitive.
+**Corpus cross-reference:** The cost side of every Unit 2 trade, most directly the SaaS and External-Dev situations. The relocation ledger lights Economic twice (from External Dev and SaaS Vendor) — the most-pointed-to dimension after Cognitive.
  
 #### Ethical Viability
 **Question:** Is what I'm doing defensible — to myself, to my clients, to the field, to the people downstream?
@@ -201,17 +201,17 @@ The page concedes the pushback already underway, especially among younger practi
 - What roles or hours of work am I no longer paying humans for that I would have a year ago? — `Asked · Quarterly`
 - How concentrated is my practice in any single provider's tooling, and do I have a working fallback if access were cut? — `Auto · Quarterly`
 - What fraction of model-generated code from my practice am I personally reviewing before it reaches systems that affect people? — `Auto · Monthly`
-**Corpus cross-reference:** Section 2's Prototype-to-Production-Wall situation — accountability in registers a prototype never owed (real user data, security, reliability, the consequences that land on people). The relocation ledger lights Ethical from that situation.
+**Corpus cross-reference:** Unit 2's Prototype-to-Production-Wall situation — accountability in registers a prototype never owed (real user data, security, reliability, the consequences that land on people). The relocation ledger lights Ethical from that situation.
  
 ---
  
 ## 6. Master reference table
  
-| # | Dimension | Family | Guiding question | Signal mix | Corpus seed (Section 2 situation / Section 1–3 concept) |
+| # | Dimension | Family | Guiding question | Signal mix | Corpus seed (Unit 2 situation / Unit 1–3 concept) |
 |---|---|---|---|---|---|
 | 1 | Cognitive | Practitioner | Is my cognitive system still intact? | 6 Auto · 3 Asked | Internal Talent; "you are the infrastructure"; the dashboard |
 | 2 | Epistemic | Practitioner | Do I still know what I know? | 1 Auto · 3 Asked | AI Development Gap; review gate; verification debt |
-| 3 | Vocational | Practitioner | Does this still feel like work I want to do? | 1 Auto · 3 Asked | *(harvest-forward; no Section 2 seed)* |
+| 3 | Vocational | Practitioner | Does this still feel like work I want to do? | 1 Auto · 3 Asked | *(harvest-forward; no Unit 2 seed)* |
 | 4 | Identity | Practitioner | What is my value in this arrangement? | 3 Auto · 1 Asked | Internal Talent; the two jobs |
 | 5 | Differential | Practice | When everyone can do this, what's the value of me doing it? | 3 Auto · 1 Asked | External Dev Dependency |
 | 6 | Judgment | Practice | What happens when the models exercise the judgment I sell? | 3 Auto · 2 Asked | Legacy Software Debt |
@@ -242,7 +242,7 @@ This is the same instrument at two scales, built for the same reason: self-repor
  
 The inquiry publishes across two surfaces, captured in the page's line: *Research moves at the speed of thought; Data moves at the speed of evidence.* **Research names what is worth measuring; Data measures it.**
  
-**Research — the discursive surface.** Original essays from practice and mentorship (with confidentiality preserved), curation of others' work, field signals, and eventually guest voices. Published *when ready, not on a schedule.* Every piece is tagged to one or more of the nine dimensions, so the feed can be filtered to whichever concern is live for the reader, across all three families. (The current archive entries and per-dimension counts on the staged page are placeholders illustrating the editorial plan.)
+**Research — the discursive surface.** Original essays from practice and mentorship (with confidentiality preserved), curation of others' work, field signals, and eventually guest voices. Published *when ready, not on a schedule.* Every piece is tagged to one or more of the nine dimensions, so the feed can be filtered to whichever concern is live for the builder, across all three families. (The current archive entries and per-dimension counts on the staged page are placeholders illustrating the editorial plan.)
  
 **Data — the empirical surface.** Quarterly trend lines tracking the same nine dimensions over time. Explicitly *not a dashboard, not branding* — and, critically, **not a sales surface**: the Data page carries no call-to-action, no schedule-a-call, no offer link, by design, because the measurement only stays honest if it isn't also selling something. Methodology is versioned (v1.0, Q1 2026) and built around per-dimension protocol documents.
  
@@ -264,19 +264,19 @@ The pairing of Research and Data rests on a **pre-committed honesty statement**,
  
 The nine dimensions are the **harvest** in the playbook's seed → bloom → harvest pedagogy. Nothing here is introduced cold:
  
-- **The self of Section 1** is what's measured — the maintenance trilogy (condition, observability, upkeep) built the personal dashboard; the nine dimensions are that same dashboard read at career scale. The drunk-driver / self-report-lies principle is the spine of both.
-- **The profile of Section 2** set the baseline — the Operating Profile's climate read is the zero-point each trend is scored against, and each situation's relocation trade named the dimension it would later light up (the relocation ledger books eight of the nine; Vocational is the deliberate exception).
-- **The telemetry of Section 3** emits the signals — the ADLC board's quiet measurements (origination ratio, reframe-vs-accept rate, review-without-comment rate) are the daily version of the long-clock readings here. Review capacity sits as both an ADLC constraint and a condition signal, the through-line from Section 1 to this section.
-- **The loop closes outward and inward.** Inward: a bad reading becomes the next thing worth originating, handing the long clock back to the short one — *Remaining* feeds *Becoming*. Outward: the reader's private instrument can extend Clay's public one, via the cohort, if they choose.
+- **The self of Unit 1** is what's measured — the maintenance trilogy (condition, observability, upkeep) built the personal dashboard; the nine dimensions are that same dashboard read at career scale. The drunk-driver / self-report-lies principle is the spine of both.
+- **The profile of Unit 2** set the baseline — the Operating Profile's climate read is the zero-point each trend is scored against, and each situation's relocation trade named the dimension it would later light up (the relocation ledger books eight of the nine; Vocational is the deliberate exception).
+- **The telemetry of Unit 3** emits the signals — the ADLC board's quiet measurements (origination ratio, reframe-vs-accept rate, review-without-comment rate) are the daily version of the long-clock readings here. Review capacity sits as both an ADLC constraint and a condition signal, the through-line from Unit 1 to this unit.
+- **The loop closes outward and inward.** Inward: a bad reading becomes the next thing worth originating, handing the long clock back to the short one — *Remaining* feeds *Becoming*. Outward: the builder's private instrument can extend Clay's public one, via the cohort, if they choose.
 ---
  
 ## 11. Open items and status flags
  
 Carried so drafting downstream doesn't promise what isn't yet real:
  
-1. **Canonical reconciliation pending.** This document adopts the live pages as canonical. The lexicon's Section 4 entries and the conceptual Part-4 outline still carry older question phrasings — most notably, Vocational and Identity traded emphasis (Vocational is now "does this still feel like work I want to do"; Identity is now "what is my value in this arrangement"), and Epistemic shifted from "tell true from merely plausible" toward "do I still understand what I shipped." Reconcile those to this document next.
+1. **Canonical reconciliation pending.** This document adopts the live pages as canonical. The lexicon's Unit 4 entries and the conceptual Part-4 outline still carry older question phrasings — most notably, Vocational and Identity traded emphasis (Vocational is now "does this still feel like work I want to do"; Identity is now "what is my value in this arrangement"), and Epistemic shifted from "tell true from merely plausible" toward "do I still understand what I shipped." Reconcile those to this document next.
 2. **PhD collaborator is pending**, as are the consent-instrument full text and the per-dimension protocol documents. The standing commitment is published; the apparatus behind it is partly future-facing.
-3. **Don't over-promise the cohort in the book.** Section 4's Chapter 5 should gate its "join" language to what the Data surface can currently honor (n=4, methodology v1.0, collaborator pending).
-4. **Signal tables live here and on the site, not in the printed edition.** The Section 4 outline intentionally gives only the shape plus example signals and points to this document and the live pages for the exhaustive lists — single source of truth, because the signals will evolve.
-5. **Vocational needs a Clay-experience anchor** more than any other dimension, since the corpus doesn't otherwise build toward it. Flagged in the Section 4 outline's anchor list.
+3. **Don't over-promise the cohort in the curriculum.** Unit 4's Lesson 5 should gate its "join" language to what the Data surface can currently honor (n=4, methodology v1.0, collaborator pending).
+4. **Signal tables live here and on the site, not in the printed edition.** The Unit 4 outline intentionally gives only the shape plus example signals and points to this document and the live pages for the exhaustive lists — single source of truth, because the signals will evolve.
+5. **Vocational needs a Clay-experience anchor** more than any other dimension, since the corpus doesn't otherwise build toward it. Flagged in the Unit 4 outline's anchor list.
 6. **Hold the honesty ceiling.** Wherever this model is summarized, keep the within-person-trend-and-public-inquiry framing; do not let the dashboard be presented as a validated psychometric instrument.

@@ -1,8 +1,8 @@
-# Section 1 — Install: Knowing Who Does What
+# Unit 1 — Install: Knowing Who Does What
 
-## Chapter 1 — What's at Stake
+## Lesson 1 — What's at Stake
 
-I had reasons for building a life around this kind of work — well before AI. These reasons are worth describing before telling you what's changed about how that works gets done now with AI.
+I had reasons for building a life around this kind of work well before AI. These reasons are worth describing before telling you what's changed about how that works gets done now with AI.
 
 Software development gave me a creative canvas. Anything I could imagine — be it a product, a tool, a small useful thing for one person or a system that millions would use — I could make it. That alone would have been enough. But the work did more than let me project what was in my mind into a useful form. It ultimately rewired how I think every day. I developed "judgement", as both a founder and as an engineer. Years of breaking a hard problem into parts that I could actually solve, and then putting them back together until something ran, became a habit that followed me out of the code editor and into the world. I made better decisions in the rest of my life because I had spent so many years making them inside of code.
 
@@ -12,7 +12,7 @@ It paid. The career was lucrative in a way that mattered — to my family, to th
 
 A canvas. A discipline that travels. A life I could shape. A living. A world. A way to give some of it back. That is what this work has been for me. Every one of those is in flux right now. Each one can be accelerated by the right relationship with AI — or annihilated by it. Which way it goes is on you. It all comes down to how you choose to think about it.
 
-So with that, let's just say the obvious out loud. It names what has changed, and "what has changed" is the reason you are here: You can now hand a goal to a machine and get working software back. Not a snippet, not a scaffold — software, end to end, the kind a small team used to build in a quarter. Say it plainly, because pretending otherwise will lose you in the first chapter. The capability is real, and it is getting better, not worse.
+So with that, let's just say the obvious out loud. It names what has changed, and "what has changed" is the reason you are here: You can now hand a goal to a machine and get working software back. Not a snippet, not a scaffold — software, end to end, the kind a small team used to build in a quarter. Say it plainly, because pretending otherwise will lose you in the first lesson. The capability is real, and it is getting better, not worse.
 
 It is, of course, the opportunity. One person can now do what used to take a whole team, and if you let that fact sink in, then you're right to be excited. But underneath the exhilaration there is a sentence nobody puts in the brochure, and we are going to put it at the front: **you bear all the risk; the machine bears none.** The agent will lose nothing if the product fails. You will. Your time, your money, your reputation, your nights — and quietly, over enough builds, the life you might miss before AI entered it.
 
@@ -20,11 +20,11 @@ Two things follow from that, and they shape this whole playbook. The first is th
 
 Which is why the first build is a practical kit you keep beyond the prose.
 
-This kit is a source tree on your machine with the agents configuring themselves against a coding harness you already use or are soon to, e.g., Claude Code, Codex, or both. The kit will turn the work you care about into a telemetry surface. It will listen and honestly report on your every interaction with AI. The kit is not a personality test, nor a wellness check. By the time you finish this chapter, you will learn and reveal something vital as we proceed together.
+This kit is a source tree on your machine with the agents configuring themselves against a coding harness you already use or are soon to, e.g., Claude Code, Codex, or both. The kit will turn the work you care about into a telemetry surface. It will listen and honestly report on your every interaction with AI. The kit is not a personality test, nor a wellness check. By the time you finish this lesson, you will learn and reveal something vital as we proceed together.
 
 ---
 
-## Chapter 2 — Rethinking Intelligence
+## Lesson 2 — Rethinking Intelligence
 
 There is a temptation, when something new can do part of what you have always done and valued, to position yourself against that thing. In other words, the temptation is to point out what I do that the machine cannot. The trouble is that this list of things keeps getting shorter. Every model release moves the line a little further into territory that used to be mine. If my worth is the inventory of tasks the machine cannot yet perform, then my worth is on a schedule someone else is setting.
 
@@ -40,11 +40,11 @@ And here is the catch 22 we acknowledge in the kit... We have weather the machin
 
 So the geometry of the work is not symmetrical, and the smart move was never to compete with the machine. It was to give each side the half it was built for: a tireless, uncaring machine to the production, and a finite, answerable human to the deciding what should be produced. The trouble is that doing so requires me to understand a new division of labor, and to preserve my judgement with the changing weather.
 
-Before you turn the page, open the source tree. It is not arranged by feature. It is arranged around the distinction this chapter just made — surfaces where the machine works, surfaces where the human works, gates at the boundary. The geometry is not a metaphor; it is a directory structure you can read.
+Before you turn the page, open the source tree. It is not arranged by feature. It is arranged around the distinction this lesson just made — surfaces where the machine works, surfaces where the human works, gates at the boundary. The geometry is not a metaphor; it is a directory structure you can read.
 
 ---
 
-## Chapter 3 — Establishing Division of Labor
+## Lesson 3 — Establishing Division of Labor
 
 You hand the agent a goal and it builds the thing. Design, implementation, tests, the lot. Where does that leave you?
 
@@ -72,11 +72,11 @@ So look at the running kit. The origination surface, where the work is named and
 
 ---
 
-## Chapter 4 — Acknowledging Human Limitation
+## Lesson 4 — Acknowledging Human Limitation
 
 There are days I should not be the one making the call, and the worst thing about those days is that I am the one who knows it least. The mind that would tell me to step away is the mind that just lost the ability to tell.
 
-Let's take that seriously. The previous chapter handed me both ends of the work and pretended, briefly, that holding them was a question of geometry. It is not. The geometry is correct, but it does not save me. What sits between the two ends and the human supposed to hold them is **human condition**, and condition is not a personal aside to the engineering, but rather an amplified input into it.
+Let's take that seriously. The previous lesson handed me both ends of the work and pretended, briefly, that holding them was a question of geometry. It is not. The geometry is correct, but it does not save me. What sits between the two ends and the human supposed to hold them is **human condition**, and condition is not a personal aside to the engineering, but rather an amplified input into it.
 
 Here is what changed under me when I adopted an AI-native posture, and I do not think enough people have stopped to feel it. In the world I trained in, my cognition spread across hundreds of small acts of production a day — naming things, wiring things, fixing the obvious. A bad day degraded all of it a little, and most of it was self-correcting. The test failed. The build broke. The teammate caught it. My condition mattered, but it was *diluted* across a high volume of low-stakes acts, and the system had a hundred chances to catch a slip.
 
@@ -102,11 +102,11 @@ Five dials move that condition, and I have come to know each by the specific way
 
 The dimensions do not stay in their lanes. Bad sleep wrecks regulation. Money fear wrecks sleep. The taxonomy is not the point. The point is that every one of them lands on the same two ends: the only ones I can really hold anymore and have value.
 
-Open the kit's condition surface. It does not ask how you feel. It reads weather from your behavior — the same telemetry that has been running since Chapter 1 — because the gauge inside is the part that lies first. A dashboard that asks you how you feel and logs the flattering answer is a mirror with a database behind it. The kit knows the difference, and the next chapter is about how it does what self-report cannot.
+Open the kit's condition surface. It does not ask how you feel. It reads weather from your behavior — the same telemetry that has been running since Lesson 1 — because the gauge inside is the part that lies first. A dashboard that asks you how you feel and logs the flattering answer is a mirror with a database behind it. The kit knows the difference, and the next lesson is about how it does what self-report cannot.
 
 ---
 
-## Chapter 5 — Instrumenting the Human You
+## Lesson 5 — Instrumenting the Human You
 
 I will instrument anything. Latency, error rates, queue depth, cost-per-request, deploy frequency, regression count, vendor uptime, model spend by route. There is no system I have built that I would run on faith. Except one. The one I run from the inside, the one carrying the only two ends a machine cannot take, is the single system I have left dark.
 
@@ -144,9 +144,9 @@ At the end of the small piece of work, look at the first reading. It will be sma
 
 ---
 
-## Chapter 6 — Maintaining the System
+## Lesson 6 — Maintaining the System
 
-A dashboard with no reader is not a dashboard. The previous chapter handed me a monitor and quietly assumed I would read it, and I have watched myself, in the seasons that most needed the reading, not read it. The faculty that degrades is also the faculty that would remember to check whether it is degrading. The drowsy driver does not pull over to assess his drowsiness, because deciding to assess it is the first thing the drowsiness takes.
+A dashboard with no builder is not a dashboard. The previous lesson handed me a monitor and quietly assumed I would read it, and I have watched myself, in the seasons that most needed the reading, not read it. The faculty that degrades is also the faculty that would remember to check whether it is degrading. The drowsy driver does not pull over to assess his drowsiness, because deciding to assess it is the first thing the drowsiness takes.
 
 Maintenance, then, is not enough. And neither is the dashboard. What I need is the practice of keeping the faculty in form *and* the page I cannot be relied on to send myself *and* the honest statement of what I can do to make all of it lie. Those are not three habits. They are one discipline. What follows is how they run together.
 
@@ -158,13 +158,13 @@ I run myself that way most days and trust the output anyway.
 
 The mirror is exact. My working memory is a context window — small, finite, the place I hold the frame while I work. My long-term memory is the store — what consolidates overnight, what I retrieve to recognize that this migration looks like the one that burned me years ago. These are not nice-to-haves. They are the substrate the two ends run on. Holding the frame *is* working memory under load. Recognizing the pattern *is* retrieval from a store I bothered to build. Memory is not a faculty beside the judgment. It is what the judgment is made of.
 
-So is offloading making me duller? It can. This is the live worry, and I do not want to pretend otherwise. The previous chapter said origination atrophies from disuse, and recall is no different — a faculty I never call degrades. But the answer is not to hoard the recall I do not need. The answer is to be deliberate about which faculty I am spending. Hand the trivia to the machine. Keep in use the muscle that matters.
+So is offloading making me duller? It can. This is the live worry, and I do not want to pretend otherwise. The previous lesson said origination atrophies from disuse, and recall is no different — a faculty I never call degrades. But the answer is not to hoard the recall I do not need. The answer is to be deliberate about which faculty I am spending. Hand the trivia to the machine. Keep in use the muscle that matters.
 
 I am not going to give you a regimen. The floor is known and is not where I fail. Sleep consolidates memory, the obvious poisons corrode it, and you knew that before me. What I can give you is the shape of upkeep, and the shape has the same three properties as the probes — let it earn its place here only if it protects one of the two ends.
 
 **Externalize the frame before you prompt.** The *why*, written down where working memory does not have to hold it and the agent's first suggestion cannot quietly overwrite it. A frame on paper is one I can check the output against. A frame in my head on a tired afternoon is one the agent reframes for me without either of us noticing.
 
-**Make the store double as the dashboard.** The logs and counts the last chapter told me to keep are also my externalized long-term memory. One artifact, not two. The thing that lets me read my condition over time is the same thing that lets me retrieve the pattern I would otherwise lose, and neither one routes through the gauge that lies.
+**Make the store double as the dashboard.** The logs and counts the last lesson told me to keep are also my externalized long-term memory. One artifact, not two. The thing that lets me read my condition over time is the same thing that lets me retrieve the pattern I would otherwise lose, and neither one routes through the gauge that lies.
 
 **Keep the muscle I actually need in use.** Reach for the prior decision before I ask the agent to surface it. Hold the architecture in my head long enough to know whether the agent's plan fits before I read the plan. Exercise on what matters.
 
@@ -180,7 +180,7 @@ My car solved this years ago, and I drive it without noticing the lesson. It doe
 
 Build the same thing for the only system that never had one. The kit already has the telemetry — every accept, every reframe that did not happen, every diff that went through unread. What was missing was the wire from the signal to the alert. Wire it. Set the tripwires when you can still think straight — a run of accepts without an override, an origination ratio falling for two weeks, a streak of diffs merged faster than anyone could have read them — and let the agent page you when they trip. *You have taken the last nine suggestions without changing one — want to actually look at this one?* The drowsy-driver alert, ported to the only system that never had one.
 
-The objection that comes up next is the whole point. *You are asking the thing you are tempted to over-trust to tell you that you are over-trusting it?* Yes. And notice what that requires. A monitor built to keep me engaged would be worse than none — it would be the corporate dashboard counting throughput, the optimization reflex the last chapter warned against, wearing a safety vest. The car does not sell me more driving. It tells me to stop, against its own engagement, because the people who built it were answerable for whether I arrived. Build the watchdog the same way: pointed at judgment, not output; designed to interrupt the productive trance, not extend it. The signal it reads has to be one I cannot fake — which I already know how to build, because the previous chapter was about nothing else.
+The objection that comes up next is the whole point. *You are asking the thing you are tempted to over-trust to tell you that you are over-trusting it?* Yes. And notice what that requires. A monitor built to keep me engaged would be worse than none — it would be the corporate dashboard counting throughput, the optimization reflex the last lesson warned against, wearing a safety vest. The car does not sell me more driving. It tells me to stop, against its own engagement, because the people who built it were answerable for whether I arrived. Build the watchdog the same way: pointed at judgment, not output; designed to interrupt the productive trance, not extend it. The signal it reads has to be one I cannot fake — which I already know how to build, because the previous lesson was about nothing else.
 
 **The page is delegable. The heeding is not.** The agent can sound the alarm forever at a driver who keeps both hands on the wheel and drives into the dark anyway. The watchdog restores the page my condition could not page itself. It does not restore the part that was always mine: being the one who, paged, actually stops.
 
@@ -196,7 +196,7 @@ What I am offering is a kit whose defeats are visible.
 
 The defaults are honest. Telemetry is on. The gameable settings are off. The defeats — disabling a signal, lowering a tripwire, deleting a record — require explicit action, and the action itself is a logged event in a record you cannot quietly purge. The kit does not lock you out. There is no DRM, no remote kill, no telemetry shipped off your machine. You own the data, the keys, and the consequences.
 
-A defeated kit is still a workflow. It may organize your agents and skills in a way you like. It may make your day cleaner. It is no longer the thing this playbook is for, and the value of being wrong — the value the rest of the book turns on — is what a quietly defeated kit removes first, because it removes the trace.
+A defeated kit is still a workflow. It may organize your agents and skills in a way you like. It may make your day cleaner. It is no longer the thing this playbook is for, and the value of being wrong — the value the rest of the kit turns on — is what a quietly defeated kit removes first, because it removes the trace.
 
 The single question the kit cannot decide for me, waiting at the moment the page arrives, is this:
 
@@ -206,25 +206,25 @@ I do not know your answer. I am still wrestling with mine.
 
 ---
 
-## Chapter 7 — Beginning the Practice
+## Lesson 7 — Beginning the Practice
 
-This is where the book stops introducing itself and starts being useful.
+This is where the kit stops introducing itself and starts being useful.
 
 The kit is installed. You hold the doctrine. The first reading is in. You have a small record that is yours, and the record is the kind that did not exist before — not a snapshot of how you felt, but a trace of what you did, taken from inside the work itself.
 
-What I want to give you to carry into your next build is deliberately small. The temptation when finishing a section like this is to leave the reader with a regimen — twelve practices, four rituals, a morning routine. I am not going to do that, partly because I do not trust them, and partly because the kit already does most of the counting. What it cannot do is the one move that goes at the front.
+What I want to give you to carry into your next build is deliberately small. The temptation when finishing a unit like this is to leave the builder with a regimen — twelve practices, four rituals, a morning routine. I am not going to do that, partly because I do not trust them, and partly because the kit already does most of the counting. What it cannot do is the one move that goes at the front.
 
-**Write the *why* down first.** In the kit's origination surface, before you prompt. The agent's first suggestion cannot quietly overwrite a frame you have already externalized. That is the one move I want you to make on the very next build, ahead of any other discipline this book teaches. The kit will count the rest.
+**Write the *why* down first.** In the kit's origination surface, before you prompt. The agent's first suggestion cannot quietly overwrite a frame you have already externalized. That is the one move I want you to make on the very next build, ahead of any other discipline this kit teaches. The kit will count the rest.
 
-The whole book in one line, because I think you have earned it: **the skills that win you the opportunity are the same ones you keep sharp to hold on to it.** The chapter on condition and the chapter on the long clock are not different chapters. They are the same chapter at two different time horizons. Becoming viable and remaining viable are not two activities in sequence. They are one stance, held at two clocks.
+The whole kit in one line, because I think you have earned it: **the skills that win you the opportunity are the same ones you keep sharp to hold on to it.** The lesson on condition and the lesson on the long clock are not different lessons. They are the same lesson at two different time horizons. Becoming viable and remaining viable are not two activities in sequence. They are one stance, held at two clocks.
 
-The kit, right now, is generic. It does not know which of the two ends you tend to drop. It does not know whether you are escaping vendor dependency, inheriting a system whose original authors are gone, closing the gap between AI in your workflow and AI as a faculty your team holds, or crossing the prototype-to-production wall with Lovable app that doesn't scale. It does not yet know whether you should be developing the engineering faculty fully or borrowing just enough frame to stay answerable for work you will never personally author. It will know, after Section 2.
+The kit, right now, is generic. It does not know which of the two ends you tend to drop. It does not know whether you are escaping vendor dependency, inheriting a system whose original authors are gone, closing the gap between AI in your workflow and AI as a faculty your team holds, or crossing the prototype-to-production wall with Lovable app that doesn't scale. It does not yet know whether you should be developing the engineering faculty fully or borrowing just enough frame to stay answerable for work you will never personally author. It will know, after Unit 2.
 
-**Section 2 — Configure.** Short, and a routing rather than a grading. The two-ends diagnostic reads — from the behavior the kit has already begun to record — which end you hold badly. The operating profile reads your wiring and tunes how the kit will deliver. The audience routing names the situation you recognize as your own, and produces, as output, the configured modules, agents, skills, ADLC gates, and dashboard signals your kit will emphasize from then on. Same kit. Different mix of founder and engineering judgement. Different default on develop-versus-borrow.
+**Unit 2 — Configure.** Short, and a routing rather than a grading. The two-ends diagnostic reads — from the behavior the kit has already begun to record — which end you hold badly. The operating profile reads your wiring and tunes how the kit will deliver. The audience routing names the situation you recognize as your own, and produces, as output, the configured modules, agents, skills, ADLC gates, and dashboard signals your kit will emphasize from then on. Same kit. Different mix of founder and engineering judgement. Different default on develop-versus-borrow.
 
-**Section 3 — Use.** The configured kit becomes the harness you run against real work. The Agent Development Life Cycle fires across discovery, design, implementation, tests, security, infrastructure, deployment, documentation, and observability — staffed by agents, gated by the human, with the steering you began in Chapter 3 happening continuously through the middle.
+**Unit 3 — Use.** The configured kit becomes the harness you run against real work. The Agent Development Life Cycle fires across discovery, design, implementation, tests, security, infrastructure, deployment, documentation, and observability — staffed by agents, gated by the human, with the steering you began in Lesson 3 happening continuously through the middle.
 
-**Section 4 — Watch.** The same record the kit has been keeping becomes the longitudinal dashboard for the nine dimensions of long-term viability, read against your own baseline, never against a population norm. The same instrument, longer clock.
+**Unit 4 — Watch.** The same record the kit has been keeping becomes the longitudinal dashboard for the nine dimensions of long-term viability, read against your own baseline, never against a population norm. The same instrument, longer clock.
 
 Install. Configure. Use. Watch.
 
@@ -236,4 +236,4 @@ For me, I had given up trying to integrate certain personal *wants* into my day.
 
 Four questions sit underneath whatever carrot you dangle in front of yourself, and AI has not changed any of them. Where do I want to go? Do I have a plan? Am I willing to keep putting my next best foot forward to get there, even when that foot hurts like hell? And will I adjust the plan when the pain turns out to be the consequence of abdication of will? Setting the destination, holding the plan, being willing to change it when the pain reveals you've dropped one of the two ends — none of your humanity gets handed to the agent. The agent pursues a goal because you assign it. What compels you comes from somewhere more mysterious. The kit can keep you honest about whether you are pursuing what you said you wanted in a healthy way. It cannot pursue it for you. Remember: *It doesn't care. It risks nothing.*.
 
-I want to do what I want to do, damn it. You do too. Section 2 begins there.
+I want to do what I want to do, damn it. You do too. Unit 2 begins there.

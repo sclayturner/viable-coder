@@ -1,5 +1,5 @@
 # Stream B — Adult Skill Acquisition, Transfer, and De-Skilling
-### Cross-cutting research stream feeding Section 2 of *The Viable Coder Playbook* (Clay Turner, viablecoder.com)
+### Cross-cutting research stream feeding Unit 2 of *The Viable Coder Playbook* (Clay Turner, viablecoder.com)
  
 ## TL;DR
 - **The mechanism behind "transfer-not-substitution" is now empirically established, not just intuited.** A 2026 Anthropic randomized controlled trial (n=52) found AI-assisted developers scored 17% lower (two letter grades; Cohen's *d*=0.738, *p*=0.010) on a comprehension quiz than hand-coders — and the decisive variable was *how* they used AI: "delegators" who offloaded code generation clustered at 24–39% (below 40%), while "inquirers" who asked conceptual questions clustered at 65–86%. This is the single strongest piece of doctrine in the stream: the same tool transfers a faculty or substitutes for it depending almost entirely on interaction style, which is a *teachable behavior*.

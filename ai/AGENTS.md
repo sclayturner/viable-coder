@@ -4,7 +4,7 @@ Use this folder for collaboration machinery: source maps, workflows, evaluation 
 
 ## Working Rules
 
-- Keep AI process artifacts separate from book content.
+- Keep AI process artifacts separate from curriculum content.
 - Use workflows for repeatable multi-step work.
 - Use evals to check quality after drafting or restructuring.
 - Use `ai/adlc-dogfooding.md` to keep repo work aligned with the ADLC instead of only describing it.

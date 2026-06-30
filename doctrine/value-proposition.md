@@ -11,8 +11,8 @@ The value Clay brings combines two judgements that the AI era has separated and 
 The work has two halves:
  
 ### Becoming Viable
- 
-Practical mentorship, resources, and a playbook for six situations: developing internal talent, reducing SaaS dependency, escaping external dev dependency, dealing with legacy software debt, closing the AI development gap, and crossing the prototype-to-production wall.
+
+Practical mentorship, resources, and a private kit app for six situations: developing internal talent, reducing SaaS dependency, escaping external dev dependency, dealing with legacy software debt, closing the AI development gap, and crossing the prototype-to-production wall.
  
 ### Remaining Viable
  
@@ -32,4 +32,4 @@ To help people and companies build real software capability in the age of AI, wi
 
 ## Delivery
 
-The playbook is delivered as a **kit** — manuscript paired with a working reference application the reader installs in Section 1, configures to their situation in Section 2, runs as their day-to-day harness through Section 3, and reads as a longitudinal dashboard in Section 4. The kit is what Clay uses in every mentorship engagement and is sold separately at $495 for builders who choose the self-directed path. The canonical design surface for the kit is `ai/viable-coder-kit-concept-manifest.md`; the public pricing structure (mentorship at $4,000/month, equity-in-lieu, $495 self-directed kit) is on `website/public/mentorship.html`. Same doctrine, two paths; the cost difference reflects access to Clay, not access to the doctrine.
+The playbook is delivered as a **private kit app**: integrated units, lessons, exercises, working agents, configuration surfaces, telemetry, and dashboards the builder installs in Unit 1, configures to their situation in Unit 2, runs as their day-to-day harness through Unit 3, and reads as a longitudinal dashboard in Unit 4. The kit is what Clay uses in every mentorship engagement and is sold separately at $495 for builders who choose the self-directed path. The canonical design surface for the kit is `ai/viable-coder-kit-concept-manifest.md`; the public pricing structure (mentorship at $4,000/month, equity-in-lieu, $495 self-directed kit) is on `website/public/mentorship.html`. Same doctrine, two paths; the cost difference reflects access to Clay, not access to the doctrine.

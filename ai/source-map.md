@@ -5,7 +5,7 @@ Use this file to route context loads. Prefer canonical files over `archive/`.
 ## Project Orientation
 
 - Root instructions: `AGENTS.md`
-- Book instructions: `book/AGENTS.md`
+- Curriculum instructions: `curriculum/AGENTS.md`
 - Doctrine instructions: `doctrine/AGENTS.md`
 - Research instructions: `research/AGENTS.md`
 - Website instructions: `website/AGENTS.md`
@@ -15,7 +15,7 @@ Use this file to route context loads. Prefer canonical files over `archive/`.
 
 - Collaboration model: `ai/collaboration-model.md`
 - ADLC dogfooding: `ai/adlc-dogfooding.md`
-- **Kit concept manifest (canonical design surface for the playbook-as-kit):** `ai/viable-coder-kit-concept-manifest.md`
+- **Kit concept manifest (canonical design surface for the private kit app):** `ai/viable-coder-kit-concept-manifest.md`
 - Docs-governed application harness spec: `ai/docs-governed-application-harness-spec.md`
 - Harness map: `ai/harness-map.md`
 - Workflows: `ai/workflows/`
@@ -33,13 +33,13 @@ Use this file to route context loads. Prefer canonical files over `archive/`.
 - Claude Code path rules: `.claude/rules/`
 - Cross-harness mapping and sync rules: `ai/harness-map.md`
 
-## Book
+## Curriculum
 
-- Current section outlines: `book/outlines/`
-- Audience and module architecture: `book/modules/`
-- Narrative anchor tracker: `book/narrative-ledger.md`
-- Publishable manuscript: `book/manuscript/`
-- Exercises: `book/exercises/`
+- Current unit outlines: `curriculum/outlines/`
+- Audience and module architecture: `curriculum/modules/`
+- Narrative anchor tracker: `curriculum/narrative-ledger.md`
+- Lesson content: `curriculum/lessons/`
+- Exercises: `curriculum/exercises/`
 
 ## Doctrine
 
@@ -53,7 +53,7 @@ Use this file to route context loads. Prefer canonical files over `archive/`.
 - Right-sized models (classify, route, refuse the frontier-on-every-task default; open-source / self-hosted as a first-class option): `doctrine/right-sized-models.md`
 - Upkeep: `doctrine/upkeep.md`
 - Nine dimensions: `doctrine/nine-dimensions-model.md`
-- Reader orientation pattern: `doctrine/reader-orientation-pattern.md`
+- Builder orientation pattern: `doctrine/reader-orientation-pattern.md`
 - Clay voice anchors: `doctrine/voice/`
 - Lived answerability: `doctrine/voice/lived-answerability.md`
 
@@ -78,4 +78,4 @@ Use this file to route context loads. Prefer canonical files over `archive/`.
 ## Historical Source Guides
 
 - Prior book source guide: `ai/source-guides/superhuman-2025-source-guide.md`
-- Treat guided historical sources as references, not canonical source. Promote ideas into the appropriate canonical folder before using them as doctrine, manuscript, research, or website copy.
+- Treat guided historical sources as references, not canonical source. Promote ideas into the appropriate canonical folder before using them as doctrine, curriculum, research, or website copy.

@@ -630,7 +630,7 @@ limit 20;
 
 ## Analysis Readiness
 
-This section is intended as handoff context for evaluating product questions,
+This unit is intended as handoff context for evaluating product questions,
 such as the ViableCoder question set, against the current AI watcher corpus.
 
 Strongly supported today:
