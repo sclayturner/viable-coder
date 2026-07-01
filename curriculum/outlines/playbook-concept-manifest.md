@@ -2,7 +2,7 @@
 
 *A sequenced ledger of what each lesson puts on the page, in book order. Read top-to-bottom to see what the playbook is introducing and building toward; scan the **Open** lines to find the holes worth filling next.*
 
-*Companion to the four unit outlines and narratives ([unit-1.md](curriculum/lessons/unit-1.md) — graduated to lesson content, [unit-2-narrative.md](curriculum/outlines/unit-2-narrative.md), [unit-3-narrative.md](curriculum/outlines/unit-3-narrative.md), [unit-4-narrative.md](curriculum/outlines/unit-4-narrative.md)) and the [playbook-lexicon.md](doctrine/playbook-lexicon.md). Not lesson content.*
+*Companion to the four unit outlines and narratives ([Unit 1 bundle](curriculum/units/unit-01-install-knowing-who-does-what/) — graduated to lesson content, [unit-2-narrative.md](curriculum/outlines/unit-2-narrative.md), [unit-3-narrative.md](curriculum/outlines/unit-3-narrative.md), [unit-4-narrative.md](curriculum/outlines/unit-4-narrative.md)) and the [playbook-lexicon.md](doctrine/playbook-lexicon.md). Not lesson content.*
 
 ---
 

@@ -1,6 +1,6 @@
 # Unit 1 — Install: Knowing Who Does What
 
-*Structural map of the polished Unit 1 lesson content at `curriculum/lessons/unit-1.md`. Working titles preserved. Each lesson teaches a fundamental — the opportunity, AI vs OI, the two jobs, condition, observability, upkeep — and hands the builder to a kit moment so the doctrine is taught **and** made operable.*
+*Structural map of the polished Unit 1 lesson bundle at `curriculum/units/unit-01-install-knowing-who-does-what/`. Working titles preserved. Each lesson teaches a fundamental — the opportunity, AI vs OI, the two jobs, condition, observability, upkeep — and hands the builder to a kit moment so the doctrine is taught **and** made operable.*
 
 ---
 
@@ -205,9 +205,9 @@ By the end of this unit, you will know what the AI is for, what *you* are for, a
 
 ## Working Source Note
 
-This outline is the structural map of the polished Unit 1 lesson content at `curriculum/lessons/unit-1.md`. It is drafted against:
+This outline is the structural map of the polished Unit 1 lesson bundle at `curriculum/units/unit-01-install-knowing-who-does-what/`. It is drafted against:
 
-- The preface (`curriculum/lessons/preface.md`) — the unit-level contract.
+- The preface bundle (`curriculum/units/unit-00-preface/lessons/preface-the-first-build/lesson.md`) — the unit-level contract.
 - The kit concept manifest (`ai/viable-coder-kit-concept-manifest.md`) — the four-unit handoffs, the structurally-honest signal set, the kit-defeat posture.
 - The maintenance trilogy — `doctrine/organic-intelligence.md`, `doctrine/human-condition.md`, `doctrine/observability.md`, `doctrine/upkeep.md`.
 - Steering (`doctrine/steering.md`) — the in-flight motion through the middle; the interrupt as primitive.

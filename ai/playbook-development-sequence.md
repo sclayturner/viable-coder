@@ -11,7 +11,7 @@ In a single conversation, we worked through how to develop the Viable Coder play
 1. **A matrix outline** for Unit 3, Lesson 3 — [curriculum/outlines/unit-3-lesson-3-matrix.md](curriculum/outlines/unit-3-lesson-3-matrix.md). Exposes the linear spine and the modular audience configuration side-by-side, in the form of a per-gate configuration manifest.
 2. **An end-to-end view** of the full playbook — [curriculum/outlines/playbook-end-to-end.md](curriculum/outlines/playbook-end-to-end.md) plus a rendered Mermaid flowchart at [curriculum/outlines/playbook-end-to-end.png](curriculum/outlines/playbook-end-to-end.png). Lesson-level ToC with cross-cutting threads.
 3. **A granular ToC** for Unit 1, all lessons — original pilot draft, since absorbed into the polished [curriculum/outlines/unit-1-outline.md](curriculum/outlines/unit-1-outline.md). Sub-beat granularity with load-bearing phrases pulled verbatim from doctrine.
-4. **A narrative prose draft** of Unit 1, end to end — original pilot draft, since polished and promoted to [curriculum/lessons/unit-1.md](curriculum/lessons/unit-1.md). The granular ToC rewritten as one continuous lecture in the voice of a builder addressing a builder.
+4. **A narrative prose draft** of Unit 1, end to end — original pilot draft, since polished and promoted into the [Unit 1 lesson bundle](curriculum/units/unit-01-install-knowing-who-does-what/). The granular ToC rewritten as one continuous lecture in the voice of a builder addressing a builder.
 
 ## What we found
 
@@ -31,13 +31,13 @@ When developing the structure of a major builder-facing unit (a unit, a lesson, 
 
 1. **Conceptual frame.** What the unit is doing and why; what doctrine it draws on; how it relates to other units. *(Existing outline-level artifact — `unit-N-outline.md` and `conceptual-playbook-outline.md` already do this.)*
 2. **Granular sub-beats.** The unit at sub-beat granularity, with concepts named and key phrases identified. Phrases lifted from doctrine are marked; invented ones are flagged as proposed. *(New artifact type, originally piloted as `unit-1-granular.md`; since absorbed into the polished [unit-1-outline.md](curriculum/outlines/unit-1-outline.md).)*
-3. **Narrative prose draft.** The unit as continuous prose, in the appropriate voice, end to end. Lesson headings preserved so the spine stays legible. *(New artifact type, originally piloted as `unit-1-narrative.md`; since polished and promoted to [unit-1.md](curriculum/lessons/unit-1.md).)*
+3. **Narrative prose draft.** The unit as continuous prose, in the appropriate voice, end to end. Lesson headings preserved so the spine stays legible. *(New artifact type, originally piloted as `unit-1-narrative.md`; since polished and promoted into the [Unit 1 lesson bundle](curriculum/units/unit-01-install-knowing-who-does-what/).)*
 
 The narrative is treated as the **evaluation step**, not polish. It is how the author confirms the structure earns the builder's forward motion.
 
 ### Collateral rules that fall out of this
 
-- **The narrative is a working draft, not lesson content.** It lives in `curriculum/outlines/`, not `curriculum/lessons/`. Its purpose is structural validation. Final lesson prose is a separate, later step that may or may not start from this narrative.
+- **The narrative is a working draft, not lesson content.** It lives in `curriculum/outlines/`, not `curriculum/units/`. Its purpose is structural validation. Final lesson prose is a separate, later step that may or may not start from this narrative.
 - **Lifted phrases are marked.** When the narrative quotes doctrine verbatim, those phrases are bolded or quoted. This keeps the doctrine the source of truth and the narrative honest about what it inherited.
 - **Lived-experience anchors are slots, not invented content.** Where the reader-orientation pattern calls for personal Clay material, the narrative *names the slot* rather than guessing what goes there. Memoir-by-proxy is forbidden.
 - **Drift is carried forward, not papered over.** If the conceptual outline and the unit outline disagree (as happened with the maintenance trilogy's bloom in Unit 1), the narrative surfaces the discrepancy explicitly rather than silently picking one reading.

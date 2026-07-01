@@ -12,6 +12,7 @@ Lens:
 - Flag cross-unit narrative anchors that need to be tracked in `curriculum/narrative-ledger.md`.
 - Flag where lesson content, outlines, modules, or doctrine disagree.
 - Check that each unit hands the builder to its kit moment (install in Unit 1, configure in Unit 2, day-to-day use in Unit 3, longitudinal dashboard in Unit 4). See `ai/viable-coder-kit-concept-manifest.md` §2.
+- Check whether lesson bundles distinguish lesson prose, vocabulary, exercise, kit action, artifacts, and signals; flag cases where the builder's work, the harness behavior, the durable output, and the reading are confused.
 - Flag doctrinal claims the kit cannot operationalize (doctrine–code coupling, manifest §5).
 
 Output:

@@ -9,14 +9,29 @@ Use this folder for the saleable kit curriculum: unit and lesson content, outlin
 
 ## Working Rules
 
-- Treat `curriculum/lessons/` as the current lesson-content surface for the private kit app.
+- Treat `curriculum/units/` as the app-renderable unit-and-lesson bundle structure for the private kit app. Current lesson prose belongs there.
 - Treat `curriculum/outlines/` as current structure, not immutable law.
 - Treat `curriculum/modules/` as the system that maps audience situations to guidance, exercises, ADLC gates, skill pairings, and measurement signals.
+- Treat `curriculum/vocabulary/` as builder-facing vocabulary surfaces derived from `doctrine/playbook-lexicon.md`.
+- Treat `curriculum/templates/lesson-bundle/` as the standard for new or migrated lesson bundles.
 - Do not let a lesson become a research memo. Move support material to `research/` or `doctrine/`.
 - Do not let a lesson become website copy. Move promotional or conversion language to `website/`.
 - Organize major builder-facing units in felt-need order when possible: Scene -> Tension -> Distinction -> Tool -> Return. Use `doctrine/reader-orientation-pattern.md` as the governing doctrine and `curriculum/narrative-ledger.md` to track recurring anchors.
 - When developing structure for a major builder-facing unit, such as a unit, lesson, or major module, use a narrative prose draft as a validation artifact alongside the structural artifact. The narrative is not final lesson prose or polish; it tests whether the structure earns forward motion. Default sequence: conceptual frame -> granular sub-beats -> narrative validation.
 - Treat story as structural evidence, not ornament. A scene should carry a doctrine, gate, module, diagnostic, exercise, or signal.
+
+## Lesson Bundle Standard
+
+A lesson is a **bundle**, not prose alone. When creating or migrating app-renderable lessons under `curriculum/units/`, use this component vocabulary:
+
+- `lesson.md`: the teaching content. It carries the scene, tension, distinction, tool, and return.
+- `vocabulary.md`: terms introduced or required by the lesson. Define terms at the point of need, not as an upfront glossary dump.
+- `exercise.md`: the builder's assigned work.
+- `kit-action.md`: what the private app, local harness, agent, Skill, gate, or dashboard does in support of the lesson.
+- `artifacts.md`: durable outputs created or changed by the lesson.
+- `signals.md`: telemetry, readings, or long-clock seeds associated with the lesson.
+
+Do not create empty files merely to satisfy the shape. A lesson may omit a component file when the component is genuinely absent, or keep components together in a transitional draft when the split would be premature. The conceptual distinction still matters: do not confuse the builder's exercise with the kit's action, the artifact with the signal, or vocabulary with doctrine exposition.
 
 ## Unit Architecture
 
@@ -39,5 +54,6 @@ Before finishing curriculum work, ask:
 - Is this Clay's point of view, or could any AI consultant have written it?
 - Does the passage know which unit or lesson it belongs to?
 - Is the builder being given a practical move, a diagnostic, or a governing distinction?
+- If this is a lesson, does it know its exercise, kit action, artifact, signal, and vocabulary implications?
 - Does the major unit create felt need before exposition, then return to its opening scene or situation with changed understanding?
 - Does the passage know the playbook is a private kit app, and does it hand the builder to the right kit moment for its unit?

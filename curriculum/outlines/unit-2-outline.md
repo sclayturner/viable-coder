@@ -1,6 +1,6 @@
 # Unit 2 — Configure: Finding Your Situation
 
-*Structural map of the polished Unit 2 lesson content at `curriculum/lessons/unit-2.md`. Working titles preserved. Each lesson teaches one move of the configuration — locating the builder in a recognized situation, confirming via behavior, picking develop-vs-borrow per skill, naming the five universal moves, framing the borrow discipline, and handing the builder to Unit 3 — and ends with a kit moment so the doctrine is both taught and made operable.*
+*Structural map of the polished Unit 2 lesson bundle at `curriculum/units/unit-02-configure-finding-your-situation/`. Working titles preserved. Each lesson teaches one move of the configuration — locating the builder in a recognized situation, confirming via behavior, picking develop-vs-borrow per skill, naming the five universal moves, framing the borrow discipline, and handing the builder to Unit 3 — and ends with a kit moment so the doctrine is both taught and made operable.*
 
 ---
 
@@ -170,9 +170,9 @@ By the end of this unit you'll know the situation you are actually starting from
 
 ## Working Source Note
 
-This outline is the structural map of the polished Unit 2 lesson content at `curriculum/lessons/unit-2.md`. It is drafted against:
+This outline is the structural map of the polished Unit 2 lesson bundle at `curriculum/units/unit-02-configure-finding-your-situation/`. It is drafted against:
 
-- The preface (`curriculum/lessons/preface.md`) and Unit 1 lesson content (`curriculum/lessons/unit-1.md`) — the voice and standard. Lesson 1 opens on the explicit handoff at the end of Unit 1 Lesson 7 (*I want to do what I want to do, damn it. You do too. Unit 2 begins there.*).
+- The preface bundle (`curriculum/units/unit-00-preface/lessons/preface-the-first-build/lesson.md`) and Unit 1 lesson bundle (`curriculum/units/unit-01-install-knowing-who-does-what/`) — the voice and standard. Lesson 1 opens on the explicit handoff at the end of Unit 1 Lesson 7 (*I want to do what I want to do, damn it. You do too. Unit 2 begins there.*).
 - The kit concept manifest (`ai/viable-coder-kit-concept-manifest.md`) — the four kit moments and the kit-defeat posture.
 - The canonical six situations in `doctrine/audiences.md` — written builder-facingly as scenes; codes (ITW, SVD, EDD, LSD, AID, PPW) kept backstage.
 - The relocation ledger (`curriculum/modules/relocation-ledger.md`) — the *Shed/Adopted* discipline, the residual-risk statement, the long-game questions, and the dimension pointers Unit 4 will pick up.
@@ -196,4 +196,4 @@ This outline is the structural map of the polished Unit 2 lesson content at `cur
 
 **Open structural questions held forward.** (1) The Operating Profile is still bloomed in Unit 2 Lesson 2 without a Unit 1 seed — the lesson content currently lands it cold rather than retroactively editing Unit 1; if the seed gets added, the lesson's *climate* paragraph can compress. (2) Unit 1's seed of *every escape is a trade* / *trade up to a dependency worth holding* would let Unit 2 Lesson 1 land the reframe as bloom rather than introduction — currently the reframe lands cold inside Lesson 1.
 
-**The narrative draft at `curriculum/outlines/unit-2-narrative.md` was the first pass against this standard; the lesson content at `curriculum/lessons/unit-2.md` is the rewrite and supersedes the narrative as the authoritative Unit 2 prose.** This outline now relates to the lesson content exactly as `unit-1-outline.md` relates to `unit-1.md`: a structural map of the polished prose, not a forward-design artifact.
+**The narrative draft at `curriculum/outlines/unit-2-narrative.md` was the first pass against this standard; the lesson bundle at `curriculum/units/unit-02-configure-finding-your-situation/` is the rewrite and supersedes the narrative as the authoritative Unit 2 prose.** This outline now relates to the lesson bundle exactly as `unit-1-outline.md` relates to the Unit 1 bundle: a structural map of the polished prose, not a forward-design artifact.

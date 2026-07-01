@@ -18,11 +18,14 @@ Read these first:
 - Source routing: `ai/source-map.md`
 - Reader orientation pattern: `doctrine/reader-orientation-pattern.md`
 - Kit concept manifest (the playbook is delivered as a private kit app with integrated curriculum): `ai/viable-coder-kit-concept-manifest.md`
+- Lesson bundle template: `curriculum/templates/lesson-bundle/README.md`
 
 Then load only the files needed for the current task:
 
-- Unit work: relevant file in `curriculum/outlines/`
+- Unit or lesson bundle work: relevant file under `curriculum/units/`
+- Unit outline work: relevant file in `curriculum/outlines/`
 - Module work: relevant file in `curriculum/modules/`
+- Builder vocabulary: relevant file in `curriculum/vocabulary/` or lesson-local `vocabulary.md`
 - Core concepts: relevant files in `doctrine/`
 - Narrative anchors: `curriculum/narrative-ledger.md` when drafting or revising unit openings, lesson openings, recurring scenes, or callbacks
 - Voice/lived source: `doctrine/voice/lived-answerability.md` when drafting or revising openings, examples, personal anchors, or human-risk passages
@@ -34,9 +37,10 @@ Then load only the files needed for the current task:
 - Preserve the four-unit architecture unless the task is explicitly architectural.
 - Keep lesson prose distinct from research notes, website copy, and doctrine definitions.
 - Prefer felt-need order over explanation order for major builder-facing units: Scene -> Tension -> Distinction -> Tool -> Return.
+- Treat a lesson as a bundle, not prose alone. Distinguish `lesson.md` (teaching content), `vocabulary.md` (terms at point of need), `exercise.md` (builder work), `kit-action.md` (app/harness behavior), `artifacts.md` (durable outputs), and `signals.md` (telemetry/readings/long-clock seeds). Do not create empty component files merely to satisfy the shape.
 - For structural work on major builder-facing units, use a narrative prose draft as a validation artifact alongside the structural artifact. The narrative is not final lesson prose or polish; it tests whether the structure earns forward motion. Default sequence: conceptual frame -> granular sub-beats -> narrative validation.
 - Use story as structural evidence. A scene should carry a doctrine, gate, module, diagnostic, exercise, or signal; it should not merely add color.
-- Prefer concrete builder situations, diagnostics, exercises, and decisions.
+- Prefer concrete builder situations, diagnostics, exercises, kit actions, artifacts, signals, and decisions.
 - Know which Clay source is carrying the passage: founder experience, engineering experience, personal life experience, or a deliberate combination.
 - Remove generic AI-era claims unless they are tied to Clay's specific doctrine.
 - Treat the prior `Superhuman` book as historical reference. Verify dated AI claims before promotion and translate durable ideas into current Viable Coder language.

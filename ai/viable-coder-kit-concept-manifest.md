@@ -6,7 +6,7 @@
 
 ## 1. What the kit is
 
-The kit is the $495 deliverable: a private website/application the builder installs, adapts, and runs as their own AI-coding harness. The curriculum lives inside that application as units, lessons, exercises, working agents, configuration surfaces, and dashboards. The builder does not read doctrine in one place and operate the harness somewhere else. They install the kit on day one, learn inside it, instrument their own work with it, configure it to their situation in Unit 2, run it as their day-to-day harness through Unit 3, and read its longitudinal data in Unit 4.
+The kit is the $495 deliverable: a private website/application the builder installs, adapts, and runs as their own AI-coding harness. The curriculum lives inside that application as units and lesson bundles: teaching content, vocabulary, exercises, kit actions, artifacts, signals, working agents, configuration surfaces, and dashboards. The builder does not read doctrine in one place and operate the harness somewhere else. They install the kit on day one, learn inside it, instrument their own work with it, configure it to their situation in Unit 2, run it as their day-to-day harness through Unit 3, and read its longitudinal data in Unit 4.
 
 **Same doctrine, two paths.** The kit is what Clay uses in every mentorship engagement. It is sold separately, at $495, for the builder who prefers to work from it alone. The mentorship page (`website/public/mentorship.html`) names the relationship plainly: weekly working sessions, between-session access, community, and handoff at $4,000/month — *or* the same private kit app, on the builder's own schedule. The cost difference reflects access to Clay, not access to the doctrine.
 
@@ -60,7 +60,7 @@ Once the kit ships, doctrine and code are joined. The contract names what that m
 
 A line that has to be true for the price to be honest.
 
-The builder gets the private kit app, the integrated unit-and-lesson curriculum, the configured agents and skills for their situation, the exercises that produce real artifacts, a longitudinal dashboard rendered from their own behavioral data, and the updates that follow as the doctrine evolves. They are buying an artifact they could not assemble themselves from any number of free blog posts, because what is hard to do is hard to reproduce, and the hard part here is the structural-honesty design of the signals, the coupling discipline between doctrine and code, and the cost of the formation that produced the doctrine in the first place (see `doctrine/voice/lived-answerability.md`). They are not buying access to a service; they are buying a kit they own and run on their own machine.
+The builder gets the private kit app, the integrated unit-and-lesson-bundle curriculum, the configured agents and skills for their situation, the exercises that produce real artifacts, a longitudinal dashboard rendered from their own behavioral data, and the updates that follow as the doctrine evolves. They are buying an artifact they could not assemble themselves from any number of free blog posts, because what is hard to do is hard to reproduce, and the hard part here is the structural-honesty design of the signals, the coupling discipline between doctrine and code, and the cost of the formation that produced the doctrine in the first place (see `doctrine/voice/lived-answerability.md`). They are not buying access to a service; they are buying a kit they own and run on their own machine.
 
 **Relationship to mentorship.** The honest version of the price comparison lives on `website/public/mentorship.html`. Mentorship is $4,000 per month, quarterly billing, 3–5 engagements at a time, and it includes the weekly sessions, between-session access, community, and the handoff. Equity-in-lieu is the alternative mentorship arrangement for early-stage startups where cash hasn't caught up to the work. The $495 kit is the self-directed tier — same doctrine, same kit, no Clay. The cost difference reflects access to the person, not access to the artifact. The closing line of the LinkedIn post stands: AI makes building easy; the kit is part of what makes the builder viable.
 
@@ -83,7 +83,7 @@ A shorter list, mostly mechanical, settled at build time.
 
 ## 9. Content, organization, and presentation
 
-We have plenty of content already across `curriculum/`, `doctrine/`, `website/`, and the supporting `research/` and `ai/` material. What changes from the kit concept is **organization within units** and **presentation across surfaces**, not the underlying doctrine.
+We have plenty of content already across `curriculum/`, `doctrine/`, `website/`, and the supporting `research/` and `ai/` material. What changes from the kit concept is **organization within units and lesson bundles** and **presentation across surfaces**, not the underlying doctrine.
 
 Realignment order:
 

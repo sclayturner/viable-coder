@@ -22,6 +22,7 @@ Read these first:
 - `curriculum/modules/audience-research-plan.md`
 - `curriculum/modules/relocation-ledger.md`
 - Relevant Unit 2 and Unit 3 outlines in `curriculum/outlines/`
+- Lesson bundle template: `curriculum/templates/lesson-bundle/README.md`
 
 ## Governing Rules
 
@@ -33,6 +34,7 @@ Read these first:
 - Persona selects register: explanatory, produce, or switchable.
 - Operating profile tunes pacing and structure, not doctrine.
 - Each module should know the builder situation and tension that create the need before it names the guidance, exercise, paired skill, or trailing signal.
+- When a module maps into a lesson, distinguish the lesson-bundle component it affects: vocabulary, exercise, kit action, artifact, or signal.
 - Trailing signals named in modules must be **kit-instrumentable** — structurally honest, readable off behavior, not self-report. See manifest §3 for the standard and the deliberately-excluded categories.
 - Clay-experience anchors should name their source: founder, engineer, personal life, or a deliberate combination.
 - Unit 4 dimensions should usually remain named pointers in module tables.
@@ -43,6 +45,7 @@ Read these first:
 - Does each module start from a concrete situation or tension rather than an abstract capability label?
 - Does each module harden a real ADLC gate?
 - Is the paired skill a real interaction pattern or only a title?
+- Does the module know which lesson-bundle component it changes or supplies?
 - Does the register match develop-vs-borrow?
 - Does the trailing signal measure the same gate the module hardens?
 - Are universal modules truly universal?

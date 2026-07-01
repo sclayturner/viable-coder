@@ -15,7 +15,7 @@ Clay Turner is the author and subject-matter owner. Treat the repository as a cu
 
 ## Source Boundaries
 
-- `curriculum/` contains lesson content, outlines, audience modules, and builder exercises.
+- `curriculum/` contains app-renderable unit/lesson bundles, transitional lesson content, outlines, audience modules, builder exercises, vocabulary surfaces, and lesson-bundle templates.
 - `doctrine/` contains the concepts that govern the kit and curriculum: value proposition, lexicon, Organic Intelligence, ADLC, audience model, and nine dimensions.
 - `research/` contains research streams, instruments, evidence ledgers, and measurement thinking.
 - `website/` contains the public-facing site and site documentation.
@@ -42,6 +42,21 @@ The canonical design surface for the kit is `ai/viable-coder-kit-concept-manifes
 **Dual-judgement framing.** The kit delivers both **founder judgement** (the *should I build it* gate) at origination and **engineering judgement** (the *will it scale* gate) across the day-to-day, in the proportion Unit 2's configuration calibrates per situation. The LinkedIn essay at `doctrine/voice/linkedin-builders-journey-ai-coding.md` is the public statement of this frame.
 
 **Realignment order for any project-wide change.** Harness-facing instructions and doctrine surfaces first; outlines, lesson narratives, modules, and website pages second — and only to reorganize and re-present, not to rewrite from scratch. Source content is plentiful; the kit concept does not require new doctrine, it requires new organization, presentation, and operationalization.
+
+## Lesson Bundle Standard
+
+The target app-renderable curriculum structure is `curriculum/units/<unit>/lessons/<lesson>/`. A lesson is a **bundle**, not prose alone. Use `curriculum/templates/lesson-bundle/` as the standard when creating or migrating lessons.
+
+The bundle components have stable meanings:
+
+- `lesson.md`: teaching content in felt-need order.
+- `vocabulary.md`: terms introduced or required at the point of use.
+- `exercise.md`: what the builder does.
+- `kit-action.md`: what the private app, harness, agent, Skill, gate, or dashboard does.
+- `artifacts.md`: durable outputs created or changed by the lesson.
+- `signals.md`: telemetry, readings, or long-clock seeds associated with the lesson.
+
+Do not create empty component files merely to satisfy the shape. Use the component only when it carries real content. The conceptual distinction still applies even when a lesson keeps all components in one draft file.
 
 ## Harness Artifact Sync
 

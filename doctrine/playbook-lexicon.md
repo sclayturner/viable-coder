@@ -22,7 +22,21 @@
 
 **Reader-orientation pattern / Scene -> Tension -> Distinction -> Tool -> Return ◆** — The lesson- and module-level teaching rhythm inside *seed -> bloom -> harvest*. A major unit opens from a concrete human situation, names the pressure that makes it matter, introduces the Viable Coder distinction that clarifies it, gives the builder a usable move, and returns to the opening situation with changed understanding. *Compared with:* explanation order. The kit curriculum should usually teach in felt-need order, not by defining concepts before the builder knows why they matter.
 
-**Unit / Lesson ◆** — The kit curriculum's two educational containers. A **unit** is one of the four canonical kit moments: Install, Configure, Use, Watch. A **lesson** is a discrete teaching and exercise experience inside a unit. Use these terms instead of *unit* and *chapter* for current Viable Coder curriculum work. *Compared with:* modules, which are configurable audience-specific building blocks rather than the linear learning sequence.
+**Unit / Lesson ◆** — The kit curriculum's two educational containers. A **unit** is one of the four canonical kit moments: Install, Configure, Use, Watch. A **lesson** is a discrete teaching and exercise experience inside a unit. Use these terms instead of *section* and *chapter* for current Viable Coder curriculum work. *Compared with:* modules, which are configurable audience-specific building blocks rather than the linear learning sequence.
+
+**Lesson bundle ◆** — The app-renderable container for one lesson. A lesson bundle may contain teaching prose, vocabulary, an exercise, a kit action, expected artifacts, and signals. The bundle keeps the curriculum from becoming prose-only: every lesson can declare what the builder learns, what the builder does, what the kit does, what artifact remains, and what can later be read. *Canonical template:* `curriculum/templates/lesson-bundle/`.
+
+**Lesson prose ◆** — The teaching content of a lesson: scene, tension, distinction, tool, and return. Lesson prose carries Clay's voice and the felt-need order. It is not the same thing as the whole lesson bundle.
+
+**Lesson vocabulary / Vocabulary surface ◆** — The terms a builder needs at the point of use. Vocabulary is canonical in this lexicon, but builder-facing definitions should appear inside the kit where the builder meets the term. *Rule:* define a term when the builder needs it to operate the kit, not as an upfront terminology dump.
+
+**Exercise ◆** — The builder's assigned work inside a lesson. An exercise asks the builder to make a decision, configure something, run a gate, inspect a signal, revise an artifact, or practice a move. *Compared with:* a kit action, which is what the app or harness does in support of the lesson.
+
+**Kit action ◆** — The specific behavior the private kit app or AI-coding harness performs for a lesson: prompt for input, run an intake, configure an agent, apply a Skill register, open a gate, collect telemetry, render a dashboard, create a file, or record an event. *Compared with:* the exercise, which is the builder's work; and the artifact, which is what remains after the work.
+
+**Artifact ◆** — A durable output created or changed by a lesson: a written why-now statement, PRD, issue, residual-risk statement, routing policy, review checklist, telemetry baseline, dashboard configuration, or similar object. Artifacts are how the kit prevents learning from evaporating into agreement.
+
+**Lesson signal ◆** — A measurement or reading associated with a lesson. Some signals are collected immediately as kit telemetry; some are planted for Unit 4 to read later. A lesson signal should say what behavior is read, where it is read from, and whether it is Auto or Asked when that distinction matters.
 
 ---
 

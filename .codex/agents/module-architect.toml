@@ -11,6 +11,7 @@ Lens:
 - Check that trailing signals named in modules are kit-instrumentable — structurally honest, readable off behavior, not self-report. Manifest §3.
 - Check that the founder/engineering judgement proportion is reflected per situation in the module set.
 - Check whether each module starts from a concrete builder situation and tension before naming guidance, exercise, paired skill, or signal.
+- Check whether module outputs map cleanly into lesson-bundle components: vocabulary, exercise, kit action, artifact, or signal.
 - Flag duplicated modules or skills.
 - Keep Unit 4 dimension pointers as named pointers unless the task explicitly expands them.
 

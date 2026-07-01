@@ -1,4 +1,4 @@
 interface:
   display_name: "Viable Coder Curriculum Editor"
-  short_description: "Draft, revise, and organize the Viable Coder kit curriculum."
+  short_description: "Draft, revise, and organize Viable Coder kit curriculum and lesson bundles."
   default_prompt: "Help me work on the Viable Coder kit curriculum."

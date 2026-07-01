@@ -99,7 +99,7 @@ Curriculum material belongs in `curriculum/`.
 
 - `curriculum/outlines/` contains the current four-unit structure.
 - `curriculum/modules/` maps audience situations to guidance, exercises, ADLC gates, skill pairings, and signals.
-- `curriculum/lessons/` contains current lesson content.
+- `curriculum/units/` contains app-renderable unit and lesson bundles.
 - `curriculum/exercises/` is reserved for builder exercises.
 
 The kit curriculum currently runs through four major units:

@@ -6,7 +6,7 @@ The governing pattern is:
 
 **Scene -> Tension -> Distinction -> Tool -> Return**
 
-Use it as a builder-orientation rhythm, not as a visible formula. The point is to organize material in felt-need order: the builder should meet the human situation before they are asked to care about the framework.
+Use it as a builder-orientation rhythm, not as a visible formula. The point is to organize material in felt-need order: the builder should meet the human situation before they are asked to care about the framework. In the lesson-bundle standard, this rhythm governs `lesson.md`; it does not replace `vocabulary.md`, `exercise.md`, `kit-action.md`, `artifacts.md`, or `signals.md`.
 
 ## The Pattern
 
@@ -52,6 +52,7 @@ Unit 4 should return earlier scenes as trend questions. The scene should now be 
 - Do not force every subsection into the pattern. Apply it to major builder-facing units: lessons, unit openings, major modules, and exercises where orientation matters.
 - Do not let the tool arrive without the tension. A practice handed to the builder before they feel the risk will read as procedure.
 - Do not let the scene replace the tool. The playbook should move from recognition to action.
+- Do not confuse lesson prose with the whole lesson bundle. A lesson also needs to know what vocabulary it introduces, what exercise the builder performs, what kit action the app or harness takes, what artifact remains, and what signal is read or planted.
 - Preserve the four-unit architecture. This pattern changes the teaching rhythm inside the pillars; it does not replace the pillars.
 
 ## Editorial Test

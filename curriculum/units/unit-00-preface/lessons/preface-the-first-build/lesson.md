@@ -2,9 +2,9 @@
 
 The first thing you build with this playbook is the playbook.
 
-Not the argument. Not the idea of becoming an AI-native builder. The actual working kit: the source tree, the agents, the skills, the gates, the exercises, the records, and the first small readings of your own behavior as you work.
+Not the argument. Not the idea of becoming an AI-native builder. The actual working kit: the source tree, the agents, the skills, the evals, the loops, the exercises, the code, the database, and the first small readings of your own behavior as you work.
 
-That matters because AI has changed the cost of motion. A person can now move from idea to prototype with a speed that used to belong only to funded teams. That is a real opportunity. It is also a strange kind of danger. When motion gets cheap, direction matters more. When output gets easy, judgment gets exposed. When the machine can produce more than you can comfortably review, your own condition becomes part of the system architecture.
+That matters because AI has changed the cost of motion. A person can now move from idea to prototype with a speed that used to belong only to funded teams. That is a real opportunity. It is also a strange kind of danger. When motion gets cheap, direction matters more. Imagine speeding towards a brick wall. When output gets easy, judgment gets exposed. When the machine can produce more than you can comfortably review, your own condition becomes part of the system architecture to account for.
 
 This playkit is built around that change.
 

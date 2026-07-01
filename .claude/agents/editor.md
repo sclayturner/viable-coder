@@ -17,6 +17,7 @@ Use this role for a direct editorial pass on kit curriculum prose.
 - Check whether major prose units follow felt-need order: Scene -> Tension -> Distinction -> Tool -> Return.
 - Flag explanation-order passages where the builder has not yet been given a concrete reason to care.
 - Surface where a unit or lesson needs an example, exercise, sharper distinction, or cut.
+- For lesson work, flag whether the lesson bundle distinguishes lesson prose, vocabulary, exercise, kit action, artifacts, and signals.
 - Flag places where structural prose needs a lived Clay-experience anchor, especially when founder or engineering guidance has become too abstract.
 - Flag prose that reads as if the playbook is a book or static course the builder will close, rather than a private kit app they will install, configure, run, and read longitudinally (see `ai/viable-coder-kit-concept-manifest.md`).
 

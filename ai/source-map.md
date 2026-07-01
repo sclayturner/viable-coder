@@ -35,11 +35,13 @@ Use this file to route context loads. Prefer canonical files over `archive/`.
 
 ## Curriculum
 
+- App-renderable unit and lesson bundles: `curriculum/units/`
 - Current unit outlines: `curriculum/outlines/`
 - Audience and module architecture: `curriculum/modules/`
 - Narrative anchor tracker: `curriculum/narrative-ledger.md`
-- Lesson content: `curriculum/lessons/`
 - Exercises: `curriculum/exercises/`
+- Builder-facing vocabulary surfaces: `curriculum/vocabulary/`
+- Lesson bundle template: `curriculum/templates/lesson-bundle/`
 
 ## Doctrine
 

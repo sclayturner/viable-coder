@@ -1,6 +1,6 @@
 # Curriculum Outlines
 
-This folder holds current working structure for the playbook. These artifacts guide development, but they are not publishable lesson content unless explicitly promoted into `curriculum/lessons/`.
+This folder holds current working structure for the playbook. These artifacts guide development, but they are not app-renderable lesson content unless explicitly promoted into `curriculum/units/`.
 
 ## Artifact Types
 
