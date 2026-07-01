@@ -20,6 +20,12 @@ Use this folder for the saleable kit curriculum: unit and lesson content, outlin
 - When developing structure for a major builder-facing unit, such as a unit, lesson, or major module, use a narrative prose draft as a validation artifact alongside the structural artifact. The narrative is not final lesson prose or polish; it tests whether the structure earns forward motion. Default sequence: conceptual frame -> granular sub-beats -> narrative validation.
 - Treat story as structural evidence, not ornament. A scene should carry a doctrine, gate, module, diagnostic, exercise, or signal.
 
+## Unit Bundle Standard
+
+A unit bundle root `unit.md` is the unit-opening prose surface. It should not be only an index or source note. Open the unit with narrative prose — a story, allegory, scene, or concrete builder situation — that creates felt need for the whole unit, names the unit's governing tension, introduces the unit's kit moment, and hands the builder into the lesson sequence.
+
+The unit opener works at the altitude of the whole unit. It may use the reader-orientation rhythm without exposing it as headings, but it should still move from scene to pressure to governing distinction to the kit-facing move the unit will teach. Track recurring scenes and callbacks in `curriculum/narrative-ledger.md`.
+
 ## Lesson Bundle Standard
 
 A lesson is a **bundle**, not prose alone. When creating or migrating app-renderable lessons under `curriculum/units/`, use this component vocabulary:

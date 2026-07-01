@@ -43,6 +43,12 @@ The canonical design surface for the kit is `ai/viable-coder-kit-concept-manifes
 
 **Realignment order for any project-wide change.** Harness-facing instructions and doctrine surfaces first; outlines, lesson narratives, modules, and website pages second — and only to reorganize and re-present, not to rewrite from scratch. Source content is plentiful; the kit concept does not require new doctrine, it requires new organization, presentation, and operationalization.
 
+## Unit Bundle Standard
+
+The root `unit.md` in each `curriculum/units/<unit>/` bundle is the unit-opening prose surface. It should not be only an index. Open the unit with narrative prose — a story, allegory, scene, or concrete builder situation — that creates felt need for the whole unit, names the unit's governing tension, introduces the unit's kit moment, and hands the builder into the lesson sequence.
+
+Story is structural evidence, not decoration. The unit opener should carry a doctrine, gate, module, diagnostic, exercise, signal, or kit handoff. Track recurring unit scenes and callbacks in `curriculum/narrative-ledger.md`.
+
 ## Lesson Bundle Standard
 
 The target app-renderable curriculum structure is `curriculum/units/<unit>/lessons/<lesson>/`. A lesson is a **bundle**, not prose alone. Use `curriculum/templates/lesson-bundle/` as the standard when creating or migrating lessons.

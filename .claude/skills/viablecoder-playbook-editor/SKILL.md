@@ -35,6 +35,7 @@ Then load only the files needed for the current task:
 ## Editing Standard
 
 - Preserve the four-unit architecture unless the task is explicitly architectural.
+- Treat root `unit.md` files as unit-opening prose surfaces, not just indexes. A unit opener should use narrative prose — story, allegory, scene, or concrete builder situation — to create felt need for the whole unit, name the governing tension, introduce the unit's kit moment, and hand the builder into the lesson sequence.
 - Keep lesson prose distinct from research notes, website copy, and doctrine definitions.
 - Prefer felt-need order over explanation order for major builder-facing units: Scene -> Tension -> Distinction -> Tool -> Return.
 - Treat a lesson as a bundle, not prose alone. Distinguish `lesson.md` (teaching content), `vocabulary.md` (terms at point of need), `exercise.md` (builder work), `kit-action.md` (app/harness behavior), `artifacts.md` (durable outputs), and `signals.md` (telemetry/readings/long-clock seeds). Do not create empty component files merely to satisfy the shape.

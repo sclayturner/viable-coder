@@ -34,6 +34,8 @@ The reader-orientation pattern lives in `doctrine/reader-orientation-pattern.md`
 
 The playbook is delivered as a **private kit app** with integrated units, lessons, exercises, working agents, configuration surfaces, telemetry, and dashboards. The canonical design surface for the kit is `ai/viable-coder-kit-concept-manifest.md`. Root project instructions (`AGENTS.md` and `CLAUDE.md`) carry the kit framing in their *The Playbook Is a Kit App* heading. When the kit concept evolves, update the manifest first, then both root project instructions, then any downstream surface affected.
 
+Unit bundles use root `unit.md` as the unit-opening prose surface, not only as an index. The opener should use narrative prose — story, allegory, scene, or concrete builder situation — to create felt need for the whole unit, name the governing tension, introduce the unit's kit moment, and hand the builder into the lesson sequence. Recurring unit scenes and callbacks belong in `curriculum/narrative-ledger.md`.
+
 Lessons are treated as **bundles**, not prose alone. The target app-renderable structure is `curriculum/units/<unit>/lessons/<lesson>/`, with component meanings defined in `doctrine/playbook-lexicon.md` and templates in `curriculum/templates/lesson-bundle/`. Harness agents should distinguish lesson prose, vocabulary, exercise, kit action, artifacts, and signals even when a transitional draft has not yet split them into files.
 
 ## Sync Rule
@@ -62,3 +64,6 @@ When changing a reusable AI workflow, skill, agent, or instruction surface, upda
   - Harness sync: updated `AGENTS.md`, `CLAUDE.md`, `.claude/rules/curriculum.md`, Codex and Claude playbook-editor/structure-auditor/module-architect skill pairs, editor/structure/module agent pairs, and relevant OpenAI skill metadata so future AI work distinguishes the lesson-bundle components.
 - 2026-07-01: **Existing lesson prose migration.** Migrated the preface, Unit 1, and Unit 2 prose into app-renderable bundles under `curriculum/units/`, then retired the old transitional `curriculum/lessons/` surface.
   - Current lesson prose now lives in lesson-local `lesson.md` files inside each unit bundle.
+- 2026-07-01: **Unit opener contract.** Codified root `unit.md` as the unit-opening narrative prose surface for each app-renderable unit bundle, distinct from lesson-local `lesson.md` teaching spines.
+  - Canonical and guidance surfaces updated: `AGENTS.md`, `CLAUDE.md`, `curriculum/AGENTS.md`, `.claude/rules/curriculum.md`, `doctrine/reader-orientation-pattern.md`, `curriculum/units/README.md`, `ai/evals/structure-checklist.md`, and this harness map.
+  - Harness sync: updated Codex and Claude playbook-editor/structure-auditor skill pairs and editor/structure-auditor agent pairs so future AI work flags root `unit.md` files that remain index-only.

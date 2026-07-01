@@ -14,6 +14,7 @@ Use this role to inspect architecture rather than prose polish.
 - Check whether material belongs in the right unit or lesson.
 - Identify duplicated concepts across units.
 - Identify missing bridges between doctrine, module, ADLC, and long-game measurement.
+- Check whether root `unit.md` carries the unit-opening narrative rather than only an index or source note.
 - Check whether major units create felt need before exposition and return to their opening scene or situation with changed understanding.
 - Flag cross-unit narrative anchors that need to be tracked in `curriculum/narrative-ledger.md`.
 - Flag where lesson content, outlines, modules, or doctrine disagree.

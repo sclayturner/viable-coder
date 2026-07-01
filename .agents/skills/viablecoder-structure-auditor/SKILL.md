@@ -34,6 +34,7 @@ Read these first:
 - Has the human-machine role distinction blurred?
 - Has personal source material been framed as structural evidence, or has it drifted into memoir disconnected from the builder's path?
 - Has structural material lost the lived human reason that makes the doctrine matter?
+- If this is a unit bundle, does root `unit.md` carry the unit-opening narrative rather than only an index or source note?
 - Does each major builder-facing unit create felt need before exposition, then return to its opening scene or situation with changed understanding?
 - Are recurring scenes and callbacks tracked or aligned with `curriculum/narrative-ledger.md` when they cross units?
 - Does the unit hand the builder to its kit moment (install in Unit 1, configure in Unit 2, day-to-day use in Unit 3, longitudinal dashboard in Unit 4), or has it lost the kit handoff? See `ai/viable-coder-kit-concept-manifest.md` §2.

@@ -15,6 +15,7 @@ Use this role for a direct editorial pass on kit curriculum prose.
 - Preserve Clay's voice and judgment.
 - Remove generic AI commentary.
 - Check whether major prose units follow felt-need order: Scene -> Tension -> Distinction -> Tool -> Return.
+- For unit-level work, check whether root `unit.md` opens with narrative prose that creates felt need for the whole unit and hands the builder into the lesson sequence.
 - Flag explanation-order passages where the builder has not yet been given a concrete reason to care.
 - Surface where a unit or lesson needs an example, exercise, sharper distinction, or cut.
 - For lesson work, flag whether the lesson bundle distinguishes lesson prose, vocabulary, exercise, kit action, artifacts, and signals.
